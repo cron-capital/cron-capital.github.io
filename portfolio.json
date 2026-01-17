@@ -1,0 +1,21 @@
+{
+  "buy_mgn_amt": 401.35,
+  "exchange_rate": 1469.7,
+  "stocks": {
+    "SOXL": {
+      "avg_price": 60.8433,
+      "excg": "AMEX",
+      "now_price": 60.75,
+      "qty": 3,
+      "symbol": "SOXL"
+    },
+    "TQQQ": {
+      "avg_price": 54.4597,
+      "excg": "NASD",
+      "now_price": 54.14,
+      "qty": 4,
+      "symbol": "TQQQ"
+    }
+  },
+  "total_value": 678.69
+}
