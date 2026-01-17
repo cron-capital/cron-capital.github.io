@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>주식 포트폴리오 대시보드</title>
+    <title>Cron Capital Portfolio</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
     <style>
         * {
             margin: 0;
@@ -75,12 +76,14 @@
             padding: 25px;
             border-radius: 15px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
             border: 1px solid #e0e0e0;
+            cursor: pointer;
         }
 
         .stock-card:hover {
             transform: translateY(-5px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
         }
 
         .stock-header {
@@ -176,7 +179,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>📈 Stock Portfolio</h1>
+            <h1>📈 Cron Capital Portfolio</h1>
             <div class="summary" id="summary"></div>
         </div>
         <div class="stocks-grid" id="stocksGrid"></div>
@@ -258,6 +261,9 @@
 
                 const card = document.createElement('div');
                 card.className = 'stock-card';
+                card.onclick = () => {
+                    window.open(`https://www.google.com/search?q=${stock.symbol}+stock`, '_blank');
+                };
                 card.innerHTML = `
                     <div class="stock-header">
                         <div class="stock-symbol">${stock.symbol}</div>
