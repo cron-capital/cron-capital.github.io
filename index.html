@@ -176,7 +176,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>📈 주식 포트폴리오</h1>
+            <h1>📈 Stock Portfolio</h1>
             <div class="summary" id="summary"></div>
         </div>
         <div class="stocks-grid" id="stocksGrid"></div>
@@ -223,39 +223,23 @@
         }
 
         function displaySummary(data) {
-            const totalValueKRW = (data.total_value * data.exchange_rate).toLocaleString('ko-KR', {
-                maximumFractionDigits: 0
-            });
-            
             // 총 매입 금액 계산
             let totalCost = 0;
             for (const stock of Object.values(data.stocks)) {
                 totalCost += stock.qty * stock.avg_price;
             }
-            
-            const totalCostKRW = (totalCost * data.exchange_rate).toLocaleString('ko-KR', {
-                maximumFractionDigits: 0
-            });
 
             document.getElementById('summary').innerHTML = `
                 <div class="summary-item">
-                    <label>총 자산 (USD)</label>
+                    <label>Total Assets</label>
                     <div class="value">$${data.total_value.toFixed(2)}</div>
                 </div>
                 <div class="summary-item">
-                    <label>총 자산 (KRW)</label>
-                    <div class="value">₩${totalValueKRW}</div>
-                </div>
-                <div class="summary-item">
-                    <label>총 매입 금액 (USD)</label>
+                    <label>Total Cost</label>
                     <div class="value">$${totalCost.toFixed(2)}</div>
                 </div>
                 <div class="summary-item">
-                    <label>총 매입 금액 (KRW)</label>
-                    <div class="value">₩${totalCostKRW}</div>
-                </div>
-                <div class="summary-item">
-                    <label>환율</label>
+                    <label>Exchange Rate</label>
                     <div class="value">₩${data.exchange_rate.toFixed(1)}</div>
                 </div>
             `;
@@ -281,28 +265,24 @@
                     </div>
                     <div class="stock-info">
                         <div class="info-row">
-                            <span class="info-label">보유 수량</span>
-                            <span class="info-value">${stock.qty}주</span>
+                            <span class="info-label">Quantity</span>
+                            <span class="info-value">${stock.qty}</span>
                         </div>
                         <div class="info-row">
-                            <span class="info-label">평균 단가</span>
+                            <span class="info-label">Avg Price</span>
                             <span class="info-value">$${stock.avg_price.toFixed(2)}</span>
                         </div>
                         <div class="info-row">
-                            <span class="info-label">현재 가격</span>
+                            <span class="info-label">Current Price</span>
                             <span class="info-value">$${stock.now_price.toFixed(2)}</span>
                         </div>
                         <div class="info-row">
-                            <span class="info-label">매입 금액</span>
-                            <span class="info-value">${totalCost.toFixed(2)}</span>
+                            <span class="info-label">Total Cost</span>
+                            <span class="info-value">$${totalCost.toFixed(2)}</span>
                         </div>
                         <div class="info-row">
-                            <span class="info-label">총 평가액</span>
+                            <span class="info-label">Market Value</span>
                             <span class="info-value">$${totalValue.toFixed(2)}</span>
-                        </div>
-                        <div class="info-row">
-                            <span class="info-label">총 평가액 (KRW)</span>
-                            <span class="info-value">₩${(totalValue * exchangeRate).toLocaleString('ko-KR', {maximumFractionDigits: 0})}</span>
                         </div>
                     </div>
                     <div class="profit-loss ${isProfitable ? 'profit' : 'loss'}">
