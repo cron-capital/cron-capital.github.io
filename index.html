@@ -157,16 +157,9 @@
             margin-top: 5px;
         }
 
-        .last-update {
-            text-align: center;
-            color: white;
-            margin-top: 20px;
-            font-size: 14px;
-        }
-
         .loading {
             text-align: center;
-            color: white;
+            color: #333;
             font-size: 20px;
             padding: 50px;
         }
@@ -209,7 +202,6 @@
                 }
             },
             total_value: 678.69,
-            buy_mgn_amt: 401.35,
             exchange_rate: 1469.7
         };
 
@@ -220,7 +212,6 @@
                 const data = await response.json();
                 displayPortfolio(data);
             } catch (error) {
-                // 파일이 없으면 데모 데이터 사용
                 console.log('portfolio.json 파일이 없어 데모 데이터를 사용합니다');
                 displayPortfolio(demoData);
             }
@@ -235,7 +226,14 @@
             const totalValueKRW = (data.total_value * data.exchange_rate).toLocaleString('ko-KR', {
                 maximumFractionDigits: 0
             });
-            const buyMgnKRW = (data.buy_mgn_amt * data.exchange_rate).toLocaleString('ko-KR', {
+            
+            // 총 매입 금액 계산
+            let totalCost = 0;
+            for (const stock of Object.values(data.stocks)) {
+                totalCost += stock.qty * stock.avg_price;
+            }
+            
+            const totalCostKRW = (totalCost * data.exchange_rate).toLocaleString('ko-KR', {
                 maximumFractionDigits: 0
             });
 
@@ -249,8 +247,12 @@
                     <div class="value">₩${totalValueKRW}</div>
                 </div>
                 <div class="summary-item">
-                    <label>매수 증거금</label>
-                    <div class="value">${data.buy_mgn_amt.toFixed(2)}</div>
+                    <label>총 매입 금액 (USD)</label>
+                    <div class="value">$${totalCost.toFixed(2)}</div>
+                </div>
+                <div class="summary-item">
+                    <label>총 매입 금액 (KRW)</label>
+                    <div class="value">₩${totalCostKRW}</div>
                 </div>
                 <div class="summary-item">
                     <label>환율</label>
@@ -284,15 +286,19 @@
                         </div>
                         <div class="info-row">
                             <span class="info-label">평균 단가</span>
-                            <span class="info-value">${stock.avg_price.toFixed(2)}</span>
+                            <span class="info-value">$${stock.avg_price.toFixed(2)}</span>
                         </div>
                         <div class="info-row">
                             <span class="info-label">현재 가격</span>
-                            <span class="info-value">${stock.now_price.toFixed(2)}</span>
+                            <span class="info-value">$${stock.now_price.toFixed(2)}</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">매입 금액</span>
+                            <span class="info-value">${totalCost.toFixed(2)}</span>
                         </div>
                         <div class="info-row">
                             <span class="info-label">총 평가액</span>
-                            <span class="info-value">${totalValue.toFixed(2)}</span>
+                            <span class="info-value">$${totalValue.toFixed(2)}</span>
                         </div>
                         <div class="info-row">
                             <span class="info-label">총 평가액 (KRW)</span>
@@ -300,7 +306,7 @@
                         </div>
                     </div>
                     <div class="profit-loss ${isProfitable ? 'profit' : 'loss'}">
-                        <div class="amount">${isProfitable ? '+' : ''}${profitLoss.toFixed(2)}</div>
+                        <div class="amount">${isProfitable ? '+' : ''}$${profitLoss.toFixed(2)}</div>
                         <div class="percentage">${isProfitable ? '+' : ''}${profitLossPercent.toFixed(2)}%</div>
                     </div>
                 `;
