@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주식 포트폴리오 대시보드</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .header h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .summary-item {
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .summary-item label {
+            display: block;
+            font-size: 14px;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+
+        .summary-item .value {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .stocks-grid {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        }
+
+        .stock-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            border: 1px solid #e0e0e0;
+        }
+
+        .stock-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stock-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .stock-symbol {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .stock-exchange {
+            background: #333;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .stock-info {
+            display: grid;
+            gap: 12px;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+        }
+
+        .info-label {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .info-value {
+            font-weight: bold;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .profit-loss {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .profit {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .loss {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .profit-loss .amount {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .profit-loss .percentage {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .last-update {
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .loading {
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            padding: 50px;
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📈 주식 포트폴리오</h1>
+            <div class="summary" id="summary"></div>
+        </div>
+        <div class="stocks-grid" id="stocksGrid"></div>
+    </div>
+
+    <script>
+        // 데모 데이터 (하드코딩)
+        const demoData = {
+            stocks: {
+                TQQQ: {
+                    symbol: 'TQQQ',
+                    excg: 'NASD',
+                    qty: 4,
+                    avg_price: 54.4597,
+                    now_price: 54.14
+                },
+                SOXL: {
+                    symbol: 'SOXL',
+                    excg: 'AMEX',
+                    qty: 3,
+                    avg_price: 60.8433,
+                    now_price: 60.75
+                }
+            },
+            total_value: 678.69,
+            buy_mgn_amt: 401.35,
+            exchange_rate: 1469.7
+        };
+
+        async function loadPortfolioData() {
+            try {
+                const response = await fetch('portfolio.json');
+                if (!response.ok) throw new Error('파일 없음');
+                const data = await response.json();
+                displayPortfolio(data);
+            } catch (error) {
+                // 파일이 없으면 데모 데이터 사용
+                console.log('portfolio.json 파일이 없어 데모 데이터를 사용합니다');
+                displayPortfolio(demoData);
+            }
+        }
+
+        function displayPortfolio(data) {
+            displaySummary(data);
+            displayStocks(data.stocks, data.exchange_rate);
+        }
+
+        function displaySummary(data) {
+            const totalValueKRW = (data.total_value * data.exchange_rate).toLocaleString('ko-KR', {
+                maximumFractionDigits: 0
+            });
+            const buyMgnKRW = (data.buy_mgn_amt * data.exchange_rate).toLocaleString('ko-KR', {
+                maximumFractionDigits: 0
+            });
+
+            document.getElementById('summary').innerHTML = `
+                <div class="summary-item">
+                    <label>총 자산 (USD)</label>
+                    <div class="value">$${data.total_value.toFixed(2)}</div>
+                </div>
+                <div class="summary-item">
+                    <label>총 자산 (KRW)</label>
+                    <div class="value">₩${totalValueKRW}</div>
+                </div>
+                <div class="summary-item">
+                    <label>매수 증거금</label>
+                    <div class="value">${data.buy_mgn_amt.toFixed(2)}</div>
+                </div>
+                <div class="summary-item">
+                    <label>환율</label>
+                    <div class="value">₩${data.exchange_rate.toFixed(1)}</div>
+                </div>
+            `;
+        }
+
+        function displayStocks(stocks, exchangeRate) {
+            const stocksGrid = document.getElementById('stocksGrid');
+            stocksGrid.innerHTML = '';
+
+            for (const [symbol, stock] of Object.entries(stocks)) {
+                const totalValue = stock.qty * stock.now_price;
+                const totalCost = stock.qty * stock.avg_price;
+                const profitLoss = totalValue - totalCost;
+                const profitLossPercent = ((profitLoss / totalCost) * 100);
+                const isProfitable = profitLoss >= 0;
+
+                const card = document.createElement('div');
+                card.className = 'stock-card';
+                card.innerHTML = `
+                    <div class="stock-header">
+                        <div class="stock-symbol">${stock.symbol}</div>
+                        <div class="stock-exchange">${stock.excg}</div>
+                    </div>
+                    <div class="stock-info">
+                        <div class="info-row">
+                            <span class="info-label">보유 수량</span>
+                            <span class="info-value">${stock.qty}주</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">평균 단가</span>
+                            <span class="info-value">${stock.avg_price.toFixed(2)}</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">현재 가격</span>
+                            <span class="info-value">${stock.now_price.toFixed(2)}</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">총 평가액</span>
+                            <span class="info-value">${totalValue.toFixed(2)}</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">총 평가액 (KRW)</span>
+                            <span class="info-value">₩${(totalValue * exchangeRate).toLocaleString('ko-KR', {maximumFractionDigits: 0})}</span>
+                        </div>
+                    </div>
+                    <div class="profit-loss ${isProfitable ? 'profit' : 'loss'}">
+                        <div class="amount">${isProfitable ? '+' : ''}${profitLoss.toFixed(2)}</div>
+                        <div class="percentage">${isProfitable ? '+' : ''}${profitLossPercent.toFixed(2)}%</div>
+                    </div>
+                `;
+                stocksGrid.appendChild(card);
+            }
+        }
+
+        // 페이지 로드 시 데이터 불러오기
+        loadPortfolioData();
+
+        // 5분마다 자동 새로고침
+        setInterval(loadPortfolioData, 5 * 60 * 1000);
+    </script>
+</body>
+</html>
