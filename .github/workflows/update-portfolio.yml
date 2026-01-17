@@ -1,0 +1,25 @@
+name: Update Portfolio Data
+
+on:
+  repository_dispatch:
+    types: [update-portfolio]
+
+jobs:
+  update-portfolio:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Create portfolio.json
+        run: |
+          echo '${{ toJSON(github.event.client_payload) }}' > portfolio.json
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add portfolio.json
+          git diff --staged --quiet || git commit -m "Update portfolio data - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
