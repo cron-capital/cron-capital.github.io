@@ -56,16 +56,6 @@
             margin-top: 5px;
         }
 
-        .last-update .label {
-            opacity: 0.7;
-            margin-bottom: 3px;
-        }
-
-        .last-update .time {
-            font-weight: 600;
-            color: #333;
-        }
-
         .summary {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -122,12 +112,38 @@
             margin-bottom: 20px;
             padding-bottom: 15px;
             border-bottom: 2px solid #f0f0f0;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .stock-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
         .stock-symbol {
             font-size: 24px;
             font-weight: bold;
             color: #333;
+        }
+
+        .profit-badge {
+            font-size: 13px;
+            font-weight: bold;
+            padding: 4px 10px;
+            border-radius: 12px;
+            white-space: nowrap;
+        }
+
+        .profit-badge.profit {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .profit-badge.loss {
+            background: #f8d7da;
+            color: #721c24;
         }
 
         .stock-exchange {
@@ -160,33 +176,6 @@
             font-weight: bold;
             color: #333;
             font-size: 16px;
-        }
-
-        .profit-loss {
-            margin-top: 15px;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
-        }
-
-        .profit {
-            background: #d4edda;
-            color: #155724;
-        }
-
-        .loss {
-            background: #f8d7da;
-            color: #721c24;
-        }
-
-        .profit-loss .amount {
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-        .profit-loss .percentage {
-            font-size: 14px;
-            margin-top: 5px;
         }
 
         .loading {
@@ -229,14 +218,14 @@
                     excg: 'NASD',
                     qty: 4,
                     avg_price: 54.4597,
-                    now_price: 54.14
+                    now_price: 58.00
                 },
                 SOXL: {
                     symbol: 'SOXL',
                     excg: 'AMEX',
                     qty: 3,
                     avg_price: 60.8433,
-                    now_price: 60.75
+                    now_price: 58.00
                 }
             },
             total_value: 678.69,
@@ -305,11 +294,11 @@
             document.getElementById('summary').innerHTML = `
                 <div class="summary-item">
                     <label>Total Assets</label>
-                    <div class="value">${data.total_value.toFixed(2)}</div>
+                    <div class="value">$${data.total_value.toFixed(2)}</div>
                 </div>
                 <div class="summary-item">
                     <label>Available Cash</label>
-                    <div class="value">${availableCash.toFixed(2)}</div>
+                    <div class="value">$${availableCash.toFixed(2)}</div>
                 </div>
             `;
         }
@@ -332,7 +321,12 @@
                 };
                 card.innerHTML = `
                     <div class="stock-header">
-                        <div class="stock-symbol">${stock.symbol}</div>
+                        <div class="stock-title">
+                            <div class="stock-symbol">${stock.symbol}</div>
+                            <div class="profit-badge ${isProfitable ? 'profit' : 'loss'}">
+                                ${isProfitable ? '📈' : '📉'} ${isProfitable ? '+' : ''}${profitLossPercent.toFixed(2)}%
+                            </div>
+                        </div>
                         <div class="stock-exchange">${stock.excg}</div>
                     </div>
                     <div class="stock-info">
@@ -360,10 +354,6 @@
                             <span class="info-label">Market Value</span>
                             <span class="info-value">$${totalValue.toFixed(2)}</span>
                         </div>
-                    </div>
-                    <div class="profit-loss ${isProfitable ? 'profit' : 'loss'}">
-                        <div class="amount">${isProfitable ? '+' : ''}$${profitLoss.toFixed(2)}</div>
-                        <div class="percentage">${isProfitable ? '+' : ''}${profitLossPercent.toFixed(2)}%</div>
                     </div>
                 `;
                 stocksGrid.appendChild(card);
