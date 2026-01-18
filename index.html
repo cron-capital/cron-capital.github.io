@@ -323,11 +323,11 @@
                     <div class="stock-header">
                         <div class="stock-title">
                             <div class="stock-symbol">${stock.symbol}</div>
-                            <div class="profit-badge ${isProfitable ? 'profit' : 'loss'}">
-                                ${isProfitable ? '📈' : '📉'} ${isProfitable ? '+' : ''}${profitLossPercent.toFixed(2)}%
-                            </div>
+                            <div class="stock-exchange">${stock.excg}</div>
                         </div>
-                        <div class="stock-exchange">${stock.excg}</div>
+                        <div class="profit-badge ${isProfitable ? 'profit' : 'loss'}">
+                            ${isProfitable ? '📈' : '📉'} ${isProfitable ? '+' : ''}${profitLossPercent.toFixed(2)}%
+                        </div>
                     </div>
                     <div class="stock-info">
                         <div class="info-row">
@@ -336,23 +336,23 @@
                         </div>
                         <div class="info-row">
                             <span class="info-label">Avg Price</span>
-                            <span class="info-value">$${stock.avg_price.toFixed(2)}</span>
+                            <span class="info-value">${stock.avg_price.toFixed(2)}</span>
                         </div>
                         <div class="info-row">
                             <span class="info-label">Current Price</span>
-                            <span class="info-value">$${stock.now_price.toFixed(2)}</span>
+                            <span class="info-value">${stock.now_price.toFixed(2)}</span>
                         </div>
                         <div class="info-row">
                             <span class="info-label">Target Price</span>
-                            <span class="info-value">$${(stock.avg_price * 1.1).toFixed(2)}</span>
+                            <span class="info-value">${(stock.avg_price * 1.1).toFixed(2)}</span>
                         </div>
                         <div class="info-row">
                             <span class="info-label">Total Cost</span>
-                            <span class="info-value">$${totalCost.toFixed(2)}</span>
+                            <span class="info-value">${totalCost.toFixed(2)}</span>
                         </div>
                         <div class="info-row">
                             <span class="info-label">Market Value</span>
-                            <span class="info-value">$${totalValue.toFixed(2)}</span>
+                            <span class="info-value">${totalValue.toFixed(2)}</span>
                         </div>
                     </div>
                 `;
