@@ -34,21 +34,18 @@
         }
 
         .header-top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             margin-bottom: 20px;
         }
 
         .header h1 {
             color: #333;
-            font-size: 24px;
+            font-size: 28px;
+            margin-bottom: 8px;
         }
 
         .last-update {
             color: #666;
             font-size: 14px;
-            text-align: right;
         }
 
         .last-update .label {
@@ -203,10 +200,7 @@
         <div class="header">
             <div class="header-top">
                 <h1>📈 Cron Capital</h1>
-                <div class="last-update">
-                    <div class="label">Last Updated</div>
-                    <div class="time" id="lastUpdate">Loading...</div>
-                </div>
+                <div class="last-update">Last Updated: <span id="lastUpdate">Loading...</span></div>
             </div>
             <div class="summary" id="summary"></div>
         </div>
