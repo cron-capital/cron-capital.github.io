@@ -49,6 +49,13 @@
             text-align: right;
         }
 
+        .exchange-rate {
+            color: #666;
+            font-size: 13px;
+            text-align: right;
+            margin-top: 5px;
+        }
+
         .last-update .label {
             opacity: 0.7;
             margin-bottom: 3px;
@@ -203,7 +210,10 @@
         <div class="header">
             <div class="header-top">
                 <h1>📈 Cron Capital</h1>
-                <div class="last-update">Last Updated: <span id="lastUpdate">Loading...</span></div>
+                <div>
+                    <div class="last-update">Last Updated: <span id="lastUpdate">Loading...</span></div>
+                    <div class="exchange-rate"><span id="exchangeRate">Loading...</span></div>
+                </div>
             </div>
             <div class="summary" id="summary"></div>
         </div>
@@ -289,18 +299,17 @@
                 availableCash -= stock.qty * stock.avg_price;
             }
 
+            // 환율 표시
+            document.getElementById('exchangeRate').textContent = `🇺🇸 $1 : 🇰🇷 ₩${data.exchange_rate.toFixed(1)}`;
+
             document.getElementById('summary').innerHTML = `
                 <div class="summary-item">
                     <label>Total Assets</label>
-                    <div class="value">$${data.total_value.toFixed(2)}</div>
+                    <div class="value">${data.total_value.toFixed(2)}</div>
                 </div>
                 <div class="summary-item">
                     <label>Available Cash</label>
-                    <div class="value">$${availableCash.toFixed(2)}</div>
-                </div>
-                <div class="summary-item">
-                    <label>Exchange Rate</label>
-                    <div class="value">₩${data.exchange_rate.toFixed(1)}</div>
+                    <div class="value">${availableCash.toFixed(2)}</div>
                 </div>
             `;
         }
