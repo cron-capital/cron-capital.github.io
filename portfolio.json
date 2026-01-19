@@ -1,5 +1,5 @@
 {
-  "exchange_rate": 1469.7,
+  "exchange_rate": 1473.5,
   "stocks": {
     "SOXL": {
       "avg_price": 60.8433,
@@ -16,5 +16,5 @@
       "symbol": "TQQQ"
     }
   },
-  "total_value": 678.69
+  "total_value": 7432.77
 }
