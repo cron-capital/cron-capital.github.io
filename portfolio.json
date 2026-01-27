@@ -1,20 +1,20 @@
 {
-  "exchange_rate": 1442.8,
+  "exchange_rate": 1448.8,
   "stocks": {
     "SOXL": {
-      "avg_price": 60.9005,
+      "avg_price": 61.5095,
       "excg": "AMEX",
-      "now_price": 65.18,
-      "qty": 17,
+      "now_price": 64.96,
+      "qty": 20,
       "symbol": "SOXL"
     },
     "TQQQ": {
-      "avg_price": 53.9117,
+      "avg_price": 54.4123,
       "excg": "NASD",
-      "now_price": 56.65,
-      "qty": 17,
+      "now_price": 56.54,
+      "qty": 21,
       "symbol": "TQQQ"
     }
   },
-  "total_value": 14413.0627945661
+  "total_value": 14407.333655439
 }
