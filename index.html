@@ -192,13 +192,22 @@
             border-radius: 10px;
             text-align: center;
         }
+
+        .inline-icon {
+            width: 1em;          /* 텍스트 크기에 맞춤 */
+            height: 1em;
+            vertical-align: -0.125em;  /* 수직 정렬 미세 조정 */
+            margin-right: 0.2em;       /* 텍스트와 간격 */
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="header-top">
-                <h1>📈 Cron Capital</h1>
+                <h1>
+                    <img src="/favicon.svg" alt="" class="inline-icon"> Cron Capital
+                </h1>
                 <div>
                     <div class="last-update">Last Updated: <span id="lastUpdate">Loading...</span></div>
                     <div class="exchange-rate"><span id="exchangeRate">Loading...</span></div>
