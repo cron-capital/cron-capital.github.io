@@ -4,17 +4,17 @@
     "SOXL": {
       "avg_price": 63.0368,
       "excg": "AMEX",
-      "now_price": 69.68,
+      "now_price": 69.95,
       "qty": 63,
       "symbol": "SOXL"
     },
     "TQQQ": {
       "avg_price": 50.8481,
       "excg": "NASD",
-      "now_price": 50.06,
+      "now_price": 50.25,
       "qty": 178,
       "symbol": "TQQQ"
     }
   },
-  "total_value": 20962.1081754046
+  "total_value": 21012.9381657214
 }
