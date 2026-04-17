@@ -2,12 +2,12 @@
   "exchange_rate": 1472.6,
   "stocks": {
     "TQQQ": {
-      "avg_price": 54.6105,
+      "avg_price": 55.3685,
       "excg": "NASD",
-      "now_price": 58.205,
-      "qty": 17,
+      "now_price": 58.59,
+      "qty": 21,
       "symbol": "TQQQ"
     }
   },
-  "total_value": 30288.3817737335
+  "total_value": 30295.0074697813
 }
