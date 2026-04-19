@@ -208,6 +208,8 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             margin-bottom: 20px;
             border: 1px solid #e0e0e0;
+            height: 300px;
+            position: relative;
         }
 
         .chart-title {
@@ -353,6 +355,7 @@
                 },
                 options: {
                     responsive: true,
+                    maintainAspectRatio: false,
                     plugins: {
                         legend: { position: 'top' }
                     },
