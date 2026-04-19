@@ -7,15 +7,20 @@ on:
 jobs:
   update-portfolio:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
-      - name: Create portfolio.json
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run update script
         run: |
-          echo '${{ toJSON(github.event.client_payload) }}' > portfolio.json
-      
+          python update_history.py '${{ toJSON(github.event.client_payload) }}'
+
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"

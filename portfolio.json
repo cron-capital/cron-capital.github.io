@@ -1,5 +1,2167 @@
 {
-  "exchange_rate": 1472.6,
+  "history": [
+    {
+      "date": "2026-04-17 20:54:38",
+      "total_value": 30295.0074697813,
+      "stock_value": 1230.39,
+      "exchange_rate": 1472.6
+    },
+    {
+      "date": "2026-04-17 19:13:42",
+      "total_value": 30288.3817737335,
+      "stock_value": 989.485,
+      "exchange_rate": 1472.6
+    },
+    {
+      "date": "2026-04-17 17:57:10",
+      "total_value": 30294.9083254108,
+      "stock_value": 996.0113,
+      "exchange_rate": 1472.6
+    },
+    {
+      "date": "2026-04-17 16:59:30",
+      "total_value": 30298.4116528589,
+      "stock_value": 999.515,
+      "exchange_rate": 1472.6
+    },
+    {
+      "date": "2026-04-17 15:01:29",
+      "total_value": 30295.4366426728,
+      "stock_value": 996.54,
+      "exchange_rate": 1472.6
+    },
+    {
+      "date": "2026-04-17 13:44:58",
+      "total_value": 30283.3668341709,
+      "stock_value": 984.4699999999999,
+      "exchange_rate": 1472.6
+    },
+    {
+      "date": "2026-04-17 11:03:39",
+      "total_value": 30196.6718728779,
+      "stock_value": 2223.2048999999997,
+      "exchange_rate": 1472.6
+    },
+    {
+      "date": "2026-04-17 09:25:46",
+      "total_value": 30189.2869754176,
+      "stock_value": 2215.8199999999997,
+      "exchange_rate": 1472.6
+    },
+    {
+      "date": "2026-04-16 20:03:12",
+      "total_value": 30169.9368678297,
+      "stock_value": 2196.32,
+      "exchange_rate": 1473.1
+    },
+    {
+      "date": "2026-04-16 18:12:12",
+      "total_value": 30146.9146697441,
+      "stock_value": 1770.0187,
+      "exchange_rate": 1473.1
+    },
+    {
+      "date": "2026-04-16 16:26:24",
+      "total_value": 30179.1453397597,
+      "stock_value": 1802.2488,
+      "exchange_rate": 1473.1
+    },
+    {
+      "date": "2026-04-16 14:02:04",
+      "total_value": 30109.9463715973,
+      "stock_value": 1733.05,
+      "exchange_rate": 1473.1
+    },
+    {
+      "date": "2026-04-16 11:10:39",
+      "total_value": 30124.1103794719,
+      "stock_value": 1747.2136,
+      "exchange_rate": 1473.1
+    },
+    {
+      "date": "2026-04-16 09:26:43",
+      "total_value": 30151.8559500373,
+      "stock_value": 1774.96,
+      "exchange_rate": 1473.1
+    },
+    {
+      "date": "2026-04-15 20:59:02",
+      "total_value": 30130.6156338599,
+      "stock_value": 1754.9699999999998,
+      "exchange_rate": 1481.4
+    },
+    {
+      "date": "2026-04-15 19:27:31",
+      "total_value": 30110.3908464966,
+      "stock_value": 1339.435,
+      "exchange_rate": 1481.4
+    },
+    {
+      "date": "2026-04-15 17:13:51",
+      "total_value": 30077.9735385446,
+      "stock_value": 1307.0179,
+      "exchange_rate": 1481.4
+    },
+    {
+      "date": "2026-04-15 15:12:29",
+      "total_value": 30109.0002700149,
+      "stock_value": 1338.044,
+      "exchange_rate": 1481.4
+    },
+    {
+      "date": "2026-04-15 13:53:10",
+      "total_value": 30091.6248143648,
+      "stock_value": 1320.6688,
+      "exchange_rate": 1481.4
+    },
+    {
+      "date": "2026-04-15 11:06:37",
+      "total_value": 30100.3307681922,
+      "stock_value": 1329.3755,
+      "exchange_rate": 1481.4
+    },
+    {
+      "date": "2026-04-15 09:43:03",
+      "total_value": 30104.9196705819,
+      "stock_value": 1333.9636,
+      "exchange_rate": 1481.4
+    },
+    {
+      "date": "2026-04-14 21:01:55",
+      "total_value": 30095.8168881729,
+      "stock_value": 853.1,
+      "exchange_rate": 1489.8
+    },
+    {
+      "date": "2026-04-14 19:25:25",
+      "total_value": 30112.4506645187,
+      "stock_value": 3722.6342,
+      "exchange_rate": 1489.8
+    },
+    {
+      "date": "2026-04-14 17:18:01",
+      "total_value": 30081.6861323668,
+      "stock_value": 3691.87,
+      "exchange_rate": 1489.8
+    },
+    {
+      "date": "2026-04-14 15:20:51",
+      "total_value": 30030.8262854074,
+      "stock_value": 3641.0103,
+      "exchange_rate": 1489.8
+    },
+    {
+      "date": "2026-04-14 14:00:34",
+      "total_value": 29991.2008323265,
+      "stock_value": 3601.3849999999998,
+      "exchange_rate": 1489.8
+    },
+    {
+      "date": "2026-04-14 11:10:05",
+      "total_value": 29975.2362733253,
+      "stock_value": 3585.4199999999996,
+      "exchange_rate": 1489.8
+    },
+    {
+      "date": "2026-04-14 09:26:42",
+      "total_value": 29985.195999463,
+      "stock_value": 3595.38,
+      "exchange_rate": 1489.8
+    },
+    {
+      "date": "2026-04-13 20:09:28",
+      "total_value": 29911.0170293283,
+      "stock_value": 4443.98,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-04-13 18:08:07",
+      "total_value": 29847.576699554,
+      "stock_value": 5465.5,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-04-13 16:19:29",
+      "total_value": 29788.9971617786,
+      "stock_value": 5406.92,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-04-13 14:54:11",
+      "total_value": 29787.4361400189,
+      "stock_value": 5405.3594,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-04-13 12:07:13",
+      "total_value": 29634.6276523855,
+      "stock_value": 5252.551,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-04-13 10:02:00",
+      "total_value": 29654.1363697797,
+      "stock_value": 5272.06,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-04-10 20:47:58",
+      "total_value": 29753.4865977989,
+      "stock_value": 5375.34,
+      "exchange_rate": 1481.1
+    },
+    {
+      "date": "2026-04-10 19:03:40",
+      "total_value": 29751.6163662143,
+      "stock_value": 5221.18,
+      "exchange_rate": 1481.1
+    },
+    {
+      "date": "2026-04-10 17:01:56",
+      "total_value": 29738.7610559719,
+      "stock_value": 5208.3244,
+      "exchange_rate": 1481.1
+    },
+    {
+      "date": "2026-04-10 16:00:25",
+      "total_value": 29739.5260279522,
+      "stock_value": 5209.09,
+      "exchange_rate": 1481.1
+    },
+    {
+      "date": "2026-04-10 14:55:33",
+      "total_value": 29775.1286206198,
+      "stock_value": 5244.6924,
+      "exchange_rate": 1481.1
+    },
+    {
+      "date": "2026-04-10 13:24:53",
+      "total_value": 29760.066167038,
+      "stock_value": 5229.630000000001,
+      "exchange_rate": 1481.1
+    },
+    {
+      "date": "2026-04-10 11:02:32",
+      "total_value": 29743.2408345149,
+      "stock_value": 5212.804,
+      "exchange_rate": 1481.1
+    },
+    {
+      "date": "2026-04-10 09:28:07",
+      "total_value": 29713.2860711633,
+      "stock_value": 6791.61,
+      "exchange_rate": 1481.1
+    },
+    {
+      "date": "2026-04-09 20:58:51",
+      "total_value": 29715.716414877,
+      "stock_value": 6799.6,
+      "exchange_rate": 1476.1
+    },
+    {
+      "date": "2026-04-09 19:18:27",
+      "total_value": 29692.4212451731,
+      "stock_value": 6560.495,
+      "exchange_rate": 1476.1
+    },
+    {
+      "date": "2026-04-09 17:15:22",
+      "total_value": 29702.4307296254,
+      "stock_value": 6570.505,
+      "exchange_rate": 1476.1
+    },
+    {
+      "date": "2026-04-09 15:45:07",
+      "total_value": 29624.563376465,
+      "stock_value": 6492.6374,
+      "exchange_rate": 1476.1
+    },
+    {
+      "date": "2026-04-09 13:58:08",
+      "total_value": 29551.1957184473,
+      "stock_value": 6418.6050000000005,
+      "exchange_rate": 1476.1
+    },
+    {
+      "date": "2026-04-09 11:05:40",
+      "total_value": 29514.3418467584,
+      "stock_value": 6382.4161,
+      "exchange_rate": 1476.1
+    },
+    {
+      "date": "2026-04-09 09:18:41",
+      "total_value": 29529.0359731726,
+      "stock_value": 6397.110000000001,
+      "exchange_rate": 1476.1
+    },
+    {
+      "date": "2026-04-08 20:53:48",
+      "total_value": 29585.2760817627,
+      "stock_value": 8563.5,
+      "exchange_rate": 1506.8
+    },
+    {
+      "date": "2026-04-08 19:26:37",
+      "total_value": 29489.5453942129,
+      "stock_value": 8469.04,
+      "exchange_rate": 1506.8
+    },
+    {
+      "date": "2026-04-08 17:12:34",
+      "total_value": 29626.0837536501,
+      "stock_value": 8605.5777,
+      "exchange_rate": 1506.8
+    },
+    {
+      "date": "2026-04-08 15:18:36",
+      "total_value": 29520.8926201221,
+      "stock_value": 8500.3872,
+      "exchange_rate": 1506.8
+    },
+    {
+      "date": "2026-04-08 13:47:45",
+      "total_value": 29645.270772498,
+      "stock_value": 8624.765000000001,
+      "exchange_rate": 1506.8
+    },
+    {
+      "date": "2026-04-08 12:57:33",
+      "total_value": 29702.7860366339,
+      "stock_value": 8682.28,
+      "exchange_rate": 1506.8
+    },
+    {
+      "date": "2026-04-08 12:42:41",
+      "total_value": 29682.0659676135,
+      "stock_value": 8595.12,
+      "exchange_rate": 1506.8
+    },
+    {
+      "date": "2026-04-08 09:16:13",
+      "total_value": 29731.6259623042,
+      "stock_value": 8644.68,
+      "exchange_rate": 1506.8
+    },
+    {
+      "date": "2026-04-07 20:51:55",
+      "total_value": 27651.5260084926,
+      "stock_value": 16187.5,
+      "exchange_rate": 1507.2
+    },
+    {
+      "date": "2026-04-07 19:17:40",
+      "total_value": 27089.418126327,
+      "stock_value": 16711.5325,
+      "exchange_rate": 1507.2
+    },
+    {
+      "date": "2026-04-07 18:02:43",
+      "total_value": 27294.4194532909,
+      "stock_value": 16916.534,
+      "exchange_rate": 1507.2
+    },
+    {
+      "date": "2026-04-07 17:03:00",
+      "total_value": 27318.210589172,
+      "stock_value": 16940.325,
+      "exchange_rate": 1507.2
+    },
+    {
+      "date": "2026-04-07 15:11:43",
+      "total_value": 26762.1855095541,
+      "stock_value": 16384.3,
+      "exchange_rate": 1507.2
+    },
+    {
+      "date": "2026-04-07 13:24:07",
+      "total_value": 27141.0356953291,
+      "stock_value": 16763.15,
+      "exchange_rate": 1507.2
+    },
+    {
+      "date": "2026-04-07 11:55:42",
+      "total_value": 27044.9077760085,
+      "stock_value": 16667.0225,
+      "exchange_rate": 1507.2
+    },
+    {
+      "date": "2026-04-07 10:09:52",
+      "total_value": 27420.085589172,
+      "stock_value": 17042.2,
+      "exchange_rate": 1507.2
+    },
+    {
+      "date": "2026-04-06 20:40:03",
+      "total_value": 27410.2765985673,
+      "stock_value": 17047.8,
+      "exchange_rate": 1507.6
+    },
+    {
+      "date": "2026-04-06 19:56:08",
+      "total_value": 27372.8137436986,
+      "stock_value": 17011.6275,
+      "exchange_rate": 1507.6
+    },
+    {
+      "date": "2026-04-06 19:05:09",
+      "total_value": 27351.098434598,
+      "stock_value": 16989.9125,
+      "exchange_rate": 1507.6
+    },
+    {
+      "date": "2026-04-06 17:49:33",
+      "total_value": 27210.3236932873,
+      "stock_value": 16849.138,
+      "exchange_rate": 1507.6
+    },
+    {
+      "date": "2026-04-06 16:53:33",
+      "total_value": 27288.6083841868,
+      "stock_value": 16927.4225,
+      "exchange_rate": 1507.6
+    },
+    {
+      "date": "2026-04-06 15:51:49",
+      "total_value": 27302.2857521889,
+      "stock_value": 16941.1,
+      "exchange_rate": 1507.6
+    },
+    {
+      "date": "2026-04-06 14:51:58",
+      "total_value": 27181.186654285,
+      "stock_value": 16820.0,
+      "exchange_rate": 1507.6
+    },
+    {
+      "date": "2026-04-06 13:17:08",
+      "total_value": 27236.6609180154,
+      "stock_value": 16875.475,
+      "exchange_rate": 1507.6
+    },
+    {
+      "date": "2026-04-06 11:50:31",
+      "total_value": 27254.0362165031,
+      "stock_value": 16892.85,
+      "exchange_rate": 1507.6
+    },
+    {
+      "date": "2026-04-06 10:12:46",
+      "total_value": 27364.8859113823,
+      "stock_value": 17003.7,
+      "exchange_rate": 1507.6
+    },
+    {
+      "date": "2026-04-02 20:38:27",
+      "total_value": 26867.3769730734,
+      "stock_value": 22081.42,
+      "exchange_rate": 1507.8
+    },
+    {
+      "date": "2026-04-02 19:51:58",
+      "total_value": 26839.7764955564,
+      "stock_value": 21098.5,
+      "exchange_rate": 1507.8
+    },
+    {
+      "date": "2026-04-02 19:00:35",
+      "total_value": 26647.1143387717,
+      "stock_value": 20905.8376,
+      "exchange_rate": 1507.8
+    },
+    {
+      "date": "2026-04-02 17:56:03",
+      "total_value": 26471.3164875978,
+      "stock_value": 20730.04,
+      "exchange_rate": 1507.8
+    },
+    {
+      "date": "2026-04-02 17:05:21",
+      "total_value": 26512.0367422735,
+      "stock_value": 20770.760000000002,
+      "exchange_rate": 1507.8
+    },
+    {
+      "date": "2026-04-02 16:02:47",
+      "total_value": 26642.6130786576,
+      "stock_value": 20901.3364,
+      "exchange_rate": 1507.8
+    },
+    {
+      "date": "2026-04-02 14:59:38",
+      "total_value": 26686.9962859796,
+      "stock_value": 20945.72,
+      "exchange_rate": 1507.8
+    },
+    {
+      "date": "2026-04-02 13:20:25",
+      "total_value": 25014.2366361586,
+      "stock_value": 19272.96,
+      "exchange_rate": 1507.8
+    },
+    {
+      "date": "2026-04-02 11:52:52",
+      "total_value": 25067.4346730336,
+      "stock_value": 19326.158,
+      "exchange_rate": 1507.8
+    },
+    {
+      "date": "2026-04-02 11:03:26",
+      "total_value": 25421.0366096299,
+      "stock_value": 19679.760000000002,
+      "exchange_rate": 1507.8
+    },
+    {
+      "date": "2026-04-02 10:04:05",
+      "total_value": 25463.1310518636,
+      "stock_value": 19721.854,
+      "exchange_rate": 1507.8
+    },
+    {
+      "date": "2026-04-01 20:49:33",
+      "total_value": 26760.5965370794,
+      "stock_value": 21020.879999999997,
+      "exchange_rate": 1530.5
+    },
+    {
+      "date": "2026-04-01 19:06:43",
+      "total_value": 26720.8513557661,
+      "stock_value": 20031.375200000002,
+      "exchange_rate": 1530.5
+    },
+    {
+      "date": "2026-04-01 17:52:38",
+      "total_value": 27076.9160405096,
+      "stock_value": 20387.440000000002,
+      "exchange_rate": 1530.5
+    },
+    {
+      "date": "2026-04-01 16:59:06",
+      "total_value": 27153.0610911467,
+      "stock_value": 20463.585,
+      "exchange_rate": 1530.5
+    },
+    {
+      "date": "2026-04-01 15:07:03",
+      "total_value": 27049.2433845149,
+      "stock_value": 20359.7677,
+      "exchange_rate": 1530.5
+    },
+    {
+      "date": "2026-04-01 13:27:35",
+      "total_value": 26342.7657628226,
+      "stock_value": 19653.29,
+      "exchange_rate": 1530.5
+    },
+    {
+      "date": "2026-04-01 11:54:25",
+      "total_value": 26523.775890232,
+      "stock_value": 19834.3,
+      "exchange_rate": 1530.5
+    },
+    {
+      "date": "2026-04-01 10:08:32",
+      "total_value": 26102.9454426658,
+      "stock_value": 19426.730000000003,
+      "exchange_rate": 1530.5
+    },
+    {
+      "date": "2026-03-31 20:46:44",
+      "total_value": 25646.6862693273,
+      "stock_value": 18971.41,
+      "exchange_rate": 1513.4
+    },
+    {
+      "date": "2026-03-31 19:58:02",
+      "total_value": 25630.572221488,
+      "stock_value": 18206.3466,
+      "exchange_rate": 1513.4
+    },
+    {
+      "date": "2026-03-31 19:05:20",
+      "total_value": 25537.5360116294,
+      "stock_value": 18113.31,
+      "exchange_rate": 1513.4
+    },
+    {
+      "date": "2026-03-31 17:56:54",
+      "total_value": 25220.2557156072,
+      "stock_value": 17796.030000000002,
+      "exchange_rate": 1513.4
+    },
+    {
+      "date": "2026-03-31 16:12:06",
+      "total_value": 24483.5958768336,
+      "stock_value": 17059.37,
+      "exchange_rate": 1513.4
+    },
+    {
+      "date": "2026-03-31 15:04:59",
+      "total_value": 24471.4754856614,
+      "stock_value": 17047.25,
+      "exchange_rate": 1513.4
+    },
+    {
+      "date": "2026-03-31 13:25:58",
+      "total_value": 24200.2900753271,
+      "stock_value": 16776.0645,
+      "exchange_rate": 1513.4
+    },
+    {
+      "date": "2026-03-31 11:52:32",
+      "total_value": 24019.5156601031,
+      "stock_value": 16595.29,
+      "exchange_rate": 1513.4
+    },
+    {
+      "date": "2026-03-31 10:08:15",
+      "total_value": 23962.7956918197,
+      "stock_value": 16538.57,
+      "exchange_rate": 1513.4
+    },
+    {
+      "date": "2026-03-30 20:50:19",
+      "total_value": 23553.4865061999,
+      "stock_value": 16131.119999999999,
+      "exchange_rate": 1508.1
+    },
+    {
+      "date": "2026-03-30 19:58:33",
+      "total_value": 23593.2166301969,
+      "stock_value": 15186.710299999999,
+      "exchange_rate": 1508.1
+    },
+    {
+      "date": "2026-03-30 19:03:22",
+      "total_value": 23523.6469730124,
+      "stock_value": 15118.469799999999,
+      "exchange_rate": 1508.1
+    },
+    {
+      "date": "2026-03-30 17:55:15",
+      "total_value": 23718.5657449771,
+      "stock_value": 15312.0463,
+      "exchange_rate": 1508.1
+    },
+    {
+      "date": "2026-03-30 16:59:15",
+      "total_value": 23841.5761554274,
+      "stock_value": 15435.07,
+      "exchange_rate": 1508.1
+    },
+    {
+      "date": "2026-03-30 15:06:22",
+      "total_value": 24207.0273854519,
+      "stock_value": 15800.5214,
+      "exchange_rate": 1508.1
+    },
+    {
+      "date": "2026-03-30 13:26:40",
+      "total_value": 25031.8400636563,
+      "stock_value": 16625.3338,
+      "exchange_rate": 1508.1
+    },
+    {
+      "date": "2026-03-30 11:55:14",
+      "total_value": 24951.6656720377,
+      "stock_value": 16545.16,
+      "exchange_rate": 1508.1
+    },
+    {
+      "date": "2026-03-30 10:20:06",
+      "total_value": 24807.5598435117,
+      "stock_value": 16401.0535,
+      "exchange_rate": 1508.1
+    },
+    {
+      "date": "2026-03-27 20:42:00",
+      "total_value": 24601.8769087771,
+      "stock_value": 16196.91,
+      "exchange_rate": 1506.2
+    },
+    {
+      "date": "2026-03-27 19:42:12",
+      "total_value": 24531.7461160536,
+      "stock_value": 15191.48,
+      "exchange_rate": 1506.2
+    },
+    {
+      "date": "2026-03-27 18:59:33",
+      "total_value": 24619.1362368875,
+      "stock_value": 15278.870000000003,
+      "exchange_rate": 1506.2
+    },
+    {
+      "date": "2026-03-27 17:51:34",
+      "total_value": 24670.5092285221,
+      "stock_value": 15330.2432,
+      "exchange_rate": 1506.2
+    },
+    {
+      "date": "2026-03-27 16:58:43",
+      "total_value": 24942.0767494357,
+      "stock_value": 15601.810000000001,
+      "exchange_rate": 1506.2
+    },
+    {
+      "date": "2026-03-27 15:56:15",
+      "total_value": 25142.3383348825,
+      "stock_value": 15802.0717,
+      "exchange_rate": 1506.2
+    },
+    {
+      "date": "2026-03-27 14:53:34",
+      "total_value": 24937.2460496614,
+      "stock_value": 15596.98,
+      "exchange_rate": 1506.2
+    },
+    {
+      "date": "2026-03-27 13:13:01",
+      "total_value": 25015.7668304342,
+      "stock_value": 15675.5,
+      "exchange_rate": 1506.2
+    },
+    {
+      "date": "2026-03-27 11:42:55",
+      "total_value": 25108.8759792856,
+      "stock_value": 15768.61,
+      "exchange_rate": 1506.2
+    },
+    {
+      "date": "2026-03-27 10:52:49",
+      "total_value": 25179.8360111539,
+      "stock_value": 15839.57,
+      "exchange_rate": 1506.2
+    },
+    {
+      "date": "2026-03-27 09:57:53",
+      "total_value": 25404.2457840924,
+      "stock_value": 16063.98,
+      "exchange_rate": 1506.2
+    },
+    {
+      "date": "2026-03-26 20:39:16",
+      "total_value": 25494.2056699652,
+      "stock_value": 16155.619999999999,
+      "exchange_rate": 1495.6
+    },
+    {
+      "date": "2026-03-26 19:11:05",
+      "total_value": 25621.2336186146,
+      "stock_value": 15294.0675,
+      "exchange_rate": 1495.6
+    },
+    {
+      "date": "2026-03-26 17:05:28",
+      "total_value": 25977.1061781225,
+      "stock_value": 15649.939999999999,
+      "exchange_rate": 1495.6
+    },
+    {
+      "date": "2026-03-26 15:07:19",
+      "total_value": 26224.4356779888,
+      "stock_value": 15897.27,
+      "exchange_rate": 1495.6
+    },
+    {
+      "date": "2026-03-26 13:23:09",
+      "total_value": 26555.7662476598,
+      "stock_value": 16228.6,
+      "exchange_rate": 1495.6
+    },
+    {
+      "date": "2026-03-26 11:55:50",
+      "total_value": 26538.6654185611,
+      "stock_value": 16211.5,
+      "exchange_rate": 1495.6
+    },
+    {
+      "date": "2026-03-26 11:04:09",
+      "total_value": 26679.9558705536,
+      "stock_value": 16352.79,
+      "exchange_rate": 1495.6
+    },
+    {
+      "date": "2026-03-26 10:03:42",
+      "total_value": 26578.8653383258,
+      "stock_value": 16251.7,
+      "exchange_rate": 1495.6
+    },
+    {
+      "date": "2026-03-25 20:42:02",
+      "total_value": 27158.8660481879,
+      "stock_value": 16838.989999999998,
+      "exchange_rate": 1498.3
+    },
+    {
+      "date": "2026-03-25 19:50:58",
+      "total_value": 27172.2445438163,
+      "stock_value": 16133.267800000001,
+      "exchange_rate": 1498.3
+    },
+    {
+      "date": "2026-03-25 19:00:05",
+      "total_value": 27132.3313088167,
+      "stock_value": 16093.355,
+      "exchange_rate": 1498.3
+    },
+    {
+      "date": "2026-03-25 18:00:31",
+      "total_value": 27262.1063872389,
+      "stock_value": 16223.13,
+      "exchange_rate": 1498.3
+    },
+    {
+      "date": "2026-03-25 16:19:21",
+      "total_value": 27095.6463992525,
+      "stock_value": 16056.669999999998,
+      "exchange_rate": 1498.3
+    },
+    {
+      "date": "2026-03-25 15:02:58",
+      "total_value": 27312.0056063539,
+      "stock_value": 16273.029999999999,
+      "exchange_rate": 1498.3
+    },
+    {
+      "date": "2026-03-25 13:17:32",
+      "total_value": 27227.0860308349,
+      "stock_value": 16188.11,
+      "exchange_rate": 1498.3
+    },
+    {
+      "date": "2026-03-25 11:43:55",
+      "total_value": 27441.4856837749,
+      "stock_value": 16402.510000000002,
+      "exchange_rate": 1498.3
+    },
+    {
+      "date": "2026-03-25 10:52:36",
+      "total_value": 27323.056130281,
+      "stock_value": 16284.08,
+      "exchange_rate": 1498.3
+    },
+    {
+      "date": "2026-03-25 09:57:55",
+      "total_value": 27328.0557965694,
+      "stock_value": 16289.08,
+      "exchange_rate": 1498.3
+    },
+    {
+      "date": "2026-03-24 20:45:05",
+      "total_value": 26663.6665341812,
+      "stock_value": 17753.16,
+      "exchange_rate": 1509.6
+    },
+    {
+      "date": "2026-03-24 19:07:05",
+      "total_value": 26830.3371754107,
+      "stock_value": 16941.321,
+      "exchange_rate": 1509.6
+    },
+    {
+      "date": "2026-03-24 17:58:13",
+      "total_value": 26648.1862745098,
+      "stock_value": 16759.17,
+      "exchange_rate": 1509.6
+    },
+    {
+      "date": "2026-03-24 16:11:27",
+      "total_value": 26768.8963963964,
+      "stock_value": 16879.8801,
+      "exchange_rate": 1509.6
+    },
+    {
+      "date": "2026-03-24 15:01:41",
+      "total_value": 26655.9704557499,
+      "stock_value": 16766.954100000003,
+      "exchange_rate": 1509.6
+    },
+    {
+      "date": "2026-03-24 13:18:18",
+      "total_value": 26188.8268415474,
+      "stock_value": 16299.810000000001,
+      "exchange_rate": 1509.6
+    },
+    {
+      "date": "2026-03-24 11:47:04",
+      "total_value": 26576.5461049285,
+      "stock_value": 16687.53,
+      "exchange_rate": 1509.6
+    },
+    {
+      "date": "2026-03-24 10:54:28",
+      "total_value": 26604.5661102279,
+      "stock_value": 16715.55,
+      "exchange_rate": 1509.6
+    },
+    {
+      "date": "2026-03-24 09:58:50",
+      "total_value": 26661.8362480127,
+      "stock_value": 16772.82,
+      "exchange_rate": 1509.6
+    },
+    {
+      "date": "2026-03-23 20:40:09",
+      "total_value": 26583.3460432136,
+      "stock_value": 16703.22,
+      "exchange_rate": 1494.9
+    },
+    {
+      "date": "2026-03-23 19:50:15",
+      "total_value": 26763.6363636364,
+      "stock_value": 15911.939999999999,
+      "exchange_rate": 1494.9
+    },
+    {
+      "date": "2026-03-23 18:59:30",
+      "total_value": 26878.6962338618,
+      "stock_value": 16027.0,
+      "exchange_rate": 1494.9
+    },
+    {
+      "date": "2026-03-23 17:53:36",
+      "total_value": 26683.2028898254,
+      "stock_value": 15831.5076,
+      "exchange_rate": 1494.9
+    },
+    {
+      "date": "2026-03-23 17:00:44",
+      "total_value": 26587.1155261221,
+      "stock_value": 15735.419999999998,
+      "exchange_rate": 1494.9
+    },
+    {
+      "date": "2026-03-23 16:01:47",
+      "total_value": 26588.6152919928,
+      "stock_value": 15736.919999999998,
+      "exchange_rate": 1494.9
+    },
+    {
+      "date": "2026-03-23 14:58:28",
+      "total_value": 27175.1555287979,
+      "stock_value": 16323.459599999998,
+      "exchange_rate": 1494.9
+    },
+    {
+      "date": "2026-03-23 13:14:17",
+      "total_value": 26992.9085557562,
+      "stock_value": 18552.212,
+      "exchange_rate": 1494.9
+    },
+    {
+      "date": "2026-03-23 11:51:15",
+      "total_value": 26684.5862599505,
+      "stock_value": 18243.89,
+      "exchange_rate": 1494.9
+    },
+    {
+      "date": "2026-03-23 11:05:00",
+      "total_value": 25113.0162552679,
+      "stock_value": 16672.32,
+      "exchange_rate": 1494.9
+    },
+    {
+      "date": "2026-03-23 10:05:56",
+      "total_value": 25100.7659375209,
+      "stock_value": 16660.07,
+      "exchange_rate": 1494.9
+    },
+    {
+      "date": "2026-03-20 20:36:31",
+      "total_value": 25832.3664732947,
+      "stock_value": 17393.18,
+      "exchange_rate": 1499.7
+    },
+    {
+      "date": "2026-03-20 19:38:33",
+      "total_value": 25341.8677068747,
+      "stock_value": 15964.710599999999,
+      "exchange_rate": 1499.7
+    },
+    {
+      "date": "2026-03-20 18:54:42",
+      "total_value": 25580.2913916117,
+      "stock_value": 16203.135,
+      "exchange_rate": 1499.7
+    },
+    {
+      "date": "2026-03-20 17:37:36",
+      "total_value": 25800.7068080283,
+      "stock_value": 16423.55,
+      "exchange_rate": 1499.7
+    },
+    {
+      "date": "2026-03-20 16:49:41",
+      "total_value": 26085.7418150297,
+      "stock_value": 16708.585,
+      "exchange_rate": 1499.7
+    },
+    {
+      "date": "2026-03-20 15:46:05",
+      "total_value": 26217.4568246983,
+      "stock_value": 16840.3,
+      "exchange_rate": 1499.7
+    },
+    {
+      "date": "2026-03-20 14:44:30",
+      "total_value": 26216.8867106755,
+      "stock_value": 16839.73,
+      "exchange_rate": 1499.7
+    },
+    {
+      "date": "2026-03-20 13:05:39",
+      "total_value": 26729.1471627659,
+      "stock_value": 17351.989999999998,
+      "exchange_rate": 1499.7
+    },
+    {
+      "date": "2026-03-20 11:34:08",
+      "total_value": 26628.3570047343,
+      "stock_value": 17251.2,
+      "exchange_rate": 1499.7
+    },
+    {
+      "date": "2026-03-20 10:41:11",
+      "total_value": 26539.1865039675,
+      "stock_value": 17162.03,
+      "exchange_rate": 1499.7
+    },
+    {
+      "date": "2026-03-20 09:45:57",
+      "total_value": 26679.1564979663,
+      "stock_value": 17302.0,
+      "exchange_rate": 1499.7
+    },
+    {
+      "date": "2026-03-19 20:41:43",
+      "total_value": 26933.3559892328,
+      "stock_value": 17557.75,
+      "exchange_rate": 1486
+    },
+    {
+      "date": "2026-03-19 19:50:04",
+      "total_value": 26974.9461641992,
+      "stock_value": 16644.88,
+      "exchange_rate": 1486
+    },
+    {
+      "date": "2026-03-19 19:02:45",
+      "total_value": 26929.9838492598,
+      "stock_value": 16599.9185,
+      "exchange_rate": 1486
+    },
+    {
+      "date": "2026-03-19 17:54:15",
+      "total_value": 26585.1716016151,
+      "stock_value": 16255.105,
+      "exchange_rate": 1486
+    },
+    {
+      "date": "2026-03-19 17:00:54",
+      "total_value": 26594.6561238223,
+      "stock_value": 16264.59,
+      "exchange_rate": 1486
+    },
+    {
+      "date": "2026-03-19 15:57:26",
+      "total_value": 26459.266487214,
+      "stock_value": 16129.2007,
+      "exchange_rate": 1486
+    },
+    {
+      "date": "2026-03-19 14:52:04",
+      "total_value": 26642.5363391655,
+      "stock_value": 16312.47,
+      "exchange_rate": 1486
+    },
+    {
+      "date": "2026-03-19 13:11:26",
+      "total_value": 26063.1763122476,
+      "stock_value": 15733.11,
+      "exchange_rate": 1486
+    },
+    {
+      "date": "2026-03-19 11:37:49",
+      "total_value": 26287.266487214,
+      "stock_value": 15957.2,
+      "exchange_rate": 1486
+    },
+    {
+      "date": "2026-03-19 10:43:15",
+      "total_value": 26482.1460296097,
+      "stock_value": 16152.080000000002,
+      "exchange_rate": 1486
+    },
+    {
+      "date": "2026-03-19 09:50:45",
+      "total_value": 26569.6763122476,
+      "stock_value": 16239.609999999999,
+      "exchange_rate": 1486
+    },
+    {
+      "date": "2026-03-18 20:40:53",
+      "total_value": 26869.2169482435,
+      "stock_value": 16548.64,
+      "exchange_rate": 1491.6
+    },
+    {
+      "date": "2026-03-18 19:50:15",
+      "total_value": 26998.6061946903,
+      "stock_value": 15726.96,
+      "exchange_rate": 1491.6
+    },
+    {
+      "date": "2026-03-18 18:05:39",
+      "total_value": 27456.7598551891,
+      "stock_value": 16185.114000000001,
+      "exchange_rate": 1491.6
+    },
+    {
+      "date": "2026-03-18 17:04:20",
+      "total_value": 27227.3156342183,
+      "stock_value": 15955.670000000002,
+      "exchange_rate": 1491.6
+    },
+    {
+      "date": "2026-03-18 15:06:16",
+      "total_value": 27407.1909359078,
+      "stock_value": 16135.545,
+      "exchange_rate": 1491.6
+    },
+    {
+      "date": "2026-03-18 13:19:46",
+      "total_value": 27166.3160364709,
+      "stock_value": 15894.670000000002,
+      "exchange_rate": 1491.6
+    },
+    {
+      "date": "2026-03-18 11:48:30",
+      "total_value": 27785.1957629391,
+      "stock_value": 16513.55,
+      "exchange_rate": 1491.6
+    },
+    {
+      "date": "2026-03-18 10:55:18",
+      "total_value": 27838.9755966747,
+      "stock_value": 16567.33,
+      "exchange_rate": 1491.6
+    },
+    {
+      "date": "2026-03-18 09:59:00",
+      "total_value": 27864.7304907482,
+      "stock_value": 16593.085,
+      "exchange_rate": 1491.6
+    },
+    {
+      "date": "2026-03-17 20:42:07",
+      "total_value": 27313.3863636364,
+      "stock_value": 18679.64,
+      "exchange_rate": 1496
+    },
+    {
+      "date": "2026-03-17 19:06:59",
+      "total_value": 27247.5314171123,
+      "stock_value": 17633.585,
+      "exchange_rate": 1496
+    },
+    {
+      "date": "2026-03-17 18:00:33",
+      "total_value": 27288.3475935829,
+      "stock_value": 17674.4009,
+      "exchange_rate": 1496
+    },
+    {
+      "date": "2026-03-17 16:08:23",
+      "total_value": 27065.0267379679,
+      "stock_value": 17451.079999999998,
+      "exchange_rate": 1496
+    },
+    {
+      "date": "2026-03-17 15:00:09",
+      "total_value": 27401.3763368984,
+      "stock_value": 17787.43,
+      "exchange_rate": 1496
+    },
+    {
+      "date": "2026-03-17 13:18:29",
+      "total_value": 27329.1864973262,
+      "stock_value": 17715.239999999998,
+      "exchange_rate": 1496
+    },
+    {
+      "date": "2026-03-17 11:44:27",
+      "total_value": 26967.0614973262,
+      "stock_value": 17353.114999999998,
+      "exchange_rate": 1496
+    },
+    {
+      "date": "2026-03-17 10:54:14",
+      "total_value": 26845.7065508021,
+      "stock_value": 17231.76,
+      "exchange_rate": 1496
+    },
+    {
+      "date": "2026-03-17 09:58:26",
+      "total_value": 26904.8362299465,
+      "stock_value": 17290.89,
+      "exchange_rate": 1496
+    },
+    {
+      "date": "2026-03-16 20:41:23",
+      "total_value": 26994.4269889225,
+      "stock_value": 17382.05,
+      "exchange_rate": 1489.5
+    },
+    {
+      "date": "2026-03-16 19:13:02",
+      "total_value": 27177.6461899966,
+      "stock_value": 16603.5201,
+      "exchange_rate": 1489.5
+    },
+    {
+      "date": "2026-03-16 18:01:37",
+      "total_value": 27156.5558912387,
+      "stock_value": 16582.43,
+      "exchange_rate": 1489.5
+    },
+    {
+      "date": "2026-03-16 16:13:30",
+      "total_value": 27135.1863041289,
+      "stock_value": 16561.059999999998,
+      "exchange_rate": 1489.5
+    },
+    {
+      "date": "2026-03-16 15:03:24",
+      "total_value": 27098.0886203424,
+      "stock_value": 16523.9627,
+      "exchange_rate": 1489.5
+    },
+    {
+      "date": "2026-03-16 13:19:31",
+      "total_value": 27010.3564954683,
+      "stock_value": 16436.23,
+      "exchange_rate": 1489.5
+    },
+    {
+      "date": "2026-03-16 11:50:47",
+      "total_value": 26914.6565961732,
+      "stock_value": 16340.529999999999,
+      "exchange_rate": 1489.5
+    },
+    {
+      "date": "2026-03-16 10:08:45",
+      "total_value": 26603.3064786841,
+      "stock_value": 16029.180000000002,
+      "exchange_rate": 1489.5
+    },
+    {
+      "date": "2026-03-13 20:38:31",
+      "total_value": 26306.367076632,
+      "stock_value": 15733.669999999998,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-03-13 19:33:06",
+      "total_value": 26254.5262873361,
+      "stock_value": 14762.309999999998,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-03-13 18:47:24",
+      "total_value": 26410.4426273821,
+      "stock_value": 14918.226100000002,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-03-13 17:37:38",
+      "total_value": 26348.7599675632,
+      "stock_value": 14856.5433,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-03-13 16:43:53",
+      "total_value": 26440.0114880389,
+      "stock_value": 14947.795,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-03-13 15:45:54",
+      "total_value": 26321.8968779565,
+      "stock_value": 14829.68,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-03-13 14:55:29",
+      "total_value": 26546.9867549669,
+      "stock_value": 15054.77,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-03-13 14:04:37",
+      "total_value": 26957.5895391269,
+      "stock_value": 15465.3729,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-03-13 13:05:05",
+      "total_value": 26768.5964319503,
+      "stock_value": 15276.380000000001,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-03-13 11:33:46",
+      "total_value": 26660.4662792269,
+      "stock_value": 15168.25,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-03-13 10:40:34",
+      "total_value": 26533.5869712123,
+      "stock_value": 15041.369999999999,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-03-13 09:42:29",
+      "total_value": 26380.5466954994,
+      "stock_value": 14888.329999999998,
+      "exchange_rate": 1479.8
+    },
+    {
+      "date": "2026-03-12 20:39:08",
+      "total_value": 26425.4971716759,
+      "stock_value": 14934.75,
+      "exchange_rate": 1467.3
+    },
+    {
+      "date": "2026-03-12 19:43:32",
+      "total_value": 26444.7072854904,
+      "stock_value": 14029.3907,
+      "exchange_rate": 1467.3
+    },
+    {
+      "date": "2026-03-12 18:58:08",
+      "total_value": 26514.9764874259,
+      "stock_value": 14099.66,
+      "exchange_rate": 1467.3
+    },
+    {
+      "date": "2026-03-12 17:56:03",
+      "total_value": 26520.1478906836,
+      "stock_value": 14104.8312,
+      "exchange_rate": 1467.3
+    },
+    {
+      "date": "2026-03-12 17:03:27",
+      "total_value": 26659.1617256185,
+      "stock_value": 14243.845000000001,
+      "exchange_rate": 1467.3
+    },
+    {
+      "date": "2026-03-12 16:01:38",
+      "total_value": 26702.8262795611,
+      "stock_value": 14287.51,
+      "exchange_rate": 1467.3
+    },
+    {
+      "date": "2026-03-12 14:52:47",
+      "total_value": 26493.226334083,
+      "stock_value": 14077.91,
+      "exchange_rate": 1467.3
+    },
+    {
+      "date": "2026-03-12 13:06:29",
+      "total_value": 27203.4962175424,
+      "stock_value": 14788.18,
+      "exchange_rate": 1467.3
+    },
+    {
+      "date": "2026-03-12 11:33:44",
+      "total_value": 27334.0264431268,
+      "stock_value": 14918.71,
+      "exchange_rate": 1467.3
+    },
+    {
+      "date": "2026-03-12 10:42:12",
+      "total_value": 27313.6570571799,
+      "stock_value": 14898.34,
+      "exchange_rate": 1467.3
+    },
+    {
+      "date": "2026-03-12 09:49:09",
+      "total_value": 27322.826961085,
+      "stock_value": 14907.51,
+      "exchange_rate": 1467.3
+    },
+    {
+      "date": "2026-03-11 20:37:06",
+      "total_value": 27529.5260727865,
+      "stock_value": 15115.73,
+      "exchange_rate": 1472.8
+    },
+    {
+      "date": "2026-03-11 19:42:13",
+      "total_value": 27521.5759098316,
+      "stock_value": 14161.68,
+      "exchange_rate": 1472.8
+    },
+    {
+      "date": "2026-03-11 18:56:58",
+      "total_value": 27536.9160782184,
+      "stock_value": 14177.02,
+      "exchange_rate": 1472.8
+    },
+    {
+      "date": "2026-03-11 17:51:30",
+      "total_value": 27543.3066268332,
+      "stock_value": 14183.4108,
+      "exchange_rate": 1472.8
+    },
+    {
+      "date": "2026-03-11 16:56:11",
+      "total_value": 27610.2858500815,
+      "stock_value": 14250.3894,
+      "exchange_rate": 1472.8
+    },
+    {
+      "date": "2026-03-11 15:52:46",
+      "total_value": 27530.8269961977,
+      "stock_value": 14170.930799999998,
+      "exchange_rate": 1472.8
+    },
+    {
+      "date": "2026-03-11 14:50:25",
+      "total_value": 27721.386474742,
+      "stock_value": 14361.490000000002,
+      "exchange_rate": 1472.8
+    },
+    {
+      "date": "2026-03-11 13:07:02",
+      "total_value": 27438.3765616513,
+      "stock_value": 14078.48,
+      "exchange_rate": 1472.8
+    },
+    {
+      "date": "2026-03-11 11:35:46",
+      "total_value": 27439.9361759913,
+      "stock_value": 14080.04,
+      "exchange_rate": 1472.8
+    },
+    {
+      "date": "2026-03-11 10:42:41",
+      "total_value": 27449.5559478544,
+      "stock_value": 14089.66,
+      "exchange_rate": 1472.8
+    },
+    {
+      "date": "2026-03-11 09:47:21",
+      "total_value": 27264.955866377,
+      "stock_value": 13905.060000000001,
+      "exchange_rate": 1472.8
+    },
+    {
+      "date": "2026-03-10 20:37:46",
+      "total_value": 27376.2360190208,
+      "stock_value": 14025.960000000001,
+      "exchange_rate": 1493.1
+    },
+    {
+      "date": "2026-03-10 19:40:05",
+      "total_value": 27399.6450338222,
+      "stock_value": 13059.98,
+      "exchange_rate": 1493.1
+    },
+    {
+      "date": "2026-03-10 18:54:12",
+      "total_value": 27525.2253700355,
+      "stock_value": 13185.560000000001,
+      "exchange_rate": 1493.1
+    },
+    {
+      "date": "2026-03-10 17:54:06",
+      "total_value": 27827.0899470899,
+      "stock_value": 13487.425,
+      "exchange_rate": 1493.1
+    },
+    {
+      "date": "2026-03-10 17:02:53",
+      "total_value": 27791.3502109705,
+      "stock_value": 13451.6852,
+      "exchange_rate": 1493.1
+    },
+    {
+      "date": "2026-03-10 16:02:39",
+      "total_value": 27708.9351014667,
+      "stock_value": 13369.27,
+      "exchange_rate": 1493.1
+    },
+    {
+      "date": "2026-03-10 14:53:57",
+      "total_value": 27649.6718237225,
+      "stock_value": 13310.0064,
+      "exchange_rate": 1493.1
+    },
+    {
+      "date": "2026-03-10 13:07:25",
+      "total_value": 27199.0871341504,
+      "stock_value": 12859.4218,
+      "exchange_rate": 1493.1
+    },
+    {
+      "date": "2026-03-10 11:35:19",
+      "total_value": 27288.5352622062,
+      "stock_value": 12948.869999999999,
+      "exchange_rate": 1493.1
+    },
+    {
+      "date": "2026-03-10 10:42:59",
+      "total_value": 27403.9950438685,
+      "stock_value": 13064.33,
+      "exchange_rate": 1493.1
+    },
+    {
+      "date": "2026-03-10 09:50:32",
+      "total_value": 27541.3053378876,
+      "stock_value": 13201.64,
+      "exchange_rate": 1493.1
+    },
+    {
+      "date": "2026-03-09 20:38:40",
+      "total_value": 27238.6768396066,
+      "stock_value": 15536.08,
+      "exchange_rate": 1474.5
+    },
+    {
+      "date": "2026-03-09 19:41:56",
+      "total_value": 27194.6164801628,
+      "stock_value": 14674.85,
+      "exchange_rate": 1474.5
+    },
+    {
+      "date": "2026-03-09 18:57:26",
+      "total_value": 26542.996948118,
+      "stock_value": 14023.230000000001,
+      "exchange_rate": 1474.5
+    },
+    {
+      "date": "2026-03-09 17:48:25",
+      "total_value": 26460.5371312309,
+      "stock_value": 13940.7698,
+      "exchange_rate": 1474.5
+    },
+    {
+      "date": "2026-03-09 17:00:04",
+      "total_value": 26635.3618175653,
+      "stock_value": 14115.595,
+      "exchange_rate": 1474.5
+    },
+    {
+      "date": "2026-03-09 16:00:56",
+      "total_value": 26449.6269922007,
+      "stock_value": 13929.86,
+      "exchange_rate": 1474.5
+    },
+    {
+      "date": "2026-03-09 14:54:10",
+      "total_value": 26251.8772465242,
+      "stock_value": 13732.11,
+      "exchange_rate": 1474.5
+    },
+    {
+      "date": "2026-03-09 13:09:59",
+      "total_value": 25829.6371651407,
+      "stock_value": 13309.869999999999,
+      "exchange_rate": 1474.5
+    },
+    {
+      "date": "2026-03-09 11:36:22",
+      "total_value": 25866.986775178,
+      "stock_value": 13347.220000000001,
+      "exchange_rate": 1474.5
+    },
+    {
+      "date": "2026-03-09 10:50:21",
+      "total_value": 25824.2563580875,
+      "stock_value": 13304.49,
+      "exchange_rate": 1474.5
+    },
+    {
+      "date": "2026-03-09 09:55:53",
+      "total_value": 25933.97626314,
+      "stock_value": 13414.210000000001,
+      "exchange_rate": 1474.5
+    },
+    {
+      "date": "2026-03-06 21:32:41",
+      "total_value": 26377.3372942703,
+      "stock_value": 13865.29,
+      "exchange_rate": 1464.3
+    },
+    {
+      "date": "2026-03-06 20:35:41",
+      "total_value": 26273.6577204125,
+      "stock_value": 12803.3616,
+      "exchange_rate": 1464.3
+    },
+    {
+      "date": "2026-03-06 19:36:14",
+      "total_value": 26786.745885406,
+      "stock_value": 13316.45,
+      "exchange_rate": 1464.3
+    },
+    {
+      "date": "2026-03-06 18:52:03",
+      "total_value": 26819.2863484259,
+      "stock_value": 13348.990000000002,
+      "exchange_rate": 1464.3
+    },
+    {
+      "date": "2026-03-06 17:37:41",
+      "total_value": 26808.9585467459,
+      "stock_value": 13338.6621,
+      "exchange_rate": 1464.3
+    },
+    {
+      "date": "2026-03-06 16:46:13",
+      "total_value": 27041.1261353548,
+      "stock_value": 13570.829999999998,
+      "exchange_rate": 1464.3
+    },
+    {
+      "date": "2026-03-06 15:40:46",
+      "total_value": 26976.6011063307,
+      "stock_value": 13506.305,
+      "exchange_rate": 1464.3
+    },
+    {
+      "date": "2026-03-06 14:39:49",
+      "total_value": 26622.0897357099,
+      "stock_value": 13151.7935,
+      "exchange_rate": 1464.3
+    },
+    {
+      "date": "2026-03-06 13:58:39",
+      "total_value": 26541.1623301236,
+      "stock_value": 13070.8663,
+      "exchange_rate": 1464.3
+    },
+    {
+      "date": "2026-03-06 13:02:24",
+      "total_value": 26972.0036877689,
+      "stock_value": 13501.7072,
+      "exchange_rate": 1464.3
+    },
+    {
+      "date": "2026-03-06 11:31:51",
+      "total_value": 27162.9461175989,
+      "stock_value": 13692.650000000001,
+      "exchange_rate": 1464.3
+    },
+    {
+      "date": "2026-03-06 10:38:29",
+      "total_value": 27197.3762207198,
+      "stock_value": 13727.08,
+      "exchange_rate": 1464.3
+    },
+    {
+      "date": "2026-03-06 09:43:02",
+      "total_value": 27125.5664822782,
+      "stock_value": 13655.27,
+      "exchange_rate": 1464.3
+    },
+    {
+      "date": "2026-03-05 21:38:50",
+      "total_value": 27359.4069515824,
+      "stock_value": 13890.8,
+      "exchange_rate": 1478.8
+    },
+    {
+      "date": "2026-03-05 20:40:30",
+      "total_value": 27200.3266161753,
+      "stock_value": 12736.359999999999,
+      "exchange_rate": 1478.8
+    },
+    {
+      "date": "2026-03-05 19:53:47",
+      "total_value": 26964.5489586151,
+      "stock_value": 12500.5818,
+      "exchange_rate": 1478.8
+    },
+    {
+      "date": "2026-03-05 18:28:04",
+      "total_value": 26965.2583175548,
+      "stock_value": 12501.2916,
+      "exchange_rate": 1478.8
+    },
+    {
+      "date": "2026-03-05 15:53:43",
+      "total_value": 27519.5266432242,
+      "stock_value": 13055.56,
+      "exchange_rate": 1478.8
+    },
+    {
+      "date": "2026-03-05 14:49:58",
+      "total_value": 27508.026778469,
+      "stock_value": 13044.0604,
+      "exchange_rate": 1478.8
+    },
+    {
+      "date": "2026-03-05 13:06:55",
+      "total_value": 27507.206518799,
+      "stock_value": 13043.24,
+      "exchange_rate": 1478.8
+    },
+    {
+      "date": "2026-03-05 11:36:17",
+      "total_value": 27661.2070597782,
+      "stock_value": 13197.240000000002,
+      "exchange_rate": 1478.8
+    },
+    {
+      "date": "2026-03-05 10:42:50",
+      "total_value": 27632.0868271572,
+      "stock_value": 13168.119999999999,
+      "exchange_rate": 1478.8
+    },
+    {
+      "date": "2026-03-05 09:49:30",
+      "total_value": 27611.2266702732,
+      "stock_value": 13147.259999999998,
+      "exchange_rate": 1478.8
+    },
+    {
+      "date": "2026-03-04 21:37:59",
+      "total_value": 27573.2666439058,
+      "stock_value": 13110.72,
+      "exchange_rate": 1464.5
+    },
+    {
+      "date": "2026-03-04 20:35:43",
+      "total_value": 27599.7917377945,
+      "stock_value": 12228.285,
+      "exchange_rate": 1464.5
+    },
+    {
+      "date": "2026-03-04 19:40:06",
+      "total_value": 27686.2813246842,
+      "stock_value": 12314.775000000001,
+      "exchange_rate": 1464.5
+    },
+    {
+      "date": "2026-03-04 18:55:45",
+      "total_value": 27678.430863776,
+      "stock_value": 12306.925000000001,
+      "exchange_rate": 1464.5
+    },
+    {
+      "date": "2026-03-04 17:41:41",
+      "total_value": 27666.6247866166,
+      "stock_value": 12295.1186,
+      "exchange_rate": 1464.5
+    },
+    {
+      "date": "2026-03-04 16:52:03",
+      "total_value": 27613.1369067941,
+      "stock_value": 12241.630000000001,
+      "exchange_rate": 1464.5
+    },
+    {
+      "date": "2026-03-04 15:48:18",
+      "total_value": 27476.4301809491,
+      "stock_value": 12104.9237,
+      "exchange_rate": 1464.5
+    },
+    {
+      "date": "2026-03-04 14:41:38",
+      "total_value": 27220.2157733015,
+      "stock_value": 11848.71,
+      "exchange_rate": 1464.5
+    },
+    {
+      "date": "2026-03-04 14:01:26",
+      "total_value": 27290.4643222943,
+      "stock_value": 11918.9578,
+      "exchange_rate": 1464.5
+    },
+    {
+      "date": "2026-03-04 13:04:55",
+      "total_value": 27213.5172413793,
+      "stock_value": 11842.0111,
+      "exchange_rate": 1464.5
+    },
+    {
+      "date": "2026-03-04 13:03:13",
+      "total_value": 26968.056674633,
+      "stock_value": 11594.07,
+      "exchange_rate": 1464.5
+    },
+    {
+      "date": "2026-03-04 11:33:23",
+      "total_value": 27270.82690338,
+      "stock_value": 11899.32,
+      "exchange_rate": 1464.5
+    },
+    {
+      "date": "2026-03-04 10:40:02",
+      "total_value": 27200.8863093206,
+      "stock_value": 11829.380000000001,
+      "exchange_rate": 1464.5
+    },
+    {
+      "date": "2026-03-04 09:44:48",
+      "total_value": 27029.4762717651,
+      "stock_value": 11657.97,
+      "exchange_rate": 1464.5
+    },
+    {
+      "date": "2026-03-03 21:37:09",
+      "total_value": 27003.2771352933,
+      "stock_value": 11633.34,
+      "exchange_rate": 1435.4
+    },
+    {
+      "date": "2026-03-03 20:36:07",
+      "total_value": 27106.4859969347,
+      "stock_value": 10770.81,
+      "exchange_rate": 1435.4
+    },
+    {
+      "date": "2026-03-03 19:41:46",
+      "total_value": 27075.8311272119,
+      "stock_value": 10740.1547,
+      "exchange_rate": 1435.4
+    },
+    {
+      "date": "2026-03-03 18:56:53",
+      "total_value": 27102.0516929079,
+      "stock_value": 10766.375,
+      "exchange_rate": 1435.4
+    },
+    {
+      "date": "2026-03-03 17:46:25",
+      "total_value": 27023.8609446844,
+      "stock_value": 10688.185000000001,
+      "exchange_rate": 1435.4
+    },
+    {
+      "date": "2026-03-03 16:53:48",
+      "total_value": 27032.4014212066,
+      "stock_value": 10696.725,
+      "exchange_rate": 1435.4
+    },
+    {
+      "date": "2026-03-03 15:50:35",
+      "total_value": 26568.4415493939,
+      "stock_value": 10232.765,
+      "exchange_rate": 1435.4
+    },
+    {
+      "date": "2026-03-03 14:56:24",
+      "total_value": 26803.567646649,
+      "stock_value": 10467.891099999999,
+      "exchange_rate": 1435.4
+    },
+    {
+      "date": "2026-03-03 14:03:30",
+      "total_value": 26845.5064790302,
+      "stock_value": 10509.83,
+      "exchange_rate": 1435.4
+    },
+    {
+      "date": "2026-03-03 13:04:08",
+      "total_value": 26992.0022293437,
+      "stock_value": 10656.3263,
+      "exchange_rate": 1435.4
+    },
+    {
+      "date": "2026-03-03 11:34:56",
+      "total_value": 26821.296502717,
+      "stock_value": 10485.619999999999,
+      "exchange_rate": 1435.4
+    },
+    {
+      "date": "2026-03-03 10:42:44",
+      "total_value": 26794.4761042218,
+      "stock_value": 10458.8,
+      "exchange_rate": 1435.4
+    },
+    {
+      "date": "2026-03-03 09:46:25",
+      "total_value": 26860.5865960708,
+      "stock_value": 10524.91,
+      "exchange_rate": 1435.4
+    },
+    {
+      "date": "2026-03-02 21:37:28",
+      "total_value": 27761.5654615655,
+      "stock_value": 11427.380000000001,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-03-02 20:40:50",
+      "total_value": 27729.4903474903,
+      "stock_value": 10455.164799999999,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-03-02 19:39:09",
+      "total_value": 27810.3846963847,
+      "stock_value": 10536.0592,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-03-02 18:54:20",
+      "total_value": 27686.6310986311,
+      "stock_value": 10412.305,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-03-02 17:49:13",
+      "total_value": 27769.4861354861,
+      "stock_value": 10495.16,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-03-02 16:53:51",
+      "total_value": 27720.5173745174,
+      "stock_value": 10446.1916,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-03-02 15:43:56",
+      "total_value": 27576.9757809758,
+      "stock_value": 10302.650000000001,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-03-02 14:05:26",
+      "total_value": 27176.0063180063,
+      "stock_value": 9901.68,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-03-02 13:05:06",
+      "total_value": 27252.0358020358,
+      "stock_value": 9977.71,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-03-02 11:33:30",
+      "total_value": 27240.2962442962,
+      "stock_value": 9965.970000000001,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-03-02 10:46:59",
+      "total_value": 27239.2453492453,
+      "stock_value": 9964.92,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-03-02 09:54:36",
+      "total_value": 27176.9154089154,
+      "stock_value": 9902.59,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-03-02 09:04:52",
+      "total_value": 27125.9459459459,
+      "stock_value": 9851.62,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-02-27 21:32:22",
+      "total_value": 27736.8058968059,
+      "stock_value": 10463.98,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-02-27 20:31:43",
+      "total_value": 27725.3148473148,
+      "stock_value": 9514.0786,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-02-27 19:35:25",
+      "total_value": 27613.0347490347,
+      "stock_value": 9401.7989,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-02-27 18:50:00",
+      "total_value": 27604.5952965953,
+      "stock_value": 9393.3593,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-02-27 17:38:40",
+      "total_value": 27704.3559143559,
+      "stock_value": 9493.12,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-02-27 16:43:52",
+      "total_value": 27663.9691119691,
+      "stock_value": 9452.732899999999,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-02-27 15:39:31",
+      "total_value": 27733.8659178659,
+      "stock_value": 9522.63,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-02-27 14:50:51",
+      "total_value": 27660.025974026,
+      "stock_value": 9448.79,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-02-27 14:03:27",
+      "total_value": 27590.0863460863,
+      "stock_value": 9378.85,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-02-27 13:05:03",
+      "total_value": 27696.6865566866,
+      "stock_value": 9485.45,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-02-27 11:34:44",
+      "total_value": 27781.1210951211,
+      "stock_value": 9569.885,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-02-27 10:41:02",
+      "total_value": 27818.2358722359,
+      "stock_value": 9607.0,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-02-27 09:45:38",
+      "total_value": 27833.4468234468,
+      "stock_value": 9622.21,
+      "exchange_rate": 1424.5
+    },
+    {
+      "date": "2026-02-26 21:35:03",
+      "total_value": 27913.3971991918,
+      "stock_value": 9705.41,
+      "exchange_rate": 1435.3
+    },
+    {
+      "date": "2026-02-26 20:41:12",
+      "total_value": 27870.4020065492,
+      "stock_value": 9013.725,
+      "exchange_rate": 1435.3
+    },
+    {
+      "date": "2026-02-26 19:44:54",
+      "total_value": 27877.5802968021,
+      "stock_value": 9020.9036,
+      "exchange_rate": 1435.3
+    },
+    {
+      "date": "2026-02-26 18:57:19",
+      "total_value": 27794.7829722009,
+      "stock_value": 8938.106,
+      "exchange_rate": 1435.3
+    },
+    {
+      "date": "2026-02-26 17:59:10",
+      "total_value": 27718.5968090295,
+      "stock_value": 8861.92,
+      "exchange_rate": 1435.3
+    },
+    {
+      "date": "2026-02-26 17:02:39",
+      "total_value": 27787.1462412039,
+      "stock_value": 8930.47,
+      "exchange_rate": 1435.3
+    },
+    {
+      "date": "2026-02-26 15:56:00",
+      "total_value": 27811.2561833763,
+      "stock_value": 8954.58,
+      "exchange_rate": 1435.3
+    },
+    {
+      "date": "2026-02-26 15:50:40",
+      "total_value": 27816.6508743817,
+      "stock_value": 8959.9742,
+      "exchange_rate": 1435.3
+    },
+    {
+      "date": "2026-02-26 13:13:22",
+      "total_value": 28408.0039016234,
+      "stock_value": 9551.327000000001,
+      "exchange_rate": 1435.3
+    },
+    {
+      "date": "2026-02-26 11:41:51",
+      "total_value": 28398.3564411621,
+      "stock_value": 9541.68,
+      "exchange_rate": 1435.3
+    },
+    {
+      "date": "2026-02-26 10:51:06",
+      "total_value": 28386.9769386191,
+      "stock_value": 9530.3,
+      "exchange_rate": 1435.3
+    },
+    {
+      "date": "2026-02-26 09:54:52",
+      "total_value": 28430.7371281265,
+      "stock_value": 9574.06,
+      "exchange_rate": 1435.3
+    },
+    {
+      "date": "2026-02-25 21:37:56",
+      "total_value": 21370.7788075806,
+      "stock_value": 10399.86,
+      "exchange_rate": 1445.8
+    },
+    {
+      "date": "2026-02-25 20:39:08",
+      "total_value": 21363.9272375156,
+      "stock_value": 10394.32,
+      "exchange_rate": 1445.8
+    },
+    {
+      "date": "2026-02-25 19:10:16",
+      "total_value": 21363.9777285932,
+      "stock_value": 10394.37,
+      "exchange_rate": 1445.8
+    },
+    {
+      "date": "2026-02-25 18:00:01",
+      "total_value": 21347.0770507677,
+      "stock_value": 10377.469000000001,
+      "exchange_rate": 1445.8
+    },
+    {
+      "date": "2026-02-25 16:07:08",
+      "total_value": 21256.4898326186,
+      "stock_value": 10286.8824,
+      "exchange_rate": 1445.8
+    },
+    {
+      "date": "2026-02-25 14:52:53",
+      "total_value": 21332.6870936506,
+      "stock_value": 10363.079600000001,
+      "exchange_rate": 1445.8
+    },
+    {
+      "date": "2026-02-25 14:51:37",
+      "total_value": 21345.6674505464,
+      "stock_value": 10376.06,
+      "exchange_rate": 1445.8
+    }
+  ],
+  "max_length": 360,
   "stocks": {
     "TQQQ": {
       "avg_price": 55.3685,
@@ -9,5 +2171,6 @@
       "symbol": "TQQQ"
     }
   },
+  "exchange_rate": 1472.6,
   "total_value": 30295.0074697813
 }

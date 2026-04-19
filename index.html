@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cron Capital Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <style>
         * {
@@ -194,10 +195,26 @@
         }
 
         .inline-icon {
-            width: 1em;          /* 텍스트 크기에 맞춤 */
+            width: 1em;
             height: 1em;
-            vertical-align: -0.125em;  /* 수직 정렬 미세 조정 */
-            margin-right: 0.2em;       /* 텍스트와 간격 */
+            vertical-align: -0.125em;
+            margin-right: 0.2em;
+        }
+
+        .chart-container {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .chart-title {
+            color: #333;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
         }
     </style>
 </head>
@@ -215,6 +232,12 @@
             </div>
             <div class="summary" id="summary"></div>
         </div>
+
+        <div class="chart-container" id="chartContainer">
+            <div class="chart-title">Total Assets History</div>
+            <canvas id="historyChart"></canvas>
+        </div>
+
         <div class="stocks-grid" id="stocksGrid"></div>
     </div>
 
@@ -288,6 +311,60 @@
         function displayPortfolio(data) {
             displaySummary(data);
             displayStocks(data.stocks, data.exchange_rate);
+            displayHistoryChart(data.history);
+        }
+
+        function displayHistoryChart(history) {
+            if (!history || history.length === 0) return;
+
+            const interval = Math.ceil(history.length / 30);
+            const sampled = history.filter((_, i) => i % interval === 0).slice(0, 30).reverse();
+
+            const labels = sampled.map(h => h.date.substring(5, 10));
+            const totalValues = sampled.map(h => h.total_value);
+            const stockValues = sampled.map(h => h.stock_value || 0);
+
+            const ctx = document.getElementById('historyChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Total Assets',
+                            data: totalValues,
+                            borderColor: '#333',
+                            backgroundColor: 'rgba(51, 51, 51, 0.1)',
+                            fill: true,
+                            tension: 0.3,
+                            pointRadius: 3,
+                            pointBackgroundColor: '#333'
+                        },
+                        {
+                            label: 'Stock Value',
+                            data: stockValues,
+                            borderColor: '#e63946',
+                            backgroundColor: 'rgba(230, 57, 70, 0.1)',
+                            fill: true,
+                            tension: 0.3,
+                            pointRadius: 3,
+                            pointBackgroundColor: '#e63946'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { position: 'top' }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: false,
+                            ticks: { callback: v => '$' + v.toLocaleString() }
+                        }
+                    }
+                }
+            });
         }
 
         function displaySummary(data) {
