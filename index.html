@@ -359,7 +359,12 @@
                     scales: {
                         y: {
                             beginAtZero: false,
-                            ticks: { callback: v => '$' + v.toLocaleString() }
+                            ticks: {
+                                callback: v => {
+                                    if (v >= 1000) return '$' + (v / 1000).toFixed(0) + 'k';
+                                    return '$' + v;
+                                }
+                            }
                         }
                     }
                 }
