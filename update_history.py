@@ -3,7 +3,7 @@ import json
 import sys
 from datetime import datetime
 
-MAX_LENGTH = 360
+MAX_LENGTH = 720
 
 
 def main():

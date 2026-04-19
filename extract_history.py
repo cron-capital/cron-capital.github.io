@@ -16,7 +16,8 @@ commits_raw = run(cmd)
 lines = commits_raw.strip().split("\n")
 
 history = []
-for i, line in enumerate(lines[:360]):  # First 360 commits
+length = 720
+for i, line in enumerate(lines[:length]):  # First N-th commits
     parts = line.split(" ", 1)
     sha = parts[0]
     date = parts[1].replace(" +0000", "")
@@ -54,7 +55,7 @@ print(f"\n=== Total: {len(history)} entries ===")
 # Write to portfolio.json with history structure
 output = {
     "history": history,
-    "max_length": 360,
+    "max_length": length,
     "stocks": history[0] if history else {},  # Keep latest stocks data
     "exchange_rate": history[0]["exchange_rate"] if history else 0,
     "total_value": history[0]["total_value"] if history else 0,
