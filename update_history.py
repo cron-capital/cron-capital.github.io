@@ -5,6 +5,7 @@ from datetime import datetime
 
 MAX_LENGTH = 360
 
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python update_history.py '<json_data>'")
@@ -20,7 +21,7 @@ def main():
     entry = {
         "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "total_value": new_data.get("total_value"),
-        "exchange_rate": new_data.get("exchange_rate")
+        "exchange_rate": new_data.get("exchange_rate"),
     }
     history.insert(0, entry)
 
@@ -34,6 +35,7 @@ def main():
         json.dump(data, f, indent=2)
 
     print(f"Updated history: {len(history)} entries")
+
 
 if __name__ == "__main__":
     main()
