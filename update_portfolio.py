@@ -8,14 +8,18 @@ MAX_LENGTH = 720
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python update_history.py '<json_data>'")
+        print("Usage: python update_portfolio.py '<json_data>'")
         sys.exit(1)
-
+    
     new_data = json.loads(sys.argv[1])
 
     with open("portfolio.json", "r") as f:
         data = json.load(f)
 
+    # update portfolio
+    data |= new_data
+
+    # update history
     history = data.get("history", [])
 
     entry = {
@@ -34,7 +38,7 @@ def main():
     with open("portfolio.json", "w") as f:
         json.dump(data, f, indent=2)
 
-    print(f"Updated history: {len(history)} entries")
+    print(f"Updated portfolio: {len(history)} entries")
 
 
 if __name__ == "__main__":
