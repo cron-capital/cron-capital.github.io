@@ -19,7 +19,7 @@ jobs:
 
       - name: Run update script
         run: |
-          python update_history.py '${{ toJSON(github.event.client_payload) }}'
+          python update_portfolio.py '${{ toJSON(github.event.client_payload) }}'
 
       - name: Commit and push changes
         run: |
