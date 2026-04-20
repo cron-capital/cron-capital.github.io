@@ -22,10 +22,16 @@ def main():
     # update history
     history = data.get("history", [])
 
+    stocks = new_data.get("stocks", {})
+    stock_value = 0
+    for sym, st in stocks.items():
+        stock_value += st.get("now_price", 0) * st.get("qty", 0)
+
     entry = {
         "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "total_value": new_data.get("total_value"),
         "exchange_rate": new_data.get("exchange_rate"),
+        "stock_value": stock_value,
     }
     history.insert(0, entry)
 
