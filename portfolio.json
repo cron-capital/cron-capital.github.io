@@ -1,6 +1,12 @@
 {
   "history": [
     {
+      "date": "2026-04-27 12:21:55",
+      "total_value": 37417.74158743,
+      "exchange_rate": 1482.9,
+      "stock_value": 2647.9569
+    },
+    {
       "date": "2026-04-27 10:23:51",
       "total_value": 37423.5545215456,
       "exchange_rate": 1482.9,
@@ -3990,18 +3996,18 @@
     "SOXL": {
       "avg_price": 117.9533,
       "excg": "AMEX",
-      "now_price": 131.2302,
+      "now_price": 130.3723,
       "qty": 3,
       "symbol": "SOXL"
     },
     "TQQQ": {
       "avg_price": 57.0875,
       "excg": "NASD",
-      "now_price": 62.78,
+      "now_price": 62.69,
       "qty": 36,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1482.9,
-  "total_value": 37423.5545215456
+  "total_value": 37417.74158743
 }
