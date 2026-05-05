@@ -1,6 +1,12 @@
 {
   "history": [
     {
+      "date": "2026-05-05 21:08:46",
+      "total_value": 37816.2042025862,
+      "exchange_rate": 1484.8,
+      "stock_value": 0
+    },
+    {
       "date": "2026-05-05 19:43:35",
       "total_value": 37815.7037984914,
       "exchange_rate": 1484.8,
@@ -4226,15 +4232,7 @@
     }
   ],
   "max_length": 720,
-  "stocks": {
-    "TQQQ": {
-      "avg_price": 59.0189,
-      "excg": "NASD",
-      "now_price": 67.54,
-      "qty": 23,
-      "symbol": "TQQQ"
-    }
-  },
+  "stocks": {},
   "exchange_rate": 1484.8,
-  "total_value": 37815.7037984914
+  "total_value": 37816.2042025862
 }
