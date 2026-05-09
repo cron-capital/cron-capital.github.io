@@ -1,6 +1,12 @@
 {
   "history": [
     {
+      "date": "2026-05-09 07:13:22",
+      "total_value": 38206.8837882548,
+      "exchange_rate": 1450.8,
+      "stock_value": 4994.4
+    },
+    {
       "date": "2026-05-09 07:08:21",
       "total_value": 38206.8837882548,
       "exchange_rate": 1450.8,
@@ -4312,12 +4318,6 @@
       "date": "2026-01-21 23:02:01",
       "total_value": 7031.42,
       "stock_value": 802.72,
-      "exchange_rate": 1477
-    },
-    {
-      "date": "2026-01-21 15:36:36",
-      "total_value": 7031.42,
-      "stock_value": 633.26,
       "exchange_rate": 1477
     }
   ],
