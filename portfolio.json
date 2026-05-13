@@ -1,6 +1,12 @@
 {
   "history": [
     {
+      "date": "2026-05-13 21:40:10",
+      "total_value": 38382.8545442296,
+      "exchange_rate": 1484.3,
+      "stock_value": 6780.08
+    },
+    {
       "date": "2026-05-13 20:01:31",
       "total_value": 38381.8136495318,
       "exchange_rate": 1484.3,
@@ -4313,12 +4319,6 @@
       "total_value": 14132.1431057284,
       "stock_value": 3893.21,
       "exchange_rate": 1436.7
-    },
-    {
-      "date": "2026-02-02 11:50:56",
-      "total_value": 14088.7728822997,
-      "stock_value": 3849.84,
-      "exchange_rate": 1436.7
     }
   ],
   "max_length": 720,
@@ -4339,5 +4339,5 @@
     }
   },
   "exchange_rate": 1484.3,
-  "total_value": 38381.8136495318
+  "total_value": 38382.8545442296
 }
