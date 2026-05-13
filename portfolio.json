@@ -1,6 +1,12 @@
 {
   "history": [
     {
+      "date": "2026-05-13 17:01:40",
+      "total_value": 38389.1335983292,
+      "exchange_rate": 1484.3,
+      "stock_value": 5952.49
+    },
+    {
       "date": "2026-05-13 16:25:32",
       "total_value": 38374.9733881291,
       "exchange_rate": 1484.3,
@@ -4313,12 +4319,6 @@
       "total_value": 14215.0840925018,
       "stock_value": 3975.2799999999997,
       "exchange_rate": 1427
-    },
-    {
-      "date": "2026-01-30 21:34:48",
-      "total_value": 14212.6741415557,
-      "stock_value": 3975.2799999999997,
-      "exchange_rate": 1427
     }
   ],
   "max_length": 720,
@@ -4326,18 +4326,18 @@
     "SOXL": {
       "avg_price": 161.4643,
       "excg": "AMEX",
-      "now_price": 184.51,
+      "now_price": 184.75,
       "qty": 13,
       "symbol": "SOXL"
     },
     "TQQQ": {
       "avg_price": 72.9878,
       "excg": "NASD",
-      "now_price": 76.95,
+      "now_price": 77.19,
       "qty": 46,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1484.3,
-  "total_value": 38374.9733881291
+  "total_value": 38389.1335983292
 }
