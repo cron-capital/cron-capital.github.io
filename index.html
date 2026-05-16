@@ -343,8 +343,36 @@
         
         // 마지막으로 성공적으로 로드된 데이터를 보관 (fetch 실패 시 덮어쓰기 방지)
         let lastData = null;
+        let seedData = null;
         let chartInstance = null;
         let currentTab = 'total';
+
+        function getCurrentSeed() {
+            return getCumulativeSeed();
+        }
+
+        function getCumulativeSeed(asOfDate) {
+            if (!seedData) return 0;
+            const cutoff = asOfDate || new Date().toISOString().split('T')[0];
+            if (currentTab === 'total') {
+                const u = getAccountSeed('unlimited', cutoff);
+                const t = getAccountSeed('turtle', cutoff);
+                return u + t;
+            }
+            return getAccountSeed(currentTab, cutoff);
+        }
+
+        function getAccountSeed(account, cutoff) {
+            const entries = seedData[account];
+            if (!entries) return 0;
+            if (Array.isArray(entries)) {
+                return entries
+                    .filter(e => e.date <= cutoff)
+                    .reduce((sum, e) => sum + (e.amount || 0), 0);
+            }
+            // Old format: direct number
+            return entries;
+        }
         
         async function getLastUpdateTime() {
             try {
@@ -376,10 +404,16 @@
 
         async function loadPortfolioData() {
             try {
-                const response = await fetch('portfolio.json?_=' + Date.now());
-                if (!response.ok) throw new Error('파일 없음');
-                const data = await response.json();
+                const [portfolioRes, seedRes] = await Promise.all([
+                    fetch('portfolio.json?_=' + Date.now()),
+                    fetch('seed.json?_=' + Date.now())
+                ]);
+                if (!portfolioRes.ok) throw new Error('파일 없음');
+                const data = await portfolioRes.json();
                 lastData = data;
+                if (seedRes.ok) {
+                    seedData = await seedRes.json();
+                }
                 displayPortfolio(data);
             } catch (error) {
                 if (lastData) {
@@ -466,7 +500,24 @@
                             tension: 0.3,
                             pointRadius: 1,
                             pointBackgroundColor: '#e63946'
-                        }
+                        },
+                        ...(() => {
+                            const seedLine = [];
+                            for (let i = 0; i < sampled.length; i++) {
+                                seedLine.push(getCumulativeSeed(sampled[i].date));
+                            }
+                            return seedLine.some(v => v > 0) ? [{
+                                label: 'Seed',
+                                data: seedLine,
+                                borderColor: '#333',
+                                borderDash: [6, 3],
+                                pointRadius: 0,
+                                fill: false,
+                                borderWidth: 2,
+                                stepped: 'before',
+                                pointHitRadius: 0
+                            }] : [];
+                        })()
                     ]
                 },
                 options: {
@@ -517,6 +568,9 @@
                 availableCash = (acct.total_value || 0) - (acct.stock_value || 0);
             }
 
+            const seed = getCurrentSeed();
+            const seedLabel = 'Seed';
+
             document.getElementById('summary').innerHTML = `
                 <div class="summary-item">
                     <label>Total Assets</label>
@@ -525,6 +579,10 @@
                 <div class="summary-item">
                     <label>Available Cash</label>
                     <div class="value">$${availableCash.toFixed(2)}</div>
+                </div>
+                <div class="summary-item">
+                    <label>${seedLabel}</label>
+                    <div class="value" id="seedValue">$${seed.toFixed(2)}</div>
                 </div>
             `;
         }
