@@ -18,949 +18,1265 @@
     },
     {
       "date": "2026-05-15 20:01:31",
-      "total_value": 37907.8636546454,
+      "total_value": 51334.7636546454,
       "exchange_rate": 1491.8,
-      "stock_value": 8671.939999999999,
+      "stock_value": 19228.94,
       "accounts": {
         "unlimited": {
           "total_value": 37907.8636546454,
           "stock_value": 8671.939999999999
+        },
+        "turtle": {
+          "total_value": 13426.9,
+          "stock_value": 10557.0
         }
       }
     },
     {
       "date": "2026-05-15 19:01:31",
-      "total_value": 38109.5233945569,
+      "total_value": 51447.793394556895,
       "exchange_rate": 1491.8,
-      "stock_value": 7355.09,
+      "stock_value": 17820.09,
       "accounts": {
         "unlimited": {
           "total_value": 38109.5233945569,
           "stock_value": 7355.09
+        },
+        "turtle": {
+          "total_value": 13338.27,
+          "stock_value": 10465.0
         }
       }
     },
     {
       "date": "2026-05-15 18:01:33",
-      "total_value": 38173.2222818072,
+      "total_value": 51529.9722818072,
       "exchange_rate": 1491.8,
-      "stock_value": 7418.7886,
+      "stock_value": 17906.7886,
       "accounts": {
         "unlimited": {
           "total_value": 38173.2222818072,
           "stock_value": 7418.7886
+        },
+        "turtle": {
+          "total_value": 13356.75,
+          "stock_value": 10488.0
         }
       }
     },
     {
       "date": "2026-05-15 17:01:34",
-      "total_value": 38025.7735621397,
-      "exchange_rate": 1491.8,
-      "stock_value": 7271.34,
+      "total_value": 51674.2835621397,
+      "exchange_rate": 1495.1,
+      "stock_value": 18069.84,
       "accounts": {
         "unlimited": {
           "total_value": 38025.7735621397,
           "stock_value": 7271.34
+        },
+        "turtle": {
+          "total_value": 13648.51,
+          "stock_value": 10798.5
         }
       }
     },
     {
       "date": "2026-05-15 16:01:38",
-      "total_value": 38016.9674219064,
-      "exchange_rate": 1491.8,
-      "stock_value": 7262.534000000001,
+      "total_value": 51665.477421906406,
+      "exchange_rate": 1495.1,
+      "stock_value": 18061.034,
       "accounts": {
         "unlimited": {
           "total_value": 38016.9674219064,
           "stock_value": 7262.534000000001
+        },
+        "turtle": {
+          "total_value": 13648.51,
+          "stock_value": 10798.5
         }
       }
     },
     {
       "date": "2026-05-15 15:01:33",
-      "total_value": 37980.4940340528,
-      "exchange_rate": 1491.8,
-      "stock_value": 7226.0604,
+      "total_value": 51629.0040340528,
+      "exchange_rate": 1495.1,
+      "stock_value": 18024.560400000002,
       "accounts": {
         "unlimited": {
           "total_value": 37980.4940340528,
           "stock_value": 7226.0604
+        },
+        "turtle": {
+          "total_value": 13648.51,
+          "stock_value": 10798.5
         }
       }
     },
     {
       "date": "2026-05-15 14:01:34",
-      "total_value": 37843.4488537337,
-      "exchange_rate": 1491.8,
-      "stock_value": 7089.015,
+      "total_value": 51491.958853733704,
+      "exchange_rate": 1495.1,
+      "stock_value": 17887.515,
       "accounts": {
         "unlimited": {
           "total_value": 37843.4488537337,
           "stock_value": 7089.015
+        },
+        "turtle": {
+          "total_value": 13648.51,
+          "stock_value": 10798.5
         }
       }
     },
     {
       "date": "2026-05-15 13:01:41",
-      "total_value": 37915.8338919426,
-      "exchange_rate": 1491.8,
-      "stock_value": 7161.4,
+      "total_value": 51564.343891942604,
+      "exchange_rate": 1495.1,
+      "stock_value": 17959.9,
       "accounts": {
         "unlimited": {
           "total_value": 37915.8338919426,
           "stock_value": 7161.4
+        },
+        "turtle": {
+          "total_value": 13648.51,
+          "stock_value": 10798.5
         }
       }
     },
     {
       "date": "2026-05-15 12:01:40",
-      "total_value": 38002.9326987532,
-      "exchange_rate": 1491.8,
-      "stock_value": 7248.4987,
+      "total_value": 51651.4426987532,
+      "exchange_rate": 1495.1,
+      "stock_value": 18046.9987,
       "accounts": {
         "unlimited": {
           "total_value": 38002.9326987532,
           "stock_value": 7248.4987
+        },
+        "turtle": {
+          "total_value": 13648.51,
+          "stock_value": 10798.5
         }
       }
     },
     {
       "date": "2026-05-15 11:01:31",
-      "total_value": 38143.7136345355,
-      "exchange_rate": 1491.8,
-      "stock_value": 7389.280000000001,
+      "total_value": 51792.223634535505,
+      "exchange_rate": 1495.1,
+      "stock_value": 18187.78,
       "accounts": {
         "unlimited": {
           "total_value": 38143.7136345355,
           "stock_value": 7389.280000000001
+        },
+        "turtle": {
+          "total_value": 13648.51,
+          "stock_value": 10798.5
         }
       }
     },
     {
       "date": "2026-05-15 10:32:21",
-      "total_value": 38056.3339589757,
-      "exchange_rate": 1491.8,
-      "stock_value": 7301.9,
+      "total_value": 51704.8439589757,
+      "exchange_rate": 1495.1,
+      "stock_value": 18100.4,
       "accounts": {
         "unlimited": {
           "total_value": 38056.3339589757,
           "stock_value": 7301.9
+        },
+        "turtle": {
+          "total_value": 13648.51,
+          "stock_value": 10798.5
         }
       }
     },
     {
       "date": "2026-05-15 10:01:31",
-      "total_value": 37998.7236895026,
-      "exchange_rate": 1491.8,
-      "stock_value": 7244.29,
+      "total_value": 51647.2336895026,
+      "exchange_rate": 1495.1,
+      "stock_value": 18042.79,
       "accounts": {
         "unlimited": {
           "total_value": 37998.7236895026,
           "stock_value": 7244.29
+        },
+        "turtle": {
+          "total_value": 13648.51,
+          "stock_value": 10798.5
         }
       }
     },
     {
       "date": "2026-05-15 09:01:31",
-      "total_value": 38031.0235956563,
-      "exchange_rate": 1491.8,
-      "stock_value": 7276.59,
+      "total_value": 51679.5335956563,
+      "exchange_rate": 1495.1,
+      "stock_value": 18075.09,
       "accounts": {
         "unlimited": {
           "total_value": 38031.0235956563,
           "stock_value": 7276.59
+        },
+        "turtle": {
+          "total_value": 13648.51,
+          "stock_value": 10798.5
         }
       }
     },
     {
       "date": "2026-05-15 08:38:26",
-      "total_value": 38066.9835098539,
-      "exchange_rate": 1491.8,
-      "stock_value": 7312.550000000001,
+      "total_value": 51715.4935098539,
+      "exchange_rate": 1495.1,
+      "stock_value": 18111.050000000003,
       "accounts": {
         "unlimited": {
           "total_value": 38066.9835098539,
           "stock_value": 7312.550000000001
+        },
+        "turtle": {
+          "total_value": 13648.51,
+          "stock_value": 10798.5
         }
       }
     },
     {
       "date": "2026-05-14 21:17:28",
-      "total_value": 38498.8743227878,
+      "total_value": 52094.9643227878,
       "exchange_rate": 1495.1,
-      "stock_value": 7744.33,
+      "stock_value": 13231.33,
       "accounts": {
         "unlimited": {
           "total_value": 38498.8743227878,
           "stock_value": 7744.33
+        },
+        "turtle": {
+          "total_value": 13596.09,
+          "stock_value": 5487.0
         }
       }
     },
     {
       "date": "2026-05-14 20:01:38",
-      "total_value": 38497.8335897264,
+      "total_value": 52098.0935897264,
       "exchange_rate": 1495.1,
-      "stock_value": 7744.33,
+      "stock_value": 13231.33,
       "accounts": {
         "unlimited": {
           "total_value": 38497.8335897264,
           "stock_value": 7744.33
+        },
+        "turtle": {
+          "total_value": 13600.26,
+          "stock_value": 5487.0
         }
       }
     },
     {
       "date": "2026-05-14 19:58:01",
-      "total_value": 38517.9787305197,
+      "total_value": 52117.6087305197,
       "exchange_rate": 1495.1,
-      "stock_value": 6915.335499999999,
+      "stock_value": 12402.3355,
       "accounts": {
         "unlimited": {
           "total_value": 38517.9787305197,
           "stock_value": 6915.335499999999
+        },
+        "turtle": {
+          "total_value": 13599.63,
+          "stock_value": 5487.0
         }
       }
     },
     {
       "date": "2026-05-14 19:01:39",
-      "total_value": 38555.7032974383,
+      "total_value": 52155.333297438294,
       "exchange_rate": 1495.1,
-      "stock_value": 6953.06,
+      "stock_value": 12440.060000000001,
       "accounts": {
         "unlimited": {
           "total_value": 38555.7032974383,
           "stock_value": 6953.06
+        },
+        "turtle": {
+          "total_value": 13599.63,
+          "stock_value": 5487.0
         }
       }
     },
     {
       "date": "2026-05-14 18:01:32",
-      "total_value": 38501.4433817136,
+      "total_value": 52114.0533817136,
       "exchange_rate": 1495.1,
-      "stock_value": 6898.799999999999,
+      "stock_value": 12397.599999999999,
       "accounts": {
         "unlimited": {
           "total_value": 38501.4433817136,
           "stock_value": 6898.799999999999
+        },
+        "turtle": {
+          "total_value": 13612.61,
+          "stock_value": 5498.8
         }
       }
     },
     {
       "date": "2026-05-14 17:59:40",
-      "total_value": 38539.5532071433,
+      "total_value": 52149.8032071433,
       "exchange_rate": 1495.1,
-      "stock_value": 6936.91,
+      "stock_value": 12435.71,
       "accounts": {
         "unlimited": {
           "total_value": 38539.5532071433,
           "stock_value": 6936.91
+        },
+        "turtle": {
+          "total_value": 13610.25,
+          "stock_value": 5498.8
         }
       }
     },
     {
       "date": "2026-05-14 17:01:48",
-      "total_value": 38551.1611263461,
+      "total_value": 52161.4111263461,
       "exchange_rate": 1495.1,
-      "stock_value": 6948.5175,
+      "stock_value": 12447.317500000001,
       "accounts": {
         "unlimited": {
           "total_value": 38551.1611263461,
           "stock_value": 6948.5175
+        },
+        "turtle": {
+          "total_value": 13610.25,
+          "stock_value": 5498.8
         }
       }
     },
     {
       "date": "2026-05-14 16:01:41",
-      "total_value": 38547.3600428065,
-      "exchange_rate": 1495.1,
-      "stock_value": 6944.716399999999,
+      "total_value": 52118.670042806494,
+      "exchange_rate": 1484.3,
+      "stock_value": 12402.2164,
       "accounts": {
         "unlimited": {
           "total_value": 38547.3600428065,
           "stock_value": 6944.716399999999
+        },
+        "turtle": {
+          "total_value": 13571.31,
+          "stock_value": 5457.5
         }
       }
     },
     {
       "date": "2026-05-14 15:25:14",
-      "total_value": 38566.1781820614,
-      "exchange_rate": 1495.1,
-      "stock_value": 6963.5348,
+      "total_value": 52137.488182061395,
+      "exchange_rate": 1484.3,
+      "stock_value": 12421.034800000001,
       "accounts": {
         "unlimited": {
           "total_value": 38566.1781820614,
           "stock_value": 6963.5348
+        },
+        "turtle": {
+          "total_value": 13571.31,
+          "stock_value": 5457.5
         }
       }
     },
     {
       "date": "2026-05-14 15:01:52",
-      "total_value": 38512.488796736,
-      "exchange_rate": 1495.1,
-      "stock_value": 6909.845600000001,
+      "total_value": 52083.798796735995,
+      "exchange_rate": 1484.3,
+      "stock_value": 12367.3456,
       "accounts": {
         "unlimited": {
           "total_value": 38512.488796736,
           "stock_value": 6909.845600000001
+        },
+        "turtle": {
+          "total_value": 13571.31,
+          "stock_value": 5457.5
         }
       }
     },
     {
       "date": "2026-05-14 14:02:05",
-      "total_value": 38481.7637616213,
-      "exchange_rate": 1495.1,
-      "stock_value": 6879.119999999999,
+      "total_value": 52053.0737616213,
+      "exchange_rate": 1484.3,
+      "stock_value": 12336.619999999999,
       "accounts": {
         "unlimited": {
           "total_value": 38481.7637616213,
           "stock_value": 6879.119999999999
+        },
+        "turtle": {
+          "total_value": 13571.31,
+          "stock_value": 5457.5
         }
       }
     },
     {
       "date": "2026-05-14 13:01:40",
-      "total_value": 38348.7733261989,
-      "exchange_rate": 1495.1,
-      "stock_value": 6746.13,
+      "total_value": 51920.083326198896,
+      "exchange_rate": 1484.3,
+      "stock_value": 12203.630000000001,
       "accounts": {
         "unlimited": {
           "total_value": 38348.7733261989,
           "stock_value": 6746.13
+        },
+        "turtle": {
+          "total_value": 13571.31,
+          "stock_value": 5457.5
         }
       }
     },
     {
       "date": "2026-05-14 12:57:16",
-      "total_value": 38365.2832586449,
-      "exchange_rate": 1495.1,
-      "stock_value": 6762.639999999999,
+      "total_value": 51936.5932586449,
+      "exchange_rate": 1484.3,
+      "stock_value": 12220.14,
       "accounts": {
         "unlimited": {
           "total_value": 38365.2832586449,
           "stock_value": 6762.639999999999
+        },
+        "turtle": {
+          "total_value": 13571.31,
+          "stock_value": 5457.5
         }
       }
     },
     {
       "date": "2026-05-14 12:01:32",
-      "total_value": 38393.7341983814,
-      "exchange_rate": 1495.1,
-      "stock_value": 6791.0905,
+      "total_value": 51965.044198381394,
+      "exchange_rate": 1484.3,
+      "stock_value": 12248.5905,
       "accounts": {
         "unlimited": {
           "total_value": 38393.7341983814,
           "stock_value": 6791.0905
+        },
+        "turtle": {
+          "total_value": 13571.31,
+          "stock_value": 5457.5
         }
       }
     },
     {
       "date": "2026-05-14 11:01:33",
-      "total_value": 38408.6536017658,
-      "exchange_rate": 1495.1,
-      "stock_value": 6806.01,
+      "total_value": 51979.9636017658,
+      "exchange_rate": 1484.3,
+      "stock_value": 12263.51,
       "accounts": {
         "unlimited": {
           "total_value": 38408.6536017658,
           "stock_value": 6806.01
+        },
+        "turtle": {
+          "total_value": 13571.31,
+          "stock_value": 5457.5
         }
       }
     },
     {
       "date": "2026-05-14 10:26:04",
-      "total_value": 38394.3328205471,
-      "exchange_rate": 1495.1,
-      "stock_value": 6791.6900000000005,
+      "total_value": 51965.642820547095,
+      "exchange_rate": 1484.3,
+      "stock_value": 12249.19,
       "accounts": {
         "unlimited": {
           "total_value": 38394.3328205471,
           "stock_value": 6791.6900000000005
+        },
+        "turtle": {
+          "total_value": 13571.31,
+          "stock_value": 5457.5
         }
       }
     },
     {
       "date": "2026-05-14 10:01:30",
-      "total_value": 38401.082870711,
-      "exchange_rate": 1495.1,
-      "stock_value": 6798.4400000000005,
+      "total_value": 51972.392870710995,
+      "exchange_rate": 1484.3,
+      "stock_value": 12255.94,
       "accounts": {
         "unlimited": {
           "total_value": 38401.082870711,
           "stock_value": 6798.4400000000005
+        },
+        "turtle": {
+          "total_value": 13571.31,
+          "stock_value": 5457.5
         }
       }
     },
     {
       "date": "2026-05-14 09:01:37",
-      "total_value": 38440.7838940539,
-      "exchange_rate": 1495.1,
-      "stock_value": 6838.14,
+      "total_value": 52012.0938940539,
+      "exchange_rate": 1484.3,
+      "stock_value": 12295.64,
       "accounts": {
         "unlimited": {
           "total_value": 38440.7838940539,
           "stock_value": 6838.14
+        },
+        "turtle": {
+          "total_value": 13571.31,
+          "stock_value": 5457.5
         }
       }
     },
     {
       "date": "2026-05-14 08:01:57",
-      "total_value": 38459.3030566517,
-      "exchange_rate": 1495.1,
-      "stock_value": 6856.66,
+      "total_value": 52030.613056651695,
+      "exchange_rate": 1484.3,
+      "stock_value": 12314.16,
       "accounts": {
         "unlimited": {
           "total_value": 38459.3030566517,
           "stock_value": 6856.66
+        },
+        "turtle": {
+          "total_value": 13571.31,
+          "stock_value": 5457.5
         }
       }
     },
     {
       "date": "2026-05-13 21:40:10",
-      "total_value": 38382.8545442296,
+      "total_value": 51918.764544229605,
       "exchange_rate": 1484.3,
-      "stock_value": 6780.08,
+      "stock_value": 12208.08,
       "accounts": {
         "unlimited": {
           "total_value": 38382.8545442296,
           "stock_value": 6780.08
+        },
+        "turtle": {
+          "total_value": 13535.91,
+          "stock_value": 5428.0
         }
       }
     },
     {
       "date": "2026-05-13 20:01:31",
-      "total_value": 38381.8136495318,
+      "total_value": 51923.6236495318,
       "exchange_rate": 1484.3,
-      "stock_value": 6780.08,
+      "stock_value": 12208.08,
       "accounts": {
         "unlimited": {
           "total_value": 38381.8136495318,
           "stock_value": 6780.08
+        },
+        "turtle": {
+          "total_value": 13541.81,
+          "stock_value": 5428.0
         }
       }
     },
     {
       "date": "2026-05-13 19:03:16",
-      "total_value": 38395.6733813919,
+      "total_value": 51948.1033813919,
       "exchange_rate": 1484.3,
-      "stock_value": 5959.03,
+      "stock_value": 11398.83,
       "accounts": {
         "unlimited": {
           "total_value": 38395.6733813919,
           "stock_value": 5959.03
+        },
+        "turtle": {
+          "total_value": 13552.43,
+          "stock_value": 5439.8
         }
       }
     },
     {
       "date": "2026-05-13 19:01:46",
-      "total_value": 38404.3131442431,
+      "total_value": 51956.7431442431,
       "exchange_rate": 1484.3,
-      "stock_value": 5967.67,
+      "stock_value": 11407.470000000001,
       "accounts": {
         "unlimited": {
           "total_value": 38404.3131442431,
           "stock_value": 5967.67
+        },
+        "turtle": {
+          "total_value": 13552.43,
+          "stock_value": 5439.8
         }
       }
     },
     {
       "date": "2026-05-13 18:01:39",
-      "total_value": 38395.7333423162,
+      "total_value": 51944.033342316194,
       "exchange_rate": 1484.3,
-      "stock_value": 5959.09,
+      "stock_value": 11398.89,
       "accounts": {
         "unlimited": {
           "total_value": 38395.7333423162,
           "stock_value": 5959.09
+        },
+        "turtle": {
+          "total_value": 13548.3,
+          "stock_value": 5439.8
         }
       }
     },
     {
       "date": "2026-05-13 17:01:40",
-      "total_value": 38389.1335983292,
+      "total_value": 51927.4035983292,
       "exchange_rate": 1484.3,
-      "stock_value": 5952.49,
+      "stock_value": 11380.49,
       "accounts": {
         "unlimited": {
           "total_value": 38389.1335983292,
           "stock_value": 5952.49
+        },
+        "turtle": {
+          "total_value": 13538.27,
+          "stock_value": 5428.0
         }
       }
     },
     {
       "date": "2026-05-13 16:25:32",
-      "total_value": 38374.9733881291,
-      "exchange_rate": 1484.3,
-      "stock_value": 5938.33,
+      "total_value": 51836.5433881291,
+      "exchange_rate": 1473.0,
+      "stock_value": 11289.630000000001,
       "accounts": {
         "unlimited": {
           "total_value": 38374.9733881291,
           "stock_value": 5938.33
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 16:01:40",
-      "total_value": 38277.1238967864,
-      "exchange_rate": 1484.3,
-      "stock_value": 5840.4800000000005,
+      "total_value": 51738.6938967864,
+      "exchange_rate": 1473.0,
+      "stock_value": 11191.78,
       "accounts": {
         "unlimited": {
           "total_value": 38277.1238967864,
           "stock_value": 5840.4800000000005
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 15:01:38",
-      "total_value": 38334.7833995823,
-      "exchange_rate": 1484.3,
-      "stock_value": 5898.139999999999,
+      "total_value": 51796.3533995823,
+      "exchange_rate": 1473.0,
+      "stock_value": 11249.439999999999,
       "accounts": {
         "unlimited": {
           "total_value": 38334.7833995823,
           "stock_value": 5898.139999999999
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 14:01:38",
-      "total_value": 38175.8835814862,
-      "exchange_rate": 1484.3,
-      "stock_value": 5738.461299999999,
+      "total_value": 51637.4535814862,
+      "exchange_rate": 1473.0,
+      "stock_value": 11089.761299999998,
       "accounts": {
         "unlimited": {
           "total_value": 38175.8835814862,
           "stock_value": 5738.461299999999
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 13:21:07",
-      "total_value": 38277.9983830762,
-      "exchange_rate": 1484.3,
-      "stock_value": 5841.3549,
+      "total_value": 51739.5683830762,
+      "exchange_rate": 1473.0,
+      "stock_value": 11192.654900000001,
       "accounts": {
         "unlimited": {
           "total_value": 38277.9983830762,
           "stock_value": 5841.3549
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 13:01:40",
-      "total_value": 38246.8133126726,
-      "exchange_rate": 1484.3,
-      "stock_value": 5810.17,
+      "total_value": 51708.3833126726,
+      "exchange_rate": 1473.0,
+      "stock_value": 11161.470000000001,
       "accounts": {
         "unlimited": {
           "total_value": 38246.8133126726,
           "stock_value": 5810.17
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 12:01:36",
-      "total_value": 38358.1338004447,
-      "exchange_rate": 1484.3,
-      "stock_value": 5921.49,
+      "total_value": 51819.7038004447,
+      "exchange_rate": 1473.0,
+      "stock_value": 11272.79,
       "accounts": {
         "unlimited": {
           "total_value": 38358.1338004447,
           "stock_value": 5921.49
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 11:01:38",
-      "total_value": 38352.7130633969,
-      "exchange_rate": 1484.3,
-      "stock_value": 5916.07,
+      "total_value": 51814.2830633969,
+      "exchange_rate": 1473.0,
+      "stock_value": 11267.369999999999,
       "accounts": {
         "unlimited": {
           "total_value": 38352.7130633969,
           "stock_value": 5916.07
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 10:35:55",
-      "total_value": 38348.8937546318,
-      "exchange_rate": 1484.3,
-      "stock_value": 5912.25,
+      "total_value": 51810.4637546318,
+      "exchange_rate": 1473.0,
+      "stock_value": 11263.55,
       "accounts": {
         "unlimited": {
           "total_value": 38348.8937546318,
           "stock_value": 5912.25
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 10:08:33",
-      "total_value": 38385.4995620831,
-      "exchange_rate": 1484.3,
-      "stock_value": 5948.8562,
+      "total_value": 51847.0695620831,
+      "exchange_rate": 1473.0,
+      "stock_value": 11300.156200000001,
       "accounts": {
         "unlimited": {
           "total_value": 38385.4995620831,
           "stock_value": 5948.8562
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 10:07:36",
-      "total_value": 38381.9308765074,
-      "exchange_rate": 1484.3,
-      "stock_value": 5945.2876,
+      "total_value": 51843.5008765074,
+      "exchange_rate": 1473.0,
+      "stock_value": 11296.587599999999,
       "accounts": {
         "unlimited": {
           "total_value": 38381.9308765074,
           "stock_value": 5945.2876
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 10:01:30",
-      "total_value": 38380.7633227784,
-      "exchange_rate": 1484.3,
-      "stock_value": 5944.12,
+      "total_value": 51842.3333227784,
+      "exchange_rate": 1473.0,
+      "stock_value": 11295.42,
       "accounts": {
         "unlimited": {
           "total_value": 38380.7633227784,
           "stock_value": 5944.12
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 09:36:12",
-      "total_value": 38379.5748837836,
-      "exchange_rate": 1484.3,
-      "stock_value": 5942.9313,
+      "total_value": 51841.1448837836,
+      "exchange_rate": 1473.0,
+      "stock_value": 11294.2313,
       "accounts": {
         "unlimited": {
           "total_value": 38379.5748837836,
           "stock_value": 5942.9313
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 09:31:21",
-      "total_value": 38363.263491208,
-      "exchange_rate": 1484.3,
-      "stock_value": 5926.62,
+      "total_value": 51824.833491208,
+      "exchange_rate": 1473.0,
+      "stock_value": 11277.92,
       "accounts": {
         "unlimited": {
           "total_value": 38363.263491208,
           "stock_value": 5926.62
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 09:29:46",
-      "total_value": 38359.0534258573,
-      "exchange_rate": 1484.3,
-      "stock_value": 5922.41,
+      "total_value": 51820.6234258573,
+      "exchange_rate": 1473.0,
+      "stock_value": 11273.71,
       "accounts": {
         "unlimited": {
           "total_value": 38359.0534258573,
           "stock_value": 5922.41
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 09:27:42",
-      "total_value": 38354.4512564845,
-      "exchange_rate": 1484.3,
-      "stock_value": 5917.8076,
+      "total_value": 51816.0212564845,
+      "exchange_rate": 1473.0,
+      "stock_value": 11269.1076,
       "accounts": {
         "unlimited": {
           "total_value": 38354.4512564845,
           "stock_value": 5917.8076
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 09:01:47",
-      "total_value": 38376.1833861079,
-      "exchange_rate": 1484.3,
-      "stock_value": 5939.539999999999,
+      "total_value": 51837.7533861079,
+      "exchange_rate": 1473.0,
+      "stock_value": 11290.84,
       "accounts": {
         "unlimited": {
           "total_value": 38376.1833861079,
           "stock_value": 5939.539999999999
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-13 08:02:13",
-      "total_value": 38288.4437108401,
-      "exchange_rate": 1484.3,
-      "stock_value": 5851.799999999999,
+      "total_value": 51750.0137108401,
+      "exchange_rate": 1473.0,
+      "stock_value": 11203.099999999999,
       "accounts": {
         "unlimited": {
           "total_value": 38288.4437108401,
           "stock_value": 5851.799999999999
+        },
+        "turtle": {
+          "total_value": 13461.57,
+          "stock_value": 5351.3
         }
       }
     },
     {
       "date": "2026-05-12 20:47:55",
-      "total_value": 38127.5743380855,
-      "exchange_rate": 1473,
-      "stock_value": 5690.92,
+      "total_value": 51681.774338085495,
+      "exchange_rate": 1473.0,
+      "stock_value": 11136.619999999999,
       "accounts": {
         "unlimited": {
           "total_value": 38127.5743380855,
           "stock_value": 5690.92
+        },
+        "turtle": {
+          "total_value": 13554.2,
+          "stock_value": 5445.7
         }
       }
     },
     {
       "date": "2026-05-12 20:01:31",
-      "total_value": 38126.0841819416,
-      "exchange_rate": 1473,
-      "stock_value": 5690.460000000001,
+      "total_value": 51680.284181941606,
+      "exchange_rate": 1473.0,
+      "stock_value": 11136.16,
       "accounts": {
         "unlimited": {
           "total_value": 38126.0841819416,
           "stock_value": 5690.460000000001
+        },
+        "turtle": {
+          "total_value": 13554.2,
+          "stock_value": 5445.7
         }
       }
     },
     {
       "date": "2026-05-12 19:01:25",
-      "total_value": 37961.3088934148,
-      "exchange_rate": 1473,
-      "stock_value": 4652.7251,
+      "total_value": 51515.50889341481,
+      "exchange_rate": 1473.0,
+      "stock_value": 10098.4251,
       "accounts": {
         "unlimited": {
           "total_value": 37961.3088934148,
           "stock_value": 4652.7251
+        },
+        "turtle": {
+          "total_value": 13554.2,
+          "stock_value": 5445.7
         }
       }
     },
     {
       "date": "2026-05-12 18:01:40",
-      "total_value": 37918.6999321113,
-      "exchange_rate": 1473,
-      "stock_value": 4610.116099999999,
+      "total_value": 51472.89993211131,
+      "exchange_rate": 1473.0,
+      "stock_value": 10055.8161,
       "accounts": {
         "unlimited": {
           "total_value": 37918.6999321113,
           "stock_value": 4610.116099999999
+        },
+        "turtle": {
+          "total_value": 13554.2,
+          "stock_value": 5445.7
         }
       }
     },
     {
       "date": "2026-05-12 17:01:32",
-      "total_value": 37780.0441276307,
-      "exchange_rate": 1473,
-      "stock_value": 4471.46,
+      "total_value": 51334.24412763071,
+      "exchange_rate": 1473.0,
+      "stock_value": 9917.16,
       "accounts": {
         "unlimited": {
           "total_value": 37780.0441276307,
           "stock_value": 4471.46
+        },
+        "turtle": {
+          "total_value": 13554.2,
+          "stock_value": 5445.7
         }
       }
     },
     {
       "date": "2026-05-12 16:25:28",
-      "total_value": 37832.7040054311,
-      "exchange_rate": 1473,
-      "stock_value": 4524.12,
+      "total_value": 51386.904005431104,
+      "exchange_rate": 1473.0,
+      "stock_value": 9969.82,
       "accounts": {
         "unlimited": {
           "total_value": 37832.7040054311,
           "stock_value": 4524.12
+        },
+        "turtle": {
+          "total_value": 13554.2,
+          "stock_value": 5445.7
         }
       }
     },
     {
       "date": "2026-05-12 16:01:40",
-      "total_value": 37844.7141887305,
-      "exchange_rate": 1473,
-      "stock_value": 4536.13,
+      "total_value": 51398.9141887305,
+      "exchange_rate": 1473.0,
+      "stock_value": 9981.83,
       "accounts": {
         "unlimited": {
           "total_value": 37844.7141887305,
           "stock_value": 4536.13
+        },
+        "turtle": {
+          "total_value": 13554.2,
+          "stock_value": 5445.7
         }
       }
     },
     {
       "date": "2026-05-12 15:01:48",
-      "total_value": 37976.9633401222,
-      "exchange_rate": 1473,
-      "stock_value": 4668.379999999999,
+      "total_value": 51531.163340122206,
+      "exchange_rate": 1473.0,
+      "stock_value": 10114.079999999998,
       "accounts": {
         "unlimited": {
           "total_value": 37976.9633401222,
           "stock_value": 4668.379999999999
+        },
+        "turtle": {
+          "total_value": 13554.2,
+          "stock_value": 5445.7
         }
       }
     },
     {
       "date": "2026-05-12 14:51:58",
-      "total_value": 37991.7236931432,
-      "exchange_rate": 1473,
-      "stock_value": 4683.14,
+      "total_value": 51545.923693143195,
+      "exchange_rate": 1473.0,
+      "stock_value": 10128.84,
       "accounts": {
         "unlimited": {
           "total_value": 37991.7236931432,
           "stock_value": 4683.14
+        },
+        "turtle": {
+          "total_value": 13554.2,
+          "stock_value": 5445.7
         }
       }
     },
     {
       "date": "2026-05-12 14:48:03",
-      "total_value": 38030.0386965377,
-      "exchange_rate": 1473,
-      "stock_value": 4721.51,
+      "total_value": 51584.23869653769,
+      "exchange_rate": 1473.0,
+      "stock_value": 10167.21,
       "accounts": {
         "unlimited": {
           "total_value": 38030.0386965377,
           "stock_value": 4721.51
+        },
+        "turtle": {
+          "total_value": 13554.2,
+          "stock_value": 5445.7
         }
       }
     },
     {
       "date": "2026-05-12 14:01:38",
-      "total_value": 38127.4894772573,
-      "exchange_rate": 1473,
-      "stock_value": 4818.905000000001,
+      "total_value": 51681.6894772573,
+      "exchange_rate": 1473.0,
+      "stock_value": 10264.605,
       "accounts": {
         "unlimited": {
           "total_value": 38127.4894772573,
           "stock_value": 4818.905000000001
+        },
+        "turtle": {
+          "total_value": 13554.2,
+          "stock_value": 5445.7
         }
       }
     },
     {
       "date": "2026-05-12 13:08:31",
-      "total_value": 38181.9137813985,
-      "exchange_rate": 1473,
-      "stock_value": 4873.33,
+      "total_value": 51736.1137813985,
+      "exchange_rate": 1473.0,
+      "stock_value": 10319.029999999999,
       "accounts": {
         "unlimited": {
           "total_value": 38181.9137813985,
           "stock_value": 4873.33
+        },
+        "turtle": {
+          "total_value": 13554.2,
+          "stock_value": 5445.7
         }
       }
     },
     {
       "date": "2026-05-12 13:01:46",
-      "total_value": 38207.533604888,
-      "exchange_rate": 1473,
-      "stock_value": 4898.95,
+      "total_value": 51761.733604887995,
+      "exchange_rate": 1473.0,
+      "stock_value": 10344.65,
       "accounts": {
         "unlimited": {
           "total_value": 38207.533604888,
           "stock_value": 4898.95
+        },
+        "turtle": {
+          "total_value": 13554.2,
+          "stock_value": 5445.7
         }
       }
     },
     {
       "date": "2026-05-12 12:01:26",
-      "total_value": 38187.9545145961,
-      "exchange_rate": 1473,
-      "stock_value": 4879.3711,
+      "total_value": 51742.1545145961,
+      "exchange_rate": 1473.0,
+      "stock_value": 10325.071100000001,
       "accounts": {
         "unlimited": {
           "total_value": 38187.9545145961,
           "stock_value": 4879.3711
+        },
+        "turtle": {
+          "total_value": 13554.2,
+          "stock_value": 5445.7
         }
       }
     },
     {
       "date": "2026-05-12 11:01:39",
-      "total_value": 38225.8336727766,
-      "exchange_rate": 1473,
-      "stock_value": 4917.25,
+      "total_value": 51749.3236727766,
+      "exchange_rate": 1466.0,
+      "stock_value": 10351.15,
       "accounts": {
         "unlimited": {
           "total_value": 38225.8336727766,
           "stock_value": 4917.25
+        },
+        "turtle": {
+          "total_value": 13523.49,
+          "stock_value": 5433.9
         }
       }
     },
     {
       "date": "2026-05-12 10:38:18",
-      "total_value": 38253.9232858113,
-      "exchange_rate": 1473,
-      "stock_value": 4945.34,
+      "total_value": 51777.4132858113,
+      "exchange_rate": 1466.0,
+      "stock_value": 10379.24,
       "accounts": {
         "unlimited": {
           "total_value": 38253.9232858113,
           "stock_value": 4945.34
+        },
+        "turtle": {
+          "total_value": 13523.49,
+          "stock_value": 5433.9
         }
       }
     },
     {
       "date": "2026-05-12 10:01:36",
-      "total_value": 38250.2932790224,
-      "exchange_rate": 1473,
-      "stock_value": 4941.71,
+      "total_value": 51773.7832790224,
+      "exchange_rate": 1466.0,
+      "stock_value": 10375.61,
       "accounts": {
         "unlimited": {
           "total_value": 38250.2932790224,
           "stock_value": 4941.71
+        },
+        "turtle": {
+          "total_value": 13523.49,
+          "stock_value": 5433.9
         }
       }
     },
     {
       "date": "2026-05-12 09:01:29",
-      "total_value": 38240.9334691107,
-      "exchange_rate": 1473,
-      "stock_value": 4932.35,
+      "total_value": 51764.4234691107,
+      "exchange_rate": 1466.0,
+      "stock_value": 10366.25,
       "accounts": {
         "unlimited": {
           "total_value": 38240.9334691107,
           "stock_value": 4932.35
+        },
+        "turtle": {
+          "total_value": 13523.49,
+          "stock_value": 5433.9
         }
       }
     },
     {
       "date": "2026-05-12 08:01:53",
-      "total_value": 38241.5098438561,
-      "exchange_rate": 1473,
-      "stock_value": 4932.9254,
+      "total_value": 51764.9998438561,
+      "exchange_rate": 1466.0,
+      "stock_value": 10366.8254,
       "accounts": {
         "unlimited": {
           "total_value": 38241.5098438561,
           "stock_value": 4932.9254
+        },
+        "turtle": {
+          "total_value": 13523.49,
+          "stock_value": 5433.9
         }
       }
     },
     {
       "date": "2026-05-11 21:37:32",
-      "total_value": 38404.1937244202,
-      "exchange_rate": 1466,
+      "total_value": 51966.4537244202,
+      "exchange_rate": 1466.0,
       "stock_value": 5096.0599999999995,
       "accounts": {
         "unlimited": {
           "total_value": 38404.1937244202,
           "stock_value": 5096.0599999999995
+        },
+        "turtle": {
+          "total_value": 13562.26,
+          "stock_value": 0
         }
       }
     },
     {
       "date": "2026-05-11 20:01:33",
-      "total_value": 38403.1725784447,
-      "exchange_rate": 1466,
+      "total_value": 51965.4325784447,
+      "exchange_rate": 1466.0,
       "stock_value": 5096.45,
       "accounts": {
         "unlimited": {
           "total_value": 38403.1725784447,
           "stock_value": 5096.45
+        },
+        "turtle": {
+          "total_value": 13562.26,
+          "stock_value": 0
         }
       }
     },
     {
       "date": "2026-05-11 20:00:20",
-      "total_value": 38399.8690313779,
-      "exchange_rate": 1466,
+      "total_value": 51962.1290313779,
+      "exchange_rate": 1466.0,
       "stock_value": 5093.9056,
       "accounts": {
         "unlimited": {
           "total_value": 38399.8690313779,
           "stock_value": 5093.9056
+        },
+        "turtle": {
+          "total_value": 13562.26,
+          "stock_value": 0
         }
       }
     },
