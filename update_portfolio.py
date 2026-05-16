@@ -32,6 +32,7 @@ def main():
         "total_value": new_data.get("total_value"),
         "exchange_rate": new_data.get("exchange_rate"),
         "stock_value": stock_value,
+        "accounts": new_data.get("accounts"),
     }
     history.insert(0, entry)
 
