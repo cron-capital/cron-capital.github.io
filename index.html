@@ -58,31 +58,34 @@
         }
 
         .summary {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-            gap: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 0;
             margin-top: 20px;
-            max-width: 600px;
+            max-width: 400px;
         }
 
-        .summary-item {
-            background: #333;
-            padding: 20px;
-            border-radius: 10px;
-            color: white;
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
         }
 
-        .summary-item label {
-            display: block;
+        .summary-row:last-child {
+            border-bottom: none;
+        }
+
+        .summary-row .label {
+            color: #666;
             font-size: 14px;
-            opacity: 0.9;
-            margin-bottom: 5px;
         }
 
-        .summary-item .value {
-            font-size: 24px;
+        .summary-row .value {
             font-weight: bold;
-            text-align: right;
+            color: #333;
+            font-size: 18px;
         }
 
         .stocks-grid {
@@ -557,9 +560,9 @@
                 const acct = data.accounts && data.accounts[currentTab];
                 if (!acct) {
                     document.getElementById('summary').innerHTML = `
-                        <div class="summary-item">
-                            <label>No Data</label>
-                            <div class="value">-</div>
+                        <div class="summary-row">
+                            <span class="label">No Data</span>
+                            <span class="value">-</span>
                         </div>
                     `;
                     return;
@@ -572,17 +575,17 @@
             const seedLabel = 'Seed';
 
             document.getElementById('summary').innerHTML = `
-                <div class="summary-item">
-                    <label>Total Assets</label>
-                    <div class="value">$${totalValue.toFixed(2)}</div>
+                <div class="summary-row">
+                    <span class="label">Total Assets</span>
+                    <span class="value">$${totalValue.toFixed(2)}</span>
                 </div>
-                <div class="summary-item">
-                    <label>Available Cash</label>
-                    <div class="value">$${availableCash.toFixed(2)}</div>
+                <div class="summary-row">
+                    <span class="label">Available Cash</span>
+                    <span class="value">$${availableCash.toFixed(2)}</span>
                 </div>
-                <div class="summary-item">
-                    <label>${seedLabel}</label>
-                    <div class="value" id="seedValue">$${seed.toFixed(2)}</div>
+                <div class="summary-row">
+                    <span class="label">${seedLabel}</span>
+                    <span class="value">$${seed.toFixed(2)}</span>
                 </div>
             `;
         }
