@@ -13,8 +13,11 @@ def main():
     
     new_data = json.loads(sys.argv[1])
 
-    with open("portfolio.json", "r") as f:
-        data = json.load(f)
+    try:
+        with open("portfolio.json", "r") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        data = {}
 
     # update portfolio
     data |= new_data
