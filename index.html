@@ -239,7 +239,7 @@
         .tab-bar {
             display: flex;
             gap: 0;
-            margin-bottom: 20px;
+            margin-top: 20px;
             background: white;
             border-radius: 10px;
             overflow: hidden;
@@ -297,12 +297,12 @@
                 </div>
             </div>
             <div class="summary" id="summary"></div>
-        </div>
 
-        <div class="tab-bar" id="tabBar">
-            <button class="tab active" data-tab="total" onclick="switchTab('total')">📊 Total</button>
-            <button class="tab" data-tab="unlimited" onclick="switchTab('unlimited')">💰 Unlimited</button>
-            <button class="tab" data-tab="turtle" onclick="switchTab('turtle')">🐢 Turtle</button>
+            <div class="tab-bar" id="tabBar">
+                <button class="tab active" data-tab="total" onclick="switchTab('total')">📊 Total</button>
+                <button class="tab" data-tab="unlimited" onclick="switchTab('unlimited')">💰 Unlimited</button>
+                <button class="tab" data-tab="turtle" onclick="switchTab('turtle')">🐢 Turtle</button>
+            </div>
         </div>
 
         <div class="chart-container" id="chartContainer">
