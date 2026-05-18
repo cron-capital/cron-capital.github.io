@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-05-18 19:59:32",
+      "total_value": 50783.0524069876,
+      "exchange_rate": 1499.8,
+      "stock_value": 18674.945,
+      "accounts": {
+        "turtle": {
+          "stock_value": 10366.1,
+          "total_value": 13236.0041338845
+        },
+        "unlimited": {
+          "stock_value": 8308.845,
+          "total_value": 37547.0482731031
+        }
+      }
+    },
+    {
       "date": "2026-05-18 19:00:50",
       "total_value": 50362.7837044939,
       "exchange_rate": 1499.8,
@@ -8995,18 +9011,6 @@
           "stock_value": 5138.700000000001
         }
       }
-    },
-    {
-      "date": "2026-02-05 14:39:18",
-      "total_value": 13631.098401323,
-      "stock_value": 5317.555,
-      "exchange_rate": 1451.2,
-      "accounts": {
-        "unlimited": {
-          "total_value": 13631.098401323,
-          "stock_value": 5317.555
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9015,7 +9019,7 @@
       "account": "turtle",
       "avg_price": 92.8193,
       "excg": "AMEX",
-      "now_price": 88.75,
+      "now_price": 90.14,
       "qty": 115,
       "symbol": "QLD"
     },
@@ -9023,7 +9027,7 @@
       "account": "unlimited",
       "avg_price": 166.3033,
       "excg": "AMEX",
-      "now_price": 145.2381,
+      "now_price": 151.615,
       "qty": 23,
       "symbol": "SOXL"
     },
@@ -9031,21 +9035,21 @@
       "account": "unlimited",
       "avg_price": 74.184,
       "excg": "NASD",
-      "now_price": 72.43,
+      "now_price": 74.18,
       "qty": 65,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1499.8,
-  "total_value": 50362.7837044939,
+  "total_value": 50783.0524069876,
   "accounts": {
     "turtle": {
-      "stock_value": 10206.25,
-      "total_value": 13076.1541538872
+      "stock_value": 10366.1,
+      "total_value": 13236.0041338845
     },
     "unlimited": {
-      "stock_value": 8048.4263,
-      "total_value": 37286.6295506067
+      "stock_value": 8308.845,
+      "total_value": 37547.0482731031
     }
   }
 }
