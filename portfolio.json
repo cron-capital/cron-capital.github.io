@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-05-18 16:00:38",
+      "total_value": 50649.6326176824,
+      "exchange_rate": 1499.8,
+      "stock_value": 18541.525,
+      "accounts": {
+        "turtle": {
+          "stock_value": 10289.625,
+          "total_value": 13159.5292705694
+        },
+        "unlimited": {
+          "stock_value": 8251.9,
+          "total_value": 37490.1033471129
+        }
+      }
+    },
+    {
       "date": "2026-05-18 15:00:39",
       "total_value": 50816.7422322976,
       "exchange_rate": 1499.8,
@@ -8979,18 +8995,6 @@
           "stock_value": 5391.33
         }
       }
-    },
-    {
-      "date": "2026-02-05 11:07:47",
-      "total_value": 13732.0638092613,
-      "stock_value": 5418.52,
-      "exchange_rate": 1451.2,
-      "accounts": {
-        "unlimited": {
-          "total_value": 13732.0638092613,
-          "stock_value": 5418.52
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -8999,7 +9003,7 @@
       "account": "turtle",
       "avg_price": 92.8193,
       "excg": "AMEX",
-      "now_price": 90.14,
+      "now_price": 89.475,
       "qty": 115,
       "symbol": "QLD"
     },
@@ -9007,7 +9011,7 @@
       "account": "unlimited",
       "avg_price": 166.3033,
       "excg": "AMEX",
-      "now_price": 152.995,
+      "now_price": 151.4,
       "qty": 23,
       "symbol": "SOXL"
     },
@@ -9015,21 +9019,21 @@
       "account": "unlimited",
       "avg_price": 74.184,
       "excg": "NASD",
-      "now_price": 74.21,
+      "now_price": 73.38,
       "qty": 65,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1499.8,
-  "total_value": 50816.7422322976,
+  "total_value": 50649.6326176824,
   "accounts": {
     "turtle": {
-      "stock_value": 10366.1,
-      "total_value": 13236.0041338845
+      "stock_value": 10289.625,
+      "total_value": 13159.5292705694
     },
     "unlimited": {
-      "stock_value": 8342.535,
-      "total_value": 37580.7380984131
+      "stock_value": 8251.9,
+      "total_value": 37490.1033471129
     }
   }
 }
