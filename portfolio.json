@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-05-20 10:00:34",
+      "total_value": 50986.7721771512,
+      "exchange_rate": 1503.8,
+      "stock_value": 12033.075,
+      "accounts": {
+        "turtle": {
+          "stock_value": 0,
+          "total_value": 13013.8336214922
+        },
+        "unlimited": {
+          "stock_value": 12033.075,
+          "total_value": 37972.938555659
+        }
+      }
+    },
+    {
       "date": "2026-05-20 09:00:34",
       "total_value": 50904.9474664184,
       "exchange_rate": 1503.8,
@@ -9059,18 +9075,6 @@
           "stock_value": 6287.01
         }
       }
-    },
-    {
-      "date": "2026-02-06 14:36:38",
-      "total_value": 13862.8030872208,
-      "stock_value": 6304.99,
-      "exchange_rate": 1464.1,
-      "accounts": {
-        "unlimited": {
-          "total_value": 13862.8030872208,
-          "stock_value": 6304.99
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9079,7 +9083,7 @@
       "account": "unlimited",
       "avg_price": 161.3376,
       "excg": "AMEX",
-      "now_price": 161.07,
+      "now_price": 162.74,
       "qty": 35,
       "symbol": "SOXL"
     },
@@ -9087,21 +9091,21 @@
       "account": "unlimited",
       "avg_price": 74.0034,
       "excg": "NASD",
-      "now_price": 74.28,
+      "now_price": 74.555,
       "qty": 85,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1503.8,
-  "total_value": 50904.9474664184,
+  "total_value": 50986.7721771512,
   "accounts": {
     "turtle": {
       "stock_value": 0,
       "total_value": 13013.8336214922
     },
     "unlimited": {
-      "stock_value": 11951.25,
-      "total_value": 37891.1138449262
+      "stock_value": 12033.075,
+      "total_value": 37972.938555659
     }
   }
 }
