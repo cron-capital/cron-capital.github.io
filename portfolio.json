@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-05-26 17:00:33",
+      "total_value": 52879.0471155752,
+      "exchange_rate": 1513.3,
+      "stock_value": 11115.36,
+      "accounts": {
+        "turtle": {
+          "stock_value": 4788,
+          "total_value": 12999.3339060332
+        },
+        "unlimited": {
+          "stock_value": 6327.36,
+          "total_value": 39879.7132095421
+        }
+      }
+    },
+    {
       "date": "2026-05-26 16:00:41",
       "total_value": 52837.3072094099,
       "exchange_rate": 1513.3,
@@ -9235,18 +9251,6 @@
           "stock_value": 7324.9509
         }
       }
-    },
-    {
-      "date": "2026-02-12 16:00:22",
-      "total_value": 14446.351760176,
-      "stock_value": 7547.478300000001,
-      "exchange_rate": 1454.4,
-      "accounts": {
-        "unlimited": {
-          "total_value": 14446.351760176,
-          "stock_value": 7547.478300000001
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9255,7 +9259,7 @@
       "account": "turtle",
       "avg_price": 95.5247,
       "excg": "AMEX",
-      "now_price": 95.44,
+      "now_price": 95.76,
       "qty": 50,
       "symbol": "QLD"
     },
@@ -9263,21 +9267,21 @@
       "account": "unlimited",
       "avg_price": 74.5634,
       "excg": "NASD",
-      "now_price": 80.79,
+      "now_price": 81.12,
       "qty": 78,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1513.3,
-  "total_value": 52837.3072094099,
+  "total_value": 52879.0471155752,
   "accounts": {
     "turtle": {
-      "stock_value": 4772,
-      "total_value": 12983.3337738717
+      "stock_value": 4788,
+      "total_value": 12999.3339060332
     },
     "unlimited": {
-      "stock_value": 6301.62,
-      "total_value": 39853.9734355382
+      "stock_value": 6327.36,
+      "total_value": 39879.7132095421
     }
   }
 }
