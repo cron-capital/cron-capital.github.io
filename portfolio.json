@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-05-27 10:00:32",
+      "total_value": 53149.0178393793,
+      "exchange_rate": 1507.9,
+      "stock_value": 10722.130000000001,
+      "accounts": {
+        "turtle": {
+          "stock_value": 4864.05,
+          "total_value": 13093.5241063731
+        },
+        "unlimited": {
+          "stock_value": 5858.08,
+          "total_value": 40055.4937330062
+        }
+      }
+    },
+    {
       "date": "2026-05-27 09:00:47",
       "total_value": 53116.1582333046,
       "exchange_rate": 1507.9,
@@ -9259,18 +9275,6 @@
           "stock_value": 7970.2699999999995
         }
       }
-    },
-    {
-      "date": "2026-02-13 09:55:25",
-      "total_value": 14219.3425245947,
-      "stock_value": 7991.5,
-      "exchange_rate": 1443.4,
-      "accounts": {
-        "unlimited": {
-          "total_value": 14219.3425245947,
-          "stock_value": 7991.5
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9279,7 +9283,7 @@
       "account": "turtle",
       "avg_price": 95.5247,
       "excg": "AMEX",
-      "now_price": 97.11,
+      "now_price": 97.281,
       "qty": 50,
       "symbol": "QLD"
     },
@@ -9287,7 +9291,7 @@
       "account": "unlimited",
       "avg_price": 232.97,
       "excg": "AMEX",
-      "now_price": 236.7,
+      "now_price": 239.09,
       "qty": 4,
       "symbol": "SOXL"
     },
@@ -9295,21 +9299,21 @@
       "account": "unlimited",
       "avg_price": 74.5634,
       "excg": "NASD",
-      "now_price": 82.83,
+      "now_price": 83.08,
       "qty": 59,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1507.9,
-  "total_value": 53116.1582333046,
+  "total_value": 53149.0178393793,
   "accounts": {
     "turtle": {
-      "stock_value": 4855.5,
-      "total_value": 13084.9744678029
+      "stock_value": 4864.05,
+      "total_value": 13093.5241063731
     },
     "unlimited": {
-      "stock_value": 5833.77,
-      "total_value": 40031.1837655017
+      "stock_value": 5858.08,
+      "total_value": 40055.4937330062
     }
   }
 }
