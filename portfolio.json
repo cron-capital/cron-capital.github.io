@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-05-27 17:00:38",
+      "total_value": 52810.6180781219,
+      "exchange_rate": 1507.9,
+      "stock_value": 12739.01,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7091.42,
+          "total_value": 12965.6144306652
+        },
+        "unlimited": {
+          "stock_value": 5647.59,
+          "total_value": 39845.0036474567
+        }
+      }
+    },
+    {
       "date": "2026-05-27 16:00:39",
       "total_value": 52725.97784999,
       "exchange_rate": 1507.9,
@@ -9287,18 +9303,6 @@
           "stock_value": 8092.639999999999
         }
       }
-    },
-    {
-      "date": "2026-02-13 17:25:22",
-      "total_value": 14341.4521269225,
-      "stock_value": 8113.1900000000005,
-      "exchange_rate": 1443.4,
-      "accounts": {
-        "unlimited": {
-          "total_value": 14341.4521269225,
-          "stock_value": 8113.1900000000005
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9307,7 +9311,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 95.4,
+      "now_price": 95.83,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9315,7 +9319,7 @@
       "account": "unlimited",
       "avg_price": 232.97,
       "excg": "AMEX",
-      "now_price": 208.81,
+      "now_price": 213.46,
       "qty": 4,
       "symbol": "SOXL"
     },
@@ -9323,21 +9327,21 @@
       "account": "unlimited",
       "avg_price": 74.5634,
       "excg": "NASD",
-      "now_price": 80.67,
+      "now_price": 81.25,
       "qty": 59,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1507.9,
-  "total_value": 52725.97784999,
+  "total_value": 52810.6180781219,
   "accounts": {
     "turtle": {
-      "stock_value": 7059.6,
-      "total_value": 12933.794018171
+      "stock_value": 7091.42,
+      "total_value": 12965.6144306652
     },
     "unlimited": {
-      "stock_value": 5594.77,
-      "total_value": 39792.1838318191
+      "stock_value": 5647.59,
+      "total_value": 39845.0036474567
     }
   }
 }
