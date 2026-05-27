@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-05-27 19:59:36",
+      "total_value": 52880.0769281783,
+      "exchange_rate": 1507.9,
+      "stock_value": 12808.469000000001,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7118.06,
+          "total_value": 12992.2541282578
+        },
+        "unlimited": {
+          "stock_value": 5690.409,
+          "total_value": 39887.8227999204
+        }
+      }
+    },
+    {
       "date": "2026-05-27 19:00:43",
       "total_value": 52863.123549307,
       "exchange_rate": 1507.9,
@@ -9299,18 +9315,6 @@
           "stock_value": 8670.91
         }
       }
-    },
-    {
-      "date": "2026-02-13 20:01:32",
-      "total_value": 14276.1126506859,
-      "stock_value": 8048.27,
-      "exchange_rate": 1443.4,
-      "accounts": {
-        "unlimited": {
-          "total_value": 14276.1126506859,
-          "stock_value": 8048.27
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9319,7 +9323,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 96.155,
+      "now_price": 96.19,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9327,7 +9331,7 @@
       "account": "unlimited",
       "avg_price": 232.97,
       "excg": "AMEX",
-      "now_price": 215.19,
+      "now_price": 217.66,
       "qty": 4,
       "symbol": "SOXL"
     },
@@ -9335,21 +9339,21 @@
       "account": "unlimited",
       "avg_price": 74.5634,
       "excg": "NASD",
-      "now_price": 81.615,
+      "now_price": 81.691,
       "qty": 59,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1507.9,
-  "total_value": 52863.123549307,
+  "total_value": 52880.0769281783,
   "accounts": {
     "turtle": {
-      "stock_value": 7115.47,
-      "total_value": 12989.664433981
+      "stock_value": 7118.06,
+      "total_value": 12992.2541282578
     },
     "unlimited": {
-      "stock_value": 5676.045,
-      "total_value": 39873.4591153259
+      "stock_value": 5690.409,
+      "total_value": 39887.8227999204
     }
   }
 }
