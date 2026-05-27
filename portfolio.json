@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-05-27 12:17:11",
+      "total_value": 53208.6889050998,
+      "exchange_rate": 1507.9,
+      "stock_value": 13137.0809,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7220.5056,
+          "total_value": 13094.6999137874
+        },
+        "unlimited": {
+          "stock_value": 5916.5753,
+          "total_value": 40113.9889913124
+        }
+      }
+    },
+    {
       "date": "2026-05-27 11:00:32",
       "total_value": 53178.7976656277,
       "exchange_rate": 1507.9,
@@ -9267,35 +9283,23 @@
           "stock_value": 7824.9555
         }
       }
-    },
-    {
-      "date": "2026-02-13 11:37:29",
-      "total_value": 14112.0119163087,
-      "stock_value": 7884.17,
-      "exchange_rate": 1443.4,
-      "accounts": {
-        "unlimited": {
-          "total_value": 14112.0119163087,
-          "stock_value": 7884.17
-        }
-      }
     }
   ],
   "max_length": 720,
   "stocks": {
     "QLD": {
       "account": "turtle",
-      "avg_price": 95.5247,
+      "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 97.46,
-      "qty": 50,
+      "now_price": 97.5744,
+      "qty": 74,
       "symbol": "QLD"
     },
     "SOXL": {
       "account": "unlimited",
       "avg_price": 232.97,
       "excg": "AMEX",
-      "now_price": 241.2,
+      "now_price": 248.2578,
       "qty": 4,
       "symbol": "SOXL"
     },
@@ -9303,21 +9307,21 @@
       "account": "unlimited",
       "avg_price": 74.5634,
       "excg": "NASD",
-      "now_price": 83.29,
+      "now_price": 83.4499,
       "qty": 59,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1507.9,
-  "total_value": 53178.7976656277,
+  "total_value": 53208.6889050998,
   "accounts": {
     "turtle": {
-      "stock_value": 4873,
-      "total_value": 13102.4743020094
+      "stock_value": 7220.5056,
+      "total_value": 13094.6999137874
     },
     "unlimited": {
-      "stock_value": 5878.91,
-      "total_value": 40076.3233636183
+      "stock_value": 5916.5753,
+      "total_value": 40113.9889913124
     }
   }
 }
