@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-05-28 12:00:34",
+      "total_value": 52715.4481885988,
+      "exchange_rate": 1501.6,
+      "stock_value": 13992.77,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7064.04,
+          "total_value": 12947.134389984
+        },
+        "unlimited": {
+          "stock_value": 6928.73,
+          "total_value": 39768.3137986148
+        }
+      }
+    },
+    {
       "date": "2026-05-28 11:00:31",
       "total_value": 52653.560868407,
       "exchange_rate": 1501.6,
@@ -9319,18 +9335,6 @@
           "stock_value": 8442.2
         }
       }
-    },
-    {
-      "date": "2026-02-17 10:57:46",
-      "total_value": 13985.712900097,
-      "stock_value": 8438.02,
-      "exchange_rate": 1443.4,
-      "accounts": {
-        "unlimited": {
-          "total_value": 13985.712900097,
-          "stock_value": 8438.02
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9339,7 +9343,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 95.231,
+      "now_price": 95.46,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9347,7 +9351,7 @@
       "account": "unlimited",
       "avg_price": 225.475,
       "excg": "AMEX",
-      "now_price": 206.7767,
+      "now_price": 210.16,
       "qty": 8,
       "symbol": "SOXL"
     },
@@ -9355,21 +9359,21 @@
       "account": "unlimited",
       "avg_price": 75.2194,
       "excg": "NASD",
-      "now_price": 80.455,
+      "now_price": 80.73,
       "qty": 65,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1501.6,
-  "total_value": 52653.560868407,
+  "total_value": 52715.4481885988,
   "accounts": {
     "turtle": {
-      "stock_value": 7047.094,
-      "total_value": 12930.1884656367
+      "stock_value": 7064.04,
+      "total_value": 12947.134389984
     },
     "unlimited": {
-      "stock_value": 6883.7886,
-      "total_value": 39723.3724027704
+      "stock_value": 6928.73,
+      "total_value": 39768.3137986148
     }
   }
 }
