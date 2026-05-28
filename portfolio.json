@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-05-28 19:59:35",
+      "total_value": 53196.373201918,
+      "exchange_rate": 1501.6,
+      "stock_value": 13141.225,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7239.42,
+          "total_value": 13122.5146510389
+        },
+        "unlimited": {
+          "stock_value": 5901.805,
+          "total_value": 40073.8585508791
+        }
+      }
+    },
+    {
       "date": "2026-05-28 19:00:31",
       "total_value": 53190.8537559936,
       "exchange_rate": 1501.6,
@@ -9351,18 +9367,6 @@
           "stock_value": 9325.95
         }
       }
-    },
-    {
-      "date": "2026-02-17 20:00:45",
-      "total_value": 14267.1525564639,
-      "stock_value": 8719.4597,
-      "exchange_rate": 1443.4,
-      "accounts": {
-        "unlimited": {
-          "total_value": 14267.1525564639,
-          "stock_value": 8719.4597
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9371,7 +9375,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 97.73,
+      "now_price": 97.83,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9379,7 +9383,7 @@
       "account": "unlimited",
       "avg_price": 225.475,
       "excg": "AMEX",
-      "now_price": 225.88,
+      "now_price": 224.91,
       "qty": 8,
       "symbol": "SOXL"
     },
@@ -9387,21 +9391,21 @@
       "account": "unlimited",
       "avg_price": 75.2194,
       "excg": "NASD",
-      "now_price": 83.605,
+      "now_price": 83.725,
       "qty": 49,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1501.6,
-  "total_value": 53190.8537559936,
+  "total_value": 53196.373201918,
   "accounts": {
     "turtle": {
-      "stock_value": 7232.02,
-      "total_value": 13115.1145444859
+      "stock_value": 7239.42,
+      "total_value": 13122.5146510389
     },
     "unlimited": {
-      "stock_value": 5903.685,
-      "total_value": 40075.7392115077
+      "stock_value": 5901.805,
+      "total_value": 40073.8585508791
     }
   }
 }
