@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-05-28 13:00:36",
+      "total_value": 52917.6185402238,
+      "exchange_rate": 1501.6,
+      "stock_value": 14194.939999999999,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7127.68,
+          "total_value": 13010.7745071923
+        },
+        "unlimited": {
+          "stock_value": 7067.26,
+          "total_value": 39906.8440330314
+        }
+      }
+    },
+    {
       "date": "2026-05-28 12:00:34",
       "total_value": 52715.4481885988,
       "exchange_rate": 1501.6,
@@ -9323,18 +9339,6 @@
           "stock_value": 8336.55
         }
       }
-    },
-    {
-      "date": "2026-02-17 11:48:22",
-      "total_value": 13989.8926146598,
-      "stock_value": 8442.2,
-      "exchange_rate": 1443.4,
-      "accounts": {
-        "unlimited": {
-          "total_value": 13989.8926146598,
-          "stock_value": 8442.2
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9343,7 +9347,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 95.46,
+      "now_price": 96.32,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9351,7 +9355,7 @@
       "account": "unlimited",
       "avg_price": 225.475,
       "excg": "AMEX",
-      "now_price": 210.16,
+      "now_price": 218.62,
       "qty": 8,
       "symbol": "SOXL"
     },
@@ -9359,21 +9363,21 @@
       "account": "unlimited",
       "avg_price": 75.2194,
       "excg": "NASD",
-      "now_price": 80.73,
+      "now_price": 81.82,
       "qty": 65,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1501.6,
-  "total_value": 52715.4481885988,
+  "total_value": 52917.6185402238,
   "accounts": {
     "turtle": {
-      "stock_value": 7064.04,
-      "total_value": 12947.134389984
+      "stock_value": 7127.68,
+      "total_value": 13010.7745071923
     },
     "unlimited": {
-      "stock_value": 6928.73,
-      "total_value": 39768.3137986148
+      "stock_value": 7067.26,
+      "total_value": 39906.8440330314
     }
   }
 }
