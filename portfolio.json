@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-05-29 13:00:39",
+      "total_value": 53301.11236552,
+      "exchange_rate": 1505.8,
+      "stock_value": 14562.176,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7260.14,
+          "total_value": 13143.2334971444
+        },
+        "unlimited": {
+          "stock_value": 7302.036,
+          "total_value": 40157.8788683756
+        }
+      }
+    },
+    {
       "date": "2026-05-29 12:00:30",
       "total_value": 53303.9892415991,
       "exchange_rate": 1505.8,
@@ -9375,18 +9391,6 @@
           "stock_value": 9711.555
         }
       }
-    },
-    {
-      "date": "2026-02-18 14:28:22",
-      "total_value": 14281.2629901621,
-      "stock_value": 9411.81,
-      "exchange_rate": 1443.4,
-      "accounts": {
-        "unlimited": {
-          "total_value": 14281.2629901621,
-          "stock_value": 9411.81
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9395,7 +9399,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 98.13,
+      "now_price": 98.11,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9403,7 +9407,7 @@
       "account": "unlimited",
       "avg_price": 225.1933,
       "excg": "AMEX",
-      "now_price": 230.0344,
+      "now_price": 230.008,
       "qty": 12,
       "symbol": "SOXL"
     },
@@ -9411,21 +9415,21 @@
       "account": "unlimited",
       "avg_price": 76.0028,
       "excg": "NASD",
-      "now_price": 84.13,
+      "now_price": 84.11,
       "qty": 54,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1505.8,
-  "total_value": 53303.9892415991,
+  "total_value": 53301.11236552,
   "accounts": {
     "turtle": {
-      "stock_value": 7261.62,
-      "total_value": 13144.7137734095
+      "stock_value": 7260.14,
+      "total_value": 13143.2334971444
     },
     "unlimited": {
-      "stock_value": 7303.4328,
-      "total_value": 40159.2754681897
+      "stock_value": 7302.036,
+      "total_value": 40157.8788683756
     }
   }
 }
