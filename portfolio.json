@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-05-29 08:00:59",
+      "total_value": 53219.9767565414,
+      "exchange_rate": 1505.8,
+      "stock_value": 14481.039999999999,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7236.46,
+          "total_value": 13119.5537255944
+        },
+        "unlimited": {
+          "stock_value": 7244.58,
+          "total_value": 40100.423030947
+        }
+      }
+    },
+    {
       "date": "2026-05-28 19:59:35",
       "total_value": 53196.373201918,
       "exchange_rate": 1501.6,
@@ -9355,18 +9371,6 @@
           "stock_value": 9492.0
         }
       }
-    },
-    {
-      "date": "2026-02-17 21:04:29",
-      "total_value": 14194.6930857697,
-      "stock_value": 9325.95,
-      "exchange_rate": 1443.4,
-      "accounts": {
-        "unlimited": {
-          "total_value": 14194.6930857697,
-          "stock_value": 9325.95
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9375,37 +9379,37 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 97.83,
+      "now_price": 97.79,
       "qty": 74,
       "symbol": "QLD"
     },
     "SOXL": {
       "account": "unlimited",
-      "avg_price": 225.475,
+      "avg_price": 225.1933,
       "excg": "AMEX",
-      "now_price": 224.91,
-      "qty": 8,
+      "now_price": 226.93,
+      "qty": 12,
       "symbol": "SOXL"
     },
     "TQQQ": {
       "account": "unlimited",
-      "avg_price": 75.2194,
+      "avg_price": 76.0028,
       "excg": "NASD",
-      "now_price": 83.725,
-      "qty": 49,
+      "now_price": 83.73,
+      "qty": 54,
       "symbol": "TQQQ"
     }
   },
-  "exchange_rate": 1501.6,
-  "total_value": 53196.373201918,
+  "exchange_rate": 1505.8,
+  "total_value": 53219.9767565414,
   "accounts": {
     "turtle": {
-      "stock_value": 7239.42,
-      "total_value": 13122.5146510389
+      "stock_value": 7236.46,
+      "total_value": 13119.5537255944
     },
     "unlimited": {
-      "stock_value": 5901.805,
-      "total_value": 40073.8585508791
+      "stock_value": 7244.58,
+      "total_value": 40100.423030947
     }
   }
 }
