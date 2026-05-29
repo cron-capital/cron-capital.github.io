@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-05-29 10:00:34",
+      "total_value": 53296.5566476292,
+      "exchange_rate": 1505.8,
+      "stock_value": 14557.619999999999,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7254.96,
+          "total_value": 13138.0535263647
+        },
+        "unlimited": {
+          "stock_value": 7302.66,
+          "total_value": 40158.5031212644
+        }
+      }
+    },
+    {
       "date": "2026-05-29 09:00:31",
       "total_value": 53268.05618276,
       "exchange_rate": 1505.8,
@@ -9363,18 +9379,6 @@
           "stock_value": 9469.05
         }
       }
-    },
-    {
-      "date": "2026-02-18 10:57:25",
-      "total_value": 14364.0335319385,
-      "stock_value": 9494.58,
-      "exchange_rate": 1443.4,
-      "accounts": {
-        "unlimited": {
-          "total_value": 14364.0335319385,
-          "stock_value": 9494.58
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9383,7 +9387,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 97.9273,
+      "now_price": 98.04,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9391,7 +9395,7 @@
       "account": "unlimited",
       "avg_price": 225.1933,
       "excg": "AMEX",
-      "now_price": 229.55,
+      "now_price": 230.42,
       "qty": 12,
       "symbol": "SOXL"
     },
@@ -9399,21 +9403,21 @@
       "account": "unlimited",
       "avg_price": 76.0028,
       "excg": "NASD",
-      "now_price": 83.85,
+      "now_price": 84.03,
       "qty": 54,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1505.8,
-  "total_value": 53268.05618276,
+  "total_value": 53296.5566476292,
   "accounts": {
     "turtle": {
-      "stock_value": 7246.6202,
-      "total_value": 13129.7137734095
+      "stock_value": 7254.96,
+      "total_value": 13138.0535263647
     },
     "unlimited": {
-      "stock_value": 7282.5,
-      "total_value": 40138.3424093505
+      "stock_value": 7302.66,
+      "total_value": 40158.5031212644
     }
   }
 }
