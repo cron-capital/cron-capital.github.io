@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-05-29 15:00:33",
+      "total_value": 53278.4015141453,
+      "exchange_rate": 1505.8,
+      "stock_value": 13440.4146,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7277.16,
+          "total_value": 13160.2536857484
+        },
+        "unlimited": {
+          "stock_value": 6163.2546,
+          "total_value": 40118.1478283969
+        }
+      }
+    },
+    {
       "date": "2026-05-29 14:00:36",
       "total_value": 53534.4766901315,
       "exchange_rate": 1505.8,
@@ -9383,18 +9399,6 @@
           "stock_value": 9733.418399999999
         }
       }
-    },
-    {
-      "date": "2026-02-18 16:39:46",
-      "total_value": 14630.1032284883,
-      "stock_value": 9760.65,
-      "exchange_rate": 1443.4,
-      "accounts": {
-        "unlimited": {
-          "total_value": 14630.1032284883,
-          "stock_value": 9760.65
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9403,7 +9407,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 99.25,
+      "now_price": 98.34,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9411,7 +9415,7 @@
       "account": "unlimited",
       "avg_price": 225.1933,
       "excg": "AMEX",
-      "now_price": 237.31,
+      "now_price": 225.3438,
       "qty": 12,
       "symbol": "SOXL"
     },
@@ -9419,21 +9423,21 @@
       "account": "unlimited",
       "avg_price": 76.0028,
       "excg": "NASD",
-      "now_price": 85.47,
+      "now_price": 84.369,
       "qty": 41,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1505.8,
-  "total_value": 53534.4766901315,
+  "total_value": 53278.4015141453,
   "accounts": {
     "turtle": {
-      "stock_value": 7344.5,
-      "total_value": 13227.5939699827
+      "stock_value": 7277.16,
+      "total_value": 13160.2536857484
     },
     "unlimited": {
-      "stock_value": 6351.99,
-      "total_value": 40306.8827201488
+      "stock_value": 6163.2546,
+      "total_value": 40118.1478283969
     }
   }
 }
