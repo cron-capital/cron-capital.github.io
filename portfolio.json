@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-01 11:00:33",
+      "total_value": 53376.3517828632,
+      "exchange_rate": 1503.2,
+      "stock_value": 14858.5348,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7333.4148,
+          "total_value": 13216.5087812666
+        },
+        "unlimited": {
+          "stock_value": 7525.12,
+          "total_value": 40159.8430015966
+        }
+      }
+    },
+    {
       "date": "2026-06-01 10:00:35",
       "total_value": 53342.856572645,
       "exchange_rate": 1503.2,
@@ -9419,18 +9435,6 @@
           "stock_value": 10105.7254
         }
       }
-    },
-    {
-      "date": "2026-02-19 14:31:51",
-      "total_value": 14290.1773958839,
-      "stock_value": 10115.2049,
-      "exchange_rate": 1443.1,
-      "accounts": {
-        "unlimited": {
-          "total_value": 14290.1773958839,
-          "stock_value": 10115.2049
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9439,7 +9443,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 98.95,
+      "now_price": 99.1002,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9447,7 +9451,7 @@
       "account": "unlimited",
       "avg_price": 224.98,
       "excg": "AMEX",
-      "now_price": 224,
+      "now_price": 224.91,
       "qty": 16,
       "symbol": "SOXL"
     },
@@ -9455,21 +9459,21 @@
       "account": "unlimited",
       "avg_price": 76.9329,
       "excg": "NASD",
-      "now_price": 85.19,
+      "now_price": 85.36,
       "qty": 46,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1503.2,
-  "total_value": 53342.856572645,
+  "total_value": 53376.3517828632,
   "accounts": {
     "turtle": {
-      "stock_value": 7322.3,
-      "total_value": 13205.3938265035
+      "stock_value": 7333.4148,
+      "total_value": 13216.5087812666
     },
     "unlimited": {
-      "stock_value": 7502.74,
-      "total_value": 40137.4627461416
+      "stock_value": 7525.12,
+      "total_value": 40159.8430015966
     }
   }
 }
