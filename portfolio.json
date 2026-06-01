@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-01 15:00:40",
+      "total_value": 53310.2468068121,
+      "exchange_rate": 1503.2,
+      "stock_value": 14792.43,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7313.05,
+          "total_value": 13196.1435604045
+        },
+        "unlimited": {
+          "stock_value": 7479.38,
+          "total_value": 40114.1032464077
+        }
+      }
+    },
+    {
       "date": "2026-06-01 14:00:43",
       "total_value": 53024.0373869079,
       "exchange_rate": 1503.2,
@@ -9435,18 +9451,6 @@
           "stock_value": 9986.595
         }
       }
-    },
-    {
-      "date": "2026-02-19 19:24:46",
-      "total_value": 14230.5474326104,
-      "stock_value": 10055.574999999999,
-      "exchange_rate": 1443.1,
-      "accounts": {
-        "unlimited": {
-          "total_value": 14230.5474326104,
-          "stock_value": 10055.574999999999
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9455,7 +9459,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 98.1,
+      "now_price": 98.825,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9463,7 +9467,7 @@
       "account": "unlimited",
       "avg_price": 224.98,
       "excg": "AMEX",
-      "now_price": 211.8,
+      "now_price": 223,
       "qty": 16,
       "symbol": "SOXL"
     },
@@ -9471,21 +9475,21 @@
       "account": "unlimited",
       "avg_price": 76.9329,
       "excg": "NASD",
-      "now_price": 83.87,
+      "now_price": 85.03,
       "qty": 46,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1503.2,
-  "total_value": 53024.0373869079,
+  "total_value": 53310.2468068121,
   "accounts": {
     "turtle": {
-      "stock_value": 7259.4,
-      "total_value": 13142.4940127728
+      "stock_value": 7313.05,
+      "total_value": 13196.1435604045
     },
     "unlimited": {
-      "stock_value": 7246.82,
-      "total_value": 39881.5433741352
+      "stock_value": 7479.38,
+      "total_value": 40114.1032464077
     }
   }
 }
