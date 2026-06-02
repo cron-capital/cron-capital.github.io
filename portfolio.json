@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-02 14:00:41",
+      "total_value": 53948.0970025806,
+      "exchange_rate": 1511.3,
+      "stock_value": 15141.150000000001,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7380.02,
+          "total_value": 13263.1138754714
+        },
+        "unlimited": {
+          "stock_value": 7761.13,
+          "total_value": 40684.9831271091
+        }
+      }
+    },
+    {
       "date": "2026-06-02 13:00:36",
       "total_value": 53718.7189836565,
       "exchange_rate": 1511.3,
@@ -9483,18 +9499,6 @@
           "stock_value": 11078.95
         }
       }
-    },
-    {
-      "date": "2026-02-20 18:04:53",
-      "total_value": 14492.2947542566,
-      "stock_value": 11003.0127,
-      "exchange_rate": 1450.7,
-      "accounts": {
-        "unlimited": {
-          "total_value": 14492.2947542566,
-          "stock_value": 11003.0127
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9503,7 +9507,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 99.36,
+      "now_price": 99.73,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9511,7 +9515,7 @@
       "account": "unlimited",
       "avg_price": 225.1005,
       "excg": "AMEX",
-      "now_price": 243.0078,
+      "now_price": 253.49,
       "qty": 17,
       "symbol": "SOXL"
     },
@@ -9519,21 +9523,21 @@
       "account": "unlimited",
       "avg_price": 78.0713,
       "excg": "NASD",
-      "now_price": 85.7,
+      "now_price": 86.295,
       "qty": 40,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1511.3,
-  "total_value": 53718.7189836565,
+  "total_value": 53948.0970025806,
   "accounts": {
     "turtle": {
-      "stock_value": 7352.64,
-      "total_value": 13235.7334744922
+      "stock_value": 7380.02,
+      "total_value": 13263.1138754714
     },
     "unlimited": {
-      "stock_value": 7559.1326,
-      "total_value": 40482.9855091643
+      "stock_value": 7761.13,
+      "total_value": 40684.9831271091
     }
   }
 }
