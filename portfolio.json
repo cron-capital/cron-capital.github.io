@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-03 10:00:37",
+      "total_value": 54310.3665718256,
+      "exchange_rate": 1511.3,
+      "stock_value": 12224.64,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7452.54,
+          "total_value": 13335.6335605108
+        },
+        "unlimited": {
+          "stock_value": 4772.1,
+          "total_value": 40974.7330113148
+        }
+      }
+    },
+    {
       "date": "2026-06-03 09:00:36",
       "total_value": 54288.0817838947,
       "exchange_rate": 1511.3,
@@ -9519,18 +9535,6 @@
           "stock_value": 11349.4708
         }
       }
-    },
-    {
-      "date": "2026-02-23 14:55:31",
-      "total_value": 14419.1164492303,
-      "stock_value": 11583.323,
-      "exchange_rate": 1448.7,
-      "accounts": {
-        "unlimited": {
-          "total_value": 14419.1164492303,
-          "stock_value": 11583.323
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9539,7 +9543,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 100.6,
+      "now_price": 100.71,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9547,7 +9551,7 @@
       "account": "unlimited",
       "avg_price": 274.95,
       "excg": "AMEX",
-      "now_price": 276.32,
+      "now_price": 278.8,
       "qty": 3,
       "symbol": "SOXL"
     },
@@ -9555,21 +9559,21 @@
       "account": "unlimited",
       "avg_price": 79.0878,
       "excg": "NASD",
-      "now_price": 87.311,
+      "now_price": 87.46,
       "qty": 45,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1511.3,
-  "total_value": 54288.0817838947,
+  "total_value": 54310.3665718256,
   "accounts": {
     "turtle": {
-      "stock_value": 7444.4,
-      "total_value": 13327.4935486005
+      "stock_value": 7452.54,
+      "total_value": 13335.6335605108
     },
     "unlimited": {
-      "stock_value": 4757.955,
-      "total_value": 40960.5882352941
+      "stock_value": 4772.1,
+      "total_value": 40974.7330113148
     }
   }
 }
