@@ -467,7 +467,7 @@
 
             const labels = sampled.map(h => h.date.substring(5, 10));
 
-            let totalValues, stockValues;
+            let totalValues, stockValues, seedLine;
 
             if (currentTab === 'total') {
                 totalValues = sampled.map(h => h.total_value);
@@ -479,6 +479,8 @@
                 totalValues = sampled.map(h => h.accounts?.turtle?.total_value ?? 0);
                 stockValues = sampled.map(h => h.accounts?.turtle?.stock_value ?? 0);
             }
+
+            seedLine = sampled.map(h => getCumulativeSeed(h.date));
 
             const ctx = document.getElementById('historyChart').getContext('2d');
             chartInstance = new Chart(ctx, {
@@ -506,35 +508,45 @@
                             pointRadius: 1,
                             pointBackgroundColor: '#e63946'
                         },
-                        ...(() => {
-                            const seedLine = [];
-                            for (let i = 0; i < sampled.length; i++) {
-                                seedLine.push(getCumulativeSeed(sampled[i].date));
-                            }
-                            return seedLine.some(v => v > 0) ? [{
-                                label: 'Seed',
-                                data: seedLine,
-                                borderColor: '#333',
-                                backgroundColor: '#fff',
-                                borderDash: [6, 3],
-                                pointRadius: 0,
-                                fill: false,
-                                borderWidth: 2,
-                                stepped: 'before',
-                                pointHitRadius: 0
-                            }] : [];
-                        })()
+                        ...(seedLine.some(v => v > 0) ? [{
+                            label: 'Seed',
+                            data: seedLine,
+                            borderColor: '#333',
+                            backgroundColor: '#fff',
+                            borderDash: [6, 3],
+                            pointRadius: 0,
+                            fill: false,
+                            borderWidth: 2,
+                            stepped: 'before',
+                            pointHitRadius: 0
+                        }] : [])
                     ]
                 },
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    },
                     plugins: {
                         legend: {
                             position: 'top',
                             labels: {
                                 boxWidth: 12,
                                 padding: 12,
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                afterBody: function(items) {
+                                    if (!items || !items.length) return;
+                                    var seedVal = seedLine[items[0].dataIndex];
+                                    if (!seedVal) return;
+                                    var diff = items[0].parsed.y - seedVal;
+                                    var sign = diff >= 0 ? '+' : '-';
+                                    return 'Profit/Loss: ' + sign + '$' + Math.round(Math.abs(diff)).toLocaleString();
+                                }
                             }
                         }
                     },
