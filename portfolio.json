@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-03 11:00:36",
+      "total_value": 54344.5159796202,
+      "exchange_rate": 1511.3,
+      "stock_value": 12258.789999999999,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7467.34,
+          "total_value": 13350.4334017071
+        },
+        "unlimited": {
+          "stock_value": 4791.45,
+          "total_value": 40994.0825779131
+        }
+      }
+    },
+    {
       "date": "2026-06-03 10:00:37",
       "total_value": 54310.3665718256,
       "exchange_rate": 1511.3,
@@ -9523,18 +9539,6 @@
           "stock_value": 11268.81
         }
       }
-    },
-    {
-      "date": "2026-02-23 15:54:33",
-      "total_value": 14185.2640298198,
-      "stock_value": 11349.4708,
-      "exchange_rate": 1448.7,
-      "accounts": {
-        "unlimited": {
-          "total_value": 14185.2640298198,
-          "stock_value": 11349.4708
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9543,7 +9547,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 100.71,
+      "now_price": 100.91,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9551,7 +9555,7 @@
       "account": "unlimited",
       "avg_price": 274.95,
       "excg": "AMEX",
-      "now_price": 278.8,
+      "now_price": 281.35,
       "qty": 3,
       "symbol": "SOXL"
     },
@@ -9559,21 +9563,21 @@
       "account": "unlimited",
       "avg_price": 79.0878,
       "excg": "NASD",
-      "now_price": 87.46,
+      "now_price": 87.72,
       "qty": 45,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1511.3,
-  "total_value": 54310.3665718256,
+  "total_value": 54344.5159796202,
   "accounts": {
     "turtle": {
-      "stock_value": 7452.54,
-      "total_value": 13335.6335605108
+      "stock_value": 7467.34,
+      "total_value": 13350.4334017071
     },
     "unlimited": {
-      "stock_value": 4772.1,
-      "total_value": 40974.7330113148
+      "stock_value": 4791.45,
+      "total_value": 40994.0825779131
     }
   }
 }
