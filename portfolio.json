@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-04 10:00:35",
+      "total_value": 53827.9612034838,
+      "exchange_rate": 1515.6,
+      "stock_value": 12454.8232,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7256.44,
+          "total_value": 13139.5341778833
+        },
+        "unlimited": {
+          "stock_value": 5198.3832,
+          "total_value": 40688.4270256004
+        }
+      }
+    },
+    {
       "date": "2026-06-04 09:00:38",
       "total_value": 53837.4373185537,
       "exchange_rate": 1515.6,
@@ -9571,18 +9587,6 @@
           "stock_value": 12469.9632
         }
       }
-    },
-    {
-      "date": "2026-02-24 17:12:17",
-      "total_value": 20960.3689320388,
-      "stock_value": 12593.64,
-      "exchange_rate": 1442,
-      "accounts": {
-        "unlimited": {
-          "total_value": 20960.3689320388,
-          "stock_value": 12593.64
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9591,7 +9595,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 98.03,
+      "now_price": 98.06,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9599,7 +9603,7 @@
       "account": "unlimited",
       "avg_price": 276.3475,
       "excg": "AMEX",
-      "now_price": 252.395,
+      "now_price": 250.2208,
       "qty": 4,
       "symbol": "SOXL"
     },
@@ -9607,21 +9611,21 @@
       "account": "unlimited",
       "avg_price": 79.835,
       "excg": "NASD",
-      "now_price": 84.01,
+      "now_price": 83.95,
       "qty": 50,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1515.6,
-  "total_value": 53837.4373185537,
+  "total_value": 53827.9612034838,
   "accounts": {
     "turtle": {
-      "stock_value": 7254.22,
-      "total_value": 13137.3139350752
+      "stock_value": 7256.44,
+      "total_value": 13139.5341778833
     },
     "unlimited": {
-      "stock_value": 5210.08,
-      "total_value": 40700.1233834785
+      "stock_value": 5198.3832,
+      "total_value": 40688.4270256004
     }
   }
 }
