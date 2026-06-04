@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-04 14:00:40",
+      "total_value": 53695.6076801267,
+      "exchange_rate": 1515.6,
+      "stock_value": 12322.4704,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7213.52,
+          "total_value": 13096.6138822908
+        },
+        "unlimited": {
+          "stock_value": 5108.9504,
+          "total_value": 40598.9937978358
+        }
+      }
+    },
+    {
       "date": "2026-06-04 13:00:49",
       "total_value": 53789.9577724993,
       "exchange_rate": 1515.6,
@@ -9587,18 +9603,6 @@
           "stock_value": 13300.52
         }
       }
-    },
-    {
-      "date": "2026-02-25 09:58:25",
-      "total_value": 20966.8176787937,
-      "stock_value": 13305.23,
-      "exchange_rate": 1445.8,
-      "accounts": {
-        "unlimited": {
-          "total_value": 20966.8176787937,
-          "stock_value": 13305.23
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9607,7 +9611,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 97.88,
+      "now_price": 97.48,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9615,7 +9619,7 @@
       "account": "unlimited",
       "avg_price": 276.3475,
       "excg": "AMEX",
-      "now_price": 246.8,
+      "now_price": 235.3001,
       "qty": 4,
       "symbol": "SOXL"
     },
@@ -9623,21 +9627,21 @@
       "account": "unlimited",
       "avg_price": 79.835,
       "excg": "NASD",
-      "now_price": 83.73,
+      "now_price": 83.355,
       "qty": 50,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1515.6,
-  "total_value": 53789.9577724993,
+  "total_value": 53695.6076801267,
   "accounts": {
     "turtle": {
-      "stock_value": 7243.12,
-      "total_value": 13126.214040644
+      "stock_value": 7213.52,
+      "total_value": 13096.6138822908
     },
     "unlimited": {
-      "stock_value": 5173.7,
-      "total_value": 40663.7437318554
+      "stock_value": 5108.9504,
+      "total_value": 40598.9937978358
     }
   }
 }
