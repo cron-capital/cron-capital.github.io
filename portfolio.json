@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-04 17:00:47",
+      "total_value": 54003.7721034574,
+      "exchange_rate": 1515.6,
+      "stock_value": 12630.6348,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7320.82,
+          "total_value": 13203.9139614674
+        },
+        "unlimited": {
+          "stock_value": 5309.8148,
+          "total_value": 40799.85814199
+        }
+      }
+    },
+    {
       "date": "2026-06-04 16:00:44",
       "total_value": 53922.4175244128,
       "exchange_rate": 1515.6,
@@ -9599,18 +9615,6 @@
           "stock_value": 13431.695199999998
         }
       }
-    },
-    {
-      "date": "2026-02-25 13:05:40",
-      "total_value": 21081.329367824,
-      "stock_value": 13419.7415,
-      "exchange_rate": 1445.8,
-      "accounts": {
-        "unlimited": {
-          "total_value": 21081.329367824,
-          "stock_value": 13419.7415
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9619,7 +9623,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 98.58,
+      "now_price": 98.93,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9627,7 +9631,7 @@
       "account": "unlimited",
       "avg_price": 276.3475,
       "excg": "AMEX",
-      "now_price": 255.34,
+      "now_price": 263.0162,
       "qty": 4,
       "symbol": "SOXL"
     },
@@ -9635,21 +9639,21 @@
       "account": "unlimited",
       "avg_price": 79.835,
       "excg": "NASD",
-      "now_price": 84.66,
+      "now_price": 85.155,
       "qty": 50,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1515.6,
-  "total_value": 53922.4175244128,
+  "total_value": 54003.7721034574,
   "accounts": {
     "turtle": {
-      "stock_value": 7294.92,
-      "total_value": 13178.0139878596
+      "stock_value": 7320.82,
+      "total_value": 13203.9139614674
     },
     "unlimited": {
-      "stock_value": 5254.36,
-      "total_value": 40744.4035365532
+      "stock_value": 5309.8148,
+      "total_value": 40799.85814199
     }
   }
 }
