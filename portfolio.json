@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-04 19:59:36",
+      "total_value": 54025.4381103193,
+      "exchange_rate": 1515.6,
+      "stock_value": 12652.3,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7331.55,
+          "total_value": 13214.6443652679
+        },
+        "unlimited": {
+          "stock_value": 5320.75,
+          "total_value": 40810.7937450515
+        }
+      }
+    },
+    {
       "date": "2026-06-04 19:00:33",
       "total_value": 54103.3683029823,
       "exchange_rate": 1515.6,
@@ -9611,18 +9627,6 @@
           "stock_value": 10286.8824
         }
       }
-    },
-    {
-      "date": "2026-02-25 14:52:53",
-      "total_value": 21332.6870936506,
-      "stock_value": 10363.079600000001,
-      "exchange_rate": 1445.8,
-      "accounts": {
-        "unlimited": {
-          "total_value": 21332.6870936506,
-          "stock_value": 10363.079600000001
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9631,7 +9635,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 99.515,
+      "now_price": 99.075,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9639,7 +9643,7 @@
       "account": "unlimited",
       "avg_price": 276.3475,
       "excg": "AMEX",
-      "now_price": 267.78,
+      "now_price": 263.2,
       "qty": 4,
       "symbol": "SOXL"
     },
@@ -9647,21 +9651,21 @@
       "account": "unlimited",
       "avg_price": 79.835,
       "excg": "NASD",
-      "now_price": 85.9,
+      "now_price": 85.359,
       "qty": 50,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1515.6,
-  "total_value": 54103.3683029823,
+  "total_value": 54025.4381103193,
   "accounts": {
     "turtle": {
-      "stock_value": 7364.11,
-      "total_value": 13247.2044074954
+      "stock_value": 7331.55,
+      "total_value": 13214.6443652679
     },
     "unlimited": {
-      "stock_value": 5366.12,
-      "total_value": 40856.1638954869
+      "stock_value": 5320.75,
+      "total_value": 40810.7937450515
     }
   }
 }
