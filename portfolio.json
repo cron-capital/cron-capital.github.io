@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-05 11:00:35",
+      "total_value": 53600.9878320031,
+      "exchange_rate": 1528.6,
+      "stock_value": 13444.741,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7191.32,
+          "total_value": 13074.4138427319
+        },
+        "unlimited": {
+          "stock_value": 6253.421,
+          "total_value": 40526.5739892712
+        }
+      }
+    },
+    {
       "date": "2026-06-05 10:00:36",
       "total_value": 53604.7572942562,
       "exchange_rate": 1528.6,
@@ -9627,18 +9643,6 @@
           "stock_value": 10399.86
         }
       }
-    },
-    {
-      "date": "2026-02-25 20:39:08",
-      "total_value": 21363.9272375156,
-      "stock_value": 10394.32,
-      "exchange_rate": 1445.8,
-      "accounts": {
-        "unlimited": {
-          "total_value": 21363.9272375156,
-          "stock_value": 10394.32
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9647,7 +9651,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 97.2,
+      "now_price": 97.18,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9655,7 +9659,7 @@
       "account": "unlimited",
       "avg_price": 270.4985,
       "excg": "AMEX",
-      "now_price": 242.63,
+      "now_price": 242.38,
       "qty": 7,
       "symbol": "SOXL"
     },
@@ -9663,21 +9667,21 @@
       "account": "unlimited",
       "avg_price": 80.3246,
       "excg": "NASD",
-      "now_price": 82.86,
+      "now_price": 82.8502,
       "qty": 55,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1528.6,
-  "total_value": 53604.7572942562,
+  "total_value": 53600.9878320031,
   "accounts": {
     "turtle": {
-      "stock_value": 7192.8,
-      "total_value": 13075.8942823499
+      "stock_value": 7191.32,
+      "total_value": 13074.4138427319
     },
     "unlimited": {
-      "stock_value": 6255.71,
-      "total_value": 40528.8630119063
+      "stock_value": 6253.421,
+      "total_value": 40526.5739892712
     }
   }
 }
