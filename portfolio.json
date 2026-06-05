@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-05 12:00:35",
+      "total_value": 53524.4066466047,
+      "exchange_rate": 1528.6,
+      "stock_value": 13368.1597,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7167.64,
+          "total_value": 13050.7340049719
+        },
+        "unlimited": {
+          "stock_value": 6200.5197,
+          "total_value": 40473.6726416329
+        }
+      }
+    },
+    {
       "date": "2026-06-05 11:00:35",
       "total_value": 53600.9878320031,
       "exchange_rate": 1528.6,
@@ -9631,18 +9647,6 @@
           "stock_value": 9574.06
         }
       }
-    },
-    {
-      "date": "2026-02-25 21:37:56",
-      "total_value": 21370.7788075806,
-      "stock_value": 10399.86,
-      "exchange_rate": 1445.8,
-      "accounts": {
-        "unlimited": {
-          "total_value": 21370.7788075806,
-          "stock_value": 10399.86
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9651,7 +9655,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 97.18,
+      "now_price": 96.86,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9659,7 +9663,7 @@
       "account": "unlimited",
       "avg_price": 270.4985,
       "excg": "AMEX",
-      "now_price": 242.38,
+      "now_price": 237.8901,
       "qty": 7,
       "symbol": "SOXL"
     },
@@ -9667,21 +9671,21 @@
       "account": "unlimited",
       "avg_price": 80.3246,
       "excg": "NASD",
-      "now_price": 82.8502,
+      "now_price": 82.4598,
       "qty": 55,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1528.6,
-  "total_value": 53600.9878320031,
+  "total_value": 53524.4066466047,
   "accounts": {
     "turtle": {
-      "stock_value": 7191.32,
-      "total_value": 13074.4138427319
+      "stock_value": 7167.64,
+      "total_value": 13050.7340049719
     },
     "unlimited": {
-      "stock_value": 6253.421,
-      "total_value": 40526.5739892712
+      "stock_value": 6200.5197,
+      "total_value": 40473.6726416329
     }
   }
 }
