@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-05 09:00:35",
+      "total_value": 53555.1177548083,
+      "exchange_rate": 1528.6,
+      "stock_value": 13398.8705,
+      "accounts": {
+        "turtle": {
+          "stock_value": 7176.52,
+          "total_value": 13059.6140259061
+        },
+        "unlimited": {
+          "stock_value": 6222.3505,
+          "total_value": 40495.5037289023
+        }
+      }
+    },
+    {
       "date": "2026-06-05 08:01:02",
       "total_value": 53544.2574905142,
       "exchange_rate": 1528.6,
@@ -9619,18 +9635,6 @@
           "stock_value": 10394.37
         }
       }
-    },
-    {
-      "date": "2026-02-25 18:00:01",
-      "total_value": 21347.0770507677,
-      "stock_value": 10377.469000000001,
-      "exchange_rate": 1445.8,
-      "accounts": {
-        "unlimited": {
-          "total_value": 21347.0770507677,
-          "stock_value": 10377.469000000001
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9639,7 +9643,7 @@
       "account": "turtle",
       "avg_price": 96.1978,
       "excg": "AMEX",
-      "now_price": 96.87,
+      "now_price": 96.98,
       "qty": 74,
       "symbol": "QLD"
     },
@@ -9647,7 +9651,7 @@
       "account": "unlimited",
       "avg_price": 270.4985,
       "excg": "AMEX",
-      "now_price": 241.09,
+      "now_price": 240.15,
       "qty": 7,
       "symbol": "SOXL"
     },
@@ -9655,21 +9659,21 @@
       "account": "unlimited",
       "avg_price": 80.3246,
       "excg": "NASD",
-      "now_price": 82.4,
+      "now_price": 82.5691,
       "qty": 55,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1528.6,
-  "total_value": 53544.2574905142,
+  "total_value": 53555.1177548083,
   "accounts": {
     "turtle": {
-      "stock_value": 7168.38,
-      "total_value": 13051.4738976842
+      "stock_value": 7176.52,
+      "total_value": 13059.6140259061
     },
     "unlimited": {
-      "stock_value": 6219.63,
-      "total_value": 40492.78359283
+      "stock_value": 6222.3505,
+      "total_value": 40495.5037289023
     }
   }
 }
