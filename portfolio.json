@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-09 16:00:48",
+      "total_value": 51940.1823472357,
+      "exchange_rate": 1546.5,
+      "stock_value": 9877.165,
+      "accounts": {
+        "turtle": {
+          "stock_value": 1665.66,
+          "total_value": 12737.1244746201
+        },
+        "unlimited": {
+          "stock_value": 8211.505,
+          "total_value": 39203.0578726156
+        }
+      }
+    },
+    {
       "date": "2026-06-09 15:00:44",
       "total_value": 52605.4872292273,
       "exchange_rate": 1546.5,
@@ -9723,18 +9739,6 @@
           "stock_value": 9965.970000000001
         }
       }
-    },
-    {
-      "date": "2026-03-02 10:46:59",
-      "total_value": 27239.2453492453,
-      "stock_value": 9964.92,
-      "exchange_rate": 1424.5,
-      "accounts": {
-        "unlimited": {
-          "total_value": 27239.2453492453,
-          "stock_value": 9964.92
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9743,7 +9747,7 @@
       "account": "turtle",
       "avg_price": 23.8599,
       "excg": "AMEX",
-      "now_price": 23.84,
+      "now_price": 24.14,
       "qty": 69,
       "symbol": "GLL"
     },
@@ -9751,7 +9755,7 @@
       "account": "unlimited",
       "avg_price": 232.7121,
       "excg": "AMEX",
-      "now_price": 203.98,
+      "now_price": 179.135,
       "qty": 14,
       "symbol": "SOXL"
     },
@@ -9759,21 +9763,21 @@
       "account": "unlimited",
       "avg_price": 78.5063,
       "excg": "NASD",
-      "now_price": 74.59,
+      "now_price": 70.415,
       "qty": 81,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1546.5,
-  "total_value": 52605.4872292273,
+  "total_value": 51940.1823472357,
   "accounts": {
     "turtle": {
-      "stock_value": 1644.96,
-      "total_value": 12716.4241836405
+      "stock_value": 1665.66,
+      "total_value": 12737.1244746201
     },
     "unlimited": {
-      "stock_value": 8897.51,
-      "total_value": 39889.0630455868
+      "stock_value": 8211.505,
+      "total_value": 39203.0578726156
     }
   }
 }
