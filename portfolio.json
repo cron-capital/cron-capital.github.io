@@ -1153,30 +1153,6 @@
       }
     },
     {
-      "date": "2026-06-05 14:00:36",
-      "total_value": 40130.6633520869,
-      "exchange_rate": 1528.6,
-      "stock_value": 5857.51,
-      "accounts": {
-        "unlimited": {
-          "stock_value": 5857.51,
-          "total_value": 40130.6633520869
-        }
-      }
-    },
-    {
-      "date": "2026-06-05 13:00:32",
-      "total_value": 40400.7379301321,
-      "exchange_rate": 1528.6,
-      "stock_value": 6127.585,
-      "accounts": {
-        "unlimited": {
-          "stock_value": 6127.585,
-          "total_value": 40400.7379301321
-        }
-      }
-    },
-    {
       "date": "2026-06-05 12:00:35",
       "total_value": 53524.4066466047,
       "exchange_rate": 1528.6,
