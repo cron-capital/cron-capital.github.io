@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-16 09:00:49",
+      "total_value": 54820.0152317881,
+      "exchange_rate": 1510,
+      "stock_value": 11384.937999999998,
+      "accounts": {
+        "turtle": {
+          "stock_value": 4425.1,
+          "total_value": 12227.1437086093
+        },
+        "unlimited": {
+          "stock_value": 6959.838,
+          "total_value": 42592.8715231788
+        }
+      }
+    },
+    {
       "date": "2026-06-16 08:01:16",
       "total_value": 54734.6569536424,
       "exchange_rate": 1510,
@@ -9943,18 +9959,6 @@
           "stock_value": 13501.7072
         }
       }
-    },
-    {
-      "date": "2026-03-06 11:31:51",
-      "total_value": 27162.9461175989,
-      "stock_value": 13692.650000000001,
-      "exchange_rate": 1464.3,
-      "accounts": {
-        "unlimited": {
-          "total_value": 27162.9461175989,
-          "stock_value": 13692.650000000001
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -9963,7 +9967,7 @@
       "account": "unlimited",
       "avg_price": 269.2,
       "excg": "AMEX",
-      "now_price": 269.16,
+      "now_price": 278.05,
       "qty": 3,
       "symbol": "SOXL"
     },
@@ -9971,7 +9975,7 @@
       "account": "unlimited",
       "avg_price": 76.696,
       "excg": "NASD",
-      "now_price": 84.34,
+      "now_price": 85.079,
       "qty": 72,
       "symbol": "TQQQ"
     },
@@ -9979,21 +9983,21 @@
       "account": "turtle",
       "avg_price": 16.2799,
       "excg": "AMEX",
-      "now_price": 16.13,
+      "now_price": 16.15,
       "qty": 274,
       "symbol": "UBT"
     }
   },
   "exchange_rate": 1510,
-  "total_value": 54734.6569536424,
+  "total_value": 54820.0152317881,
   "accounts": {
     "turtle": {
-      "stock_value": 4419.62,
-      "total_value": 12221.6635761589
+      "stock_value": 4425.1,
+      "total_value": 12227.1437086093
     },
     "unlimited": {
-      "stock_value": 6879.96,
-      "total_value": 42512.9933774834
+      "stock_value": 6959.838,
+      "total_value": 42592.8715231788
     }
   }
 }
