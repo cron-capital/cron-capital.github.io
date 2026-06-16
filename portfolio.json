@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-16 08:01:16",
+      "total_value": 54734.6569536424,
+      "exchange_rate": 1510,
+      "stock_value": 11299.580000000002,
+      "accounts": {
+        "turtle": {
+          "stock_value": 4419.62,
+          "total_value": 12221.6635761589
+        },
+        "unlimited": {
+          "stock_value": 6879.96,
+          "total_value": 42512.9933774834
+        }
+      }
+    },
+    {
       "date": "2026-06-15 19:59:43",
       "total_value": 54731.6574585635,
       "exchange_rate": 1520.4,
@@ -9939,49 +9955,45 @@
           "stock_value": 13692.650000000001
         }
       }
-    },
-    {
-      "date": "2026-03-06 10:38:29",
-      "total_value": 27197.3762207198,
-      "stock_value": 13727.08,
-      "exchange_rate": 1464.3,
-      "accounts": {
-        "unlimited": {
-          "total_value": 27197.3762207198,
-          "stock_value": 13727.08
-        }
-      }
     }
   ],
   "max_length": 720,
   "stocks": {
+    "SOXL": {
+      "account": "unlimited",
+      "avg_price": 269.2,
+      "excg": "AMEX",
+      "now_price": 269.16,
+      "qty": 3,
+      "symbol": "SOXL"
+    },
     "TQQQ": {
       "account": "unlimited",
       "avg_price": 76.696,
       "excg": "NASD",
-      "now_price": 84.47,
-      "qty": 96,
+      "now_price": 84.34,
+      "qty": 72,
       "symbol": "TQQQ"
     },
     "UBT": {
       "account": "turtle",
       "avg_price": 16.2799,
       "excg": "AMEX",
-      "now_price": 16.17,
+      "now_price": 16.13,
       "qty": 274,
       "symbol": "UBT"
     }
   },
-  "exchange_rate": 1520.4,
-  "total_value": 54731.6574585635,
+  "exchange_rate": 1510,
+  "total_value": 54734.6569536424,
   "accounts": {
     "turtle": {
-      "stock_value": 4430.58,
-      "total_value": 12216.7936069455
+      "stock_value": 4419.62,
+      "total_value": 12221.6635761589
     },
     "unlimited": {
-      "stock_value": 8109.12,
-      "total_value": 42514.863851618
+      "stock_value": 6879.96,
+      "total_value": 42512.9933774834
     }
   }
 }
