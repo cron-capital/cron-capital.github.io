@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-17 18:23:55",
+      "total_value": 54463.3062438058,
+      "exchange_rate": 1513.5,
+      "stock_value": 12327.36,
+      "accounts": {
+        "turtle": {
+          "stock_value": 4471.68,
+          "total_value": 12273.7238189627
+        },
+        "unlimited": {
+          "stock_value": 7855.68,
+          "total_value": 42189.5824248431
+        }
+      }
+    },
+    {
       "date": "2026-06-17 17:00:43",
       "total_value": 54580.0673934589,
       "exchange_rate": 1513.5,
@@ -10011,18 +10027,6 @@
           "stock_value": 13940.7698
         }
       }
-    },
-    {
-      "date": "2026-03-09 17:00:04",
-      "total_value": 26635.3618175653,
-      "stock_value": 14115.595,
-      "exchange_rate": 1474.5,
-      "accounts": {
-        "unlimited": {
-          "total_value": 26635.3618175653,
-          "stock_value": 14115.595
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -10031,7 +10035,7 @@
       "account": "unlimited",
       "avg_price": 244.6228,
       "excg": "AMEX",
-      "now_price": 247,
+      "now_price": 245.1,
       "qty": 7,
       "symbol": "SOXL"
     },
@@ -10039,7 +10043,7 @@
       "account": "unlimited",
       "avg_price": 76.906,
       "excg": "NASD",
-      "now_price": 80.71,
+      "now_price": 79.74,
       "qty": 77,
       "symbol": "TQQQ"
     },
@@ -10047,21 +10051,21 @@
       "account": "turtle",
       "avg_price": 16.2799,
       "excg": "AMEX",
-      "now_price": 16.425,
+      "now_price": 16.32,
       "qty": 274,
       "symbol": "UBT"
     }
   },
   "exchange_rate": 1513.5,
-  "total_value": 54580.0673934589,
+  "total_value": 54463.3062438058,
   "accounts": {
     "turtle": {
-      "stock_value": 4500.45,
-      "total_value": 12302.4942186984
+      "stock_value": 4471.68,
+      "total_value": 12273.7238189627
     },
     "unlimited": {
-      "stock_value": 7943.67,
-      "total_value": 42277.5731747605
+      "stock_value": 7855.68,
+      "total_value": 42189.5824248431
     }
   }
 }
