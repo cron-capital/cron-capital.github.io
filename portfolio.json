@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-18 11:00:43",
+      "total_value": 54855.3681914331,
+      "exchange_rate": 1512.8,
+      "stock_value": 14045.83,
+      "accounts": {
+        "turtle": {
+          "stock_value": 4540.18,
+          "total_value": 12342.2243521946
+        },
+        "unlimited": {
+          "stock_value": 9505.65,
+          "total_value": 42513.1438392385
+        }
+      }
+    },
+    {
       "date": "2026-06-18 10:00:37",
       "total_value": 54904.0481226864,
       "exchange_rate": 1512.8,
@@ -10035,18 +10051,6 @@
           "stock_value": 12948.869999999999
         }
       }
-    },
-    {
-      "date": "2026-03-10 10:42:59",
-      "total_value": 27403.9950438685,
-      "stock_value": 13064.33,
-      "exchange_rate": 1493.1,
-      "accounts": {
-        "unlimited": {
-          "total_value": 27403.9950438685,
-          "stock_value": 13064.33
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -10055,7 +10059,7 @@
       "account": "unlimited",
       "avg_price": 240.709,
       "excg": "AMEX",
-      "now_price": 261.55,
+      "now_price": 260.63,
       "qty": 11,
       "symbol": "SOXL"
     },
@@ -10063,7 +10067,7 @@
       "account": "unlimited",
       "avg_price": 76.9447,
       "excg": "NASD",
-      "now_price": 81.33,
+      "now_price": 80.96,
       "qty": 82,
       "symbol": "TQQQ"
     },
@@ -10071,21 +10075,21 @@
       "account": "turtle",
       "avg_price": 16.2799,
       "excg": "AMEX",
-      "now_price": 16.6,
+      "now_price": 16.57,
       "qty": 274,
       "symbol": "UBT"
     }
   },
   "exchange_rate": 1512.8,
-  "total_value": 54904.0481226864,
+  "total_value": 54855.3681914331,
   "accounts": {
     "turtle": {
-      "stock_value": 4548.4,
-      "total_value": 12350.444209413
+      "stock_value": 4540.18,
+      "total_value": 12342.2243521946
     },
     "unlimited": {
-      "stock_value": 9546.11,
-      "total_value": 42553.6039132734
+      "stock_value": 9505.65,
+      "total_value": 42513.1438392385
     }
   }
 }
