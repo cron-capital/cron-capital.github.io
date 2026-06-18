@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-18 10:00:37",
+      "total_value": 54904.0481226864,
+      "exchange_rate": 1512.8,
+      "stock_value": 14094.510000000002,
+      "accounts": {
+        "turtle": {
+          "stock_value": 4548.4,
+          "total_value": 12350.444209413
+        },
+        "unlimited": {
+          "stock_value": 9546.11,
+          "total_value": 42553.6039132734
+        }
+      }
+    },
+    {
       "date": "2026-06-18 09:00:34",
       "total_value": 54800.9981491275,
       "exchange_rate": 1512.8,
@@ -10031,18 +10047,6 @@
           "stock_value": 13064.33
         }
       }
-    },
-    {
-      "date": "2026-03-10 09:50:32",
-      "total_value": 27541.3053378876,
-      "stock_value": 13201.64,
-      "exchange_rate": 1493.1,
-      "accounts": {
-        "unlimited": {
-          "total_value": 27541.3053378876,
-          "stock_value": 13201.64
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -10051,7 +10055,7 @@
       "account": "unlimited",
       "avg_price": 240.709,
       "excg": "AMEX",
-      "now_price": 257.3,
+      "now_price": 261.55,
       "qty": 11,
       "symbol": "SOXL"
     },
@@ -10059,7 +10063,7 @@
       "account": "unlimited",
       "avg_price": 76.9447,
       "excg": "NASD",
-      "now_price": 80.61,
+      "now_price": 81.33,
       "qty": 82,
       "symbol": "TQQQ"
     },
@@ -10067,21 +10071,21 @@
       "account": "turtle",
       "avg_price": 16.2799,
       "excg": "AMEX",
-      "now_price": 16.61,
+      "now_price": 16.6,
       "qty": 274,
       "symbol": "UBT"
     }
   },
   "exchange_rate": 1512.8,
-  "total_value": 54800.9981491275,
+  "total_value": 54904.0481226864,
   "accounts": {
     "turtle": {
-      "stock_value": 4551.14,
-      "total_value": 12353.1841618191
+      "stock_value": 4548.4,
+      "total_value": 12350.444209413
     },
     "unlimited": {
-      "stock_value": 9440.32,
-      "total_value": 42447.8139873083
+      "stock_value": 9546.11,
+      "total_value": 42553.6039132734
     }
   }
 }
