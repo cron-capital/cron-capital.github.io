@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-23 15:00:37",
+      "total_value": 54704.0626424432,
+      "exchange_rate": 1535.7,
+      "stock_value": 14980.564999999999,
+      "accounts": {
+        "turtle": {
+          "stock_value": 8866.99,
+          "total_value": 12207.933841245
+        },
+        "unlimited": {
+          "stock_value": 6113.575,
+          "total_value": 42496.1288011982
+        }
+      }
+    },
+    {
       "date": "2026-06-23 13:00:40",
       "total_value": 54612.1039265482,
       "exchange_rate": 1535.7,
@@ -10147,18 +10163,6 @@
           "stock_value": 14099.66
         }
       }
-    },
-    {
-      "date": "2026-03-12 17:56:03",
-      "total_value": 26520.1478906836,
-      "stock_value": 14104.8312,
-      "exchange_rate": 1467.3,
-      "accounts": {
-        "unlimited": {
-          "total_value": 26520.1478906836,
-          "stock_value": 14104.8312
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -10167,7 +10171,7 @@
       "account": "unlimited",
       "avg_price": 256.36,
       "excg": "AMEX",
-      "now_price": 240.72,
+      "now_price": 238.245,
       "qty": 3,
       "symbol": "SOXL"
     },
@@ -10175,7 +10179,7 @@
       "account": "unlimited",
       "avg_price": 77.6581,
       "excg": "NASD",
-      "now_price": 75.2498,
+      "now_price": 76.04,
       "qty": 71,
       "symbol": "TQQQ"
     },
@@ -10183,21 +10187,21 @@
       "account": "turtle",
       "avg_price": 16.4773,
       "excg": "AMEX",
-      "now_price": 16.31,
+      "now_price": 16.39,
       "qty": 541,
       "symbol": "UBT"
     }
   },
   "exchange_rate": 1535.7,
-  "total_value": 54612.1039265482,
+  "total_value": 54704.0626424432,
   "accounts": {
     "turtle": {
-      "stock_value": 8823.71,
-      "total_value": 12164.6539037572
+      "stock_value": 8866.99,
+      "total_value": 12207.933841245
     },
     "unlimited": {
-      "stock_value": 6064.8958,
-      "total_value": 42447.4500227909
+      "stock_value": 6113.575,
+      "total_value": 42496.1288011982
     }
   }
 }
