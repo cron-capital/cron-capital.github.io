@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-26 10:00:36",
+      "total_value": 54382.787161069,
+      "exchange_rate": 1545.3,
+      "stock_value": 20829.86,
+      "accounts": {
+        "turtle": {
+          "stock_value": 10157.42,
+          "total_value": 12329.503656248
+        },
+        "unlimited": {
+          "stock_value": 10672.44,
+          "total_value": 42053.2835048211
+        }
+      }
+    },
+    {
       "date": "2026-06-26 09:00:35",
       "total_value": 54429.0668478613,
       "exchange_rate": 1545.3,
@@ -10275,18 +10291,6 @@
           "stock_value": 16593.085
         }
       }
-    },
-    {
-      "date": "2026-03-17 20:42:07",
-      "total_value": 27313.3863636364,
-      "stock_value": 18679.64,
-      "exchange_rate": 1496,
-      "accounts": {
-        "unlimited": {
-          "total_value": 27313.3863636364,
-          "stock_value": 18679.64
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -10295,7 +10299,7 @@
       "account": "turtle",
       "avg_price": 26.52,
       "excg": "AMEX",
-      "now_price": 26.8,
+      "now_price": 26.5,
       "qty": 44,
       "symbol": "GLL"
     },
@@ -10303,7 +10307,7 @@
       "account": "unlimited",
       "avg_price": 238.8041,
       "excg": "AMEX",
-      "now_price": 229.56,
+      "now_price": 229.37,
       "qty": 12,
       "symbol": "SOXL"
     },
@@ -10311,7 +10315,7 @@
       "account": "unlimited",
       "avg_price": 76.4427,
       "excg": "NASD",
-      "now_price": 72.28,
+      "now_price": 72,
       "qty": 110,
       "symbol": "TQQQ"
     },
@@ -10325,15 +10329,15 @@
     }
   },
   "exchange_rate": 1545.3,
-  "total_value": 54429.0668478613,
+  "total_value": 54382.787161069,
   "accounts": {
     "turtle": {
-      "stock_value": 10170.62,
-      "total_value": 12342.7036821329
+      "stock_value": 10157.42,
+      "total_value": 12329.503656248
     },
     "unlimited": {
-      "stock_value": 10705.52,
-      "total_value": 42086.3631657283
+      "stock_value": 10672.44,
+      "total_value": 42053.2835048211
     }
   }
 }
