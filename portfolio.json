@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-06-29 19:00:32",
+      "total_value": 55192.7412252299,
+      "exchange_rate": 1544.2,
+      "stock_value": 23440.455,
+      "accounts": {
+        "turtle": {
+          "stock_value": 10191.56,
+          "total_value": 12363.643310452
+        },
+        "unlimited": {
+          "stock_value": 13248.895,
+          "total_value": 42829.0979147779
+        }
+      }
+    },
+    {
       "date": "2026-06-29 18:00:35",
       "total_value": 55173.7682942624,
       "exchange_rate": 1544.2,
@@ -10351,18 +10367,6 @@
           "stock_value": 17557.75
         }
       }
-    },
-    {
-      "date": "2026-03-19 19:50:04",
-      "total_value": 26974.9461641992,
-      "stock_value": 16644.88,
-      "exchange_rate": 1486,
-      "accounts": {
-        "unlimited": {
-          "total_value": 26974.9461641992,
-          "stock_value": 16644.88
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -10371,7 +10375,7 @@
       "account": "turtle",
       "avg_price": 26.52,
       "excg": "AMEX",
-      "now_price": 26.92,
+      "now_price": 27.03,
       "qty": 44,
       "symbol": "GLL"
     },
@@ -10379,7 +10383,7 @@
       "account": "unlimited",
       "avg_price": 233.0031,
       "excg": "AMEX",
-      "now_price": 235.4201,
+      "now_price": 236.08,
       "qty": 16,
       "symbol": "SOXL"
     },
@@ -10387,7 +10391,7 @@
       "account": "unlimited",
       "avg_price": 75.9551,
       "excg": "NASD",
-      "now_price": 76.8,
+      "now_price": 77.005,
       "qty": 123,
       "symbol": "TQQQ"
     },
@@ -10395,21 +10399,21 @@
       "account": "turtle",
       "avg_price": 16.4773,
       "excg": "AMEX",
-      "now_price": 16.68,
+      "now_price": 16.64,
       "qty": 541,
       "symbol": "UBT"
     }
   },
   "exchange_rate": 1544.2,
-  "total_value": 55173.7682942624,
+  "total_value": 55192.7412252299,
   "accounts": {
     "turtle": {
-      "stock_value": 10208.36,
-      "total_value": 12380.4435953892
+      "stock_value": 10191.56,
+      "total_value": 12363.643310452
     },
     "unlimited": {
-      "stock_value": 13213.1216,
-      "total_value": 42793.3246988732
+      "stock_value": 13248.895,
+      "total_value": 42829.0979147779
     }
   }
 }
