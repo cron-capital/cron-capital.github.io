@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-07-01 11:00:32",
+      "total_value": 55882.5865409455,
+      "exchange_rate": 1548.4,
+      "stock_value": 19161.9,
+      "accounts": {
+        "turtle": {
+          "stock_value": 4697.88,
+          "total_value": 12215.0032291398
+        },
+        "unlimited": {
+          "stock_value": 14464.02,
+          "total_value": 43667.5833118057
+        }
+      }
+    },
+    {
       "date": "2026-07-01 10:00:39",
       "total_value": 55821.5667786102,
       "exchange_rate": 1548.4,
@@ -10415,18 +10431,6 @@
           "stock_value": 16323.459599999998
         }
       }
-    },
-    {
-      "date": "2026-03-23 13:14:17",
-      "total_value": 26992.9085557562,
-      "stock_value": 18552.212,
-      "exchange_rate": 1494.9,
-      "accounts": {
-        "unlimited": {
-          "total_value": 26992.9085557562,
-          "stock_value": 18552.212
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -10435,7 +10439,7 @@
       "account": "turtle",
       "avg_price": 26.52,
       "excg": "AMEX",
-      "now_price": 27.42,
+      "now_price": 27.22,
       "qty": 44,
       "symbol": "GLL"
     },
@@ -10443,7 +10447,7 @@
       "account": "unlimited",
       "avg_price": 235.6028,
       "excg": "AMEX",
-      "now_price": 257.5,
+      "now_price": 259.98,
       "qty": 14,
       "symbol": "SOXL"
     },
@@ -10451,7 +10455,7 @@
       "account": "unlimited",
       "avg_price": 76.2342,
       "excg": "NASD",
-      "now_price": 79.92,
+      "now_price": 80.18,
       "qty": 135,
       "symbol": "TQQQ"
     },
@@ -10465,15 +10469,15 @@
     }
   },
   "exchange_rate": 1548.4,
-  "total_value": 55821.5667786102,
+  "total_value": 55882.5865409455,
   "accounts": {
     "turtle": {
-      "stock_value": 4706.68,
-      "total_value": 12223.803280806
+      "stock_value": 4697.88,
+      "total_value": 12215.0032291398
     },
     "unlimited": {
-      "stock_value": 14394.2,
-      "total_value": 43597.7634978042
+      "stock_value": 14464.02,
+      "total_value": 43667.5833118057
     }
   }
 }
