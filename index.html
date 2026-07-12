@@ -543,9 +543,11 @@
                                     if (!items || !items.length) return;
                                     var seedVal = seedLine[items[0].dataIndex];
                                     if (!seedVal) return;
-                                    var diff = items[0].parsed.y - seedVal;
+                                    var totalVal = items[0].parsed.y;
+                                    var diff = totalVal - seedVal;
+                                    var percent = ((diff / seedVal) * 100);
                                     var sign = diff >= 0 ? '+' : '-';
-                                    return 'Profit/Loss: ' + sign + '$' + Math.round(Math.abs(diff)).toLocaleString();
+                                    return 'Profit/Loss: ' + sign + '$' + Math.round(Math.abs(diff)).toLocaleString() + ' (' + percent.toFixed(2) + '%)';
                                 }
                             }
                         }
