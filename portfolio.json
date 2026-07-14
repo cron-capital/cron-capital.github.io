@@ -1,18 +1,6 @@
 {
   "history": [
     {
-      "date": "2026-07-14 08:01:38",
-      "total_value": 18486.1937670277,
-      "exchange_rate": 1504.9,
-      "stock_value": 2949.08,
-      "accounts": {
-        "turtle": {
-          "stock_value": 2949.08,
-          "total_value": 18486.1937670277
-        }
-      }
-    },
-    {
       "date": "2026-07-13 20:00:18",
       "total_value": 59042.4079357707,
       "exchange_rate": 1507.1,
