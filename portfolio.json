@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-07-23 08:01:41",
+      "total_value": 70800.4240664461,
+      "exchange_rate": 1480.9,
+      "stock_value": 39423.83,
+      "accounts": {
+        "turtle": {
+          "stock_value": 5387.81,
+          "total_value": 25011.820514552
+        },
+        "unlimited": {
+          "stock_value": 34036.02,
+          "total_value": 45788.6035518941
+        }
+      }
+    },
+    {
       "date": "2026-07-22 20:00:21",
       "total_value": 71582.3861480076,
       "exchange_rate": 1475.6,
@@ -11175,18 +11191,6 @@
           "stock_value": 2291.9374
         }
       }
-    },
-    {
-      "date": "2026-04-24 13:51:53",
-      "total_value": 37349.7372686749,
-      "exchange_rate": 1480.6,
-      "stock_value": 2263.1441,
-      "accounts": {
-        "unlimited": {
-          "total_value": 37349.7372686749,
-          "stock_value": 2263.1441
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -11195,23 +11199,23 @@
       "account": "turtle",
       "avg_price": 15.225,
       "excg": "AMEX",
-      "now_price": 14.73,
+      "now_price": 14.82,
       "qty": 60,
       "symbol": "QID"
     },
     "SOXL": {
       "account": "unlimited",
-      "avg_price": 184.9753,
+      "avg_price": 183.1986,
       "excg": "AMEX",
-      "now_price": 161.7199,
-      "qty": 75,
+      "now_price": 157.09,
+      "qty": 81,
       "symbol": "SOXL"
     },
     "SSG": {
       "account": "turtle",
       "avg_price": 14.1099,
       "excg": "AMEX",
-      "now_price": 12.2,
+      "now_price": 12.23,
       "qty": 65,
       "symbol": "SSG"
     },
@@ -11225,31 +11229,31 @@
     },
     "TQQQ": {
       "account": "unlimited",
-      "avg_price": 74.2208,
+      "avg_price": 74.0422,
       "excg": "NASD",
-      "now_price": 70.47,
-      "qty": 295,
+      "now_price": 68.97,
+      "qty": 309,
       "symbol": "TQQQ"
     },
     "UCO": {
       "account": "turtle",
       "avg_price": 41.0783,
       "excg": "AMEX",
-      "now_price": 42.72,
+      "now_price": 43.57,
       "qty": 43,
       "symbol": "UCO"
     }
   },
-  "exchange_rate": 1475.6,
-  "total_value": 71582.3861480076,
+  "exchange_rate": 1480.9,
+  "total_value": 70800.4240664461,
   "accounts": {
     "turtle": {
-      "stock_value": 5343.91,
-      "total_value": 24957.460693955
+      "stock_value": 5387.81,
+      "total_value": 25011.820514552
     },
     "unlimited": {
-      "stock_value": 32917.6425,
-      "total_value": 46624.9254540526
+      "stock_value": 34036.02,
+      "total_value": 45788.6035518941
     }
   }
 }
