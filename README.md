@@ -18,7 +18,7 @@
 ### 대시보드 구성
 - **Header**: Cron Capital 타이틀, 마지막 업데이트 시간, 환율 정보
 - **Summary**: Total Assets / Available Cash / Seed (3개 항목)
-- **차트**: 30개 샘플링 히스토리 라인 차트 (Total Assets + Stock Value + Seed 기준선)
+- **차트**: 일별(1일 1포인트) 히스토리 라인 차트 (Total Assets + Stock Value + Seed 기준선)
 - **Stock Cards**: 계좌별 💰/🐢 라벨이 붙은 주식 카드 (Quantity, Avg Price, Current Price, 수익률)
 
 ### 반응형
