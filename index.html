@@ -462,8 +462,13 @@
                 chartInstance = null;
             }
 
-            const interval = Math.ceil(history.length / 30);
-            const sampled = history.filter((_, i) => i % interval === 0).slice(0, 30).reverse();
+            // 날짜 기준 1일 1포인트: 각 날짜의 마지막(최신) 스냅샷만 선택 → 그리드당 1일 간격
+            const daily = new Map();
+            for (const h of history) {
+                const key = h.date.substring(0, 10);
+                if (!daily.has(key)) daily.set(key, h);
+            }
+            const sampled = [...daily.values()].reverse();
 
             const labels = sampled.map(h => h.date.substring(5, 10));
 
