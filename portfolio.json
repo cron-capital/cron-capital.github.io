@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-08-24 10:01:01",
+      "total_value": 75522.4074877132,
+      "exchange_rate": 1383.6,
+      "stock_value": 39701.560000000005,
+      "accounts": {
+        "turtle": {
+          "stock_value": 13204.76,
+          "total_value": 24279.1536571263
+        },
+        "unlimited": {
+          "stock_value": 26496.8,
+          "total_value": 51243.2538305869
+        }
+      }
+    },
+    {
       "date": "2026-08-24 09:01:14",
       "total_value": 75409.7867880891,
       "exchange_rate": 1383.6,
@@ -11503,22 +11519,6 @@
           "total_value": 40684.9831271091
         }
       }
-    },
-    {
-      "date": "2026-06-02 13:00:36",
-      "total_value": 53718.7189836565,
-      "exchange_rate": 1511.3,
-      "stock_value": 14911.7726,
-      "accounts": {
-        "turtle": {
-          "stock_value": 7352.64,
-          "total_value": 13235.7334744922
-        },
-        "unlimited": {
-          "stock_value": 7559.1326,
-          "total_value": 40482.9855091643
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -11527,7 +11527,7 @@
       "account": "unlimited",
       "avg_price": 148.9889,
       "excg": "AMEX",
-      "now_price": 114.72,
+      "now_price": 115.2,
       "qty": 134,
       "symbol": "SOXL"
     },
@@ -11543,7 +11543,7 @@
       "account": "unlimited",
       "avg_price": 72.0511,
       "excg": "NASD",
-      "now_price": 69.85,
+      "now_price": 70,
       "qty": 158,
       "symbol": "TQQQ"
     },
@@ -11551,7 +11551,7 @@
       "account": "turtle",
       "avg_price": 45.6399,
       "excg": "AMEX",
-      "now_price": 43.86,
+      "now_price": 43.98,
       "qty": 25,
       "symbol": "UCO"
     },
@@ -11559,7 +11559,7 @@
       "account": "turtle",
       "avg_price": 51.5015,
       "excg": "AMEX",
-      "now_price": 57.58,
+      "now_price": 57.78,
       "qty": 117,
       "symbol": "UGL"
     },
@@ -11567,21 +11567,21 @@
       "account": "turtle",
       "avg_price": 67.6149,
       "excg": "AMEX",
-      "now_price": 66.42,
+      "now_price": 66.3,
       "qty": 15,
       "symbol": "UWM"
     }
   },
   "exchange_rate": 1383.6,
-  "total_value": 75409.7867880891,
+  "total_value": 75522.4074877132,
   "accounts": {
     "turtle": {
-      "stock_value": 13180.16,
-      "total_value": 24254.5533391154
+      "stock_value": 13204.76,
+      "total_value": 24279.1536571263
     },
     "unlimited": {
-      "stock_value": 26408.78,
-      "total_value": 51155.2334489737
+      "stock_value": 26496.8,
+      "total_value": 51243.2538305869
     }
   }
 }
