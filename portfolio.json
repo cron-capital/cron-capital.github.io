@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-08-31 11:01:12",
+      "total_value": 74371.8140210679,
+      "exchange_rate": 1376.5,
+      "stock_value": 39931.5356,
+      "accounts": {
+        "turtle": {
+          "stock_value": 5246.9604,
+          "total_value": 23391.7646204141
+        },
+        "unlimited": {
+          "stock_value": 34684.5752,
+          "total_value": 50980.0494006538
+        }
+      }
+    },
+    {
       "date": "2026-08-31 10:01:07",
       "total_value": 74394.7017798765,
       "exchange_rate": 1376.5,
@@ -11503,22 +11519,6 @@
           "total_value": 39679.0839041096
         }
       }
-    },
-    {
-      "date": "2026-06-10 13:00:37",
-      "total_value": 52177.2780558483,
-      "exchange_rate": 1518.4,
-      "stock_value": 15122.77,
-      "accounts": {
-        "turtle": {
-          "stock_value": 4971.49,
-          "total_value": 12803.6143308746
-        },
-        "unlimited": {
-          "stock_value": 10151.28,
-          "total_value": 39373.6637249737
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -11527,7 +11527,7 @@
       "account": "unlimited",
       "avg_price": 141.305,
       "excg": "AMEX",
-      "now_price": 112.4595,
+      "now_price": 112.21,
       "qty": 174,
       "symbol": "SOXL"
     },
@@ -11535,7 +11535,7 @@
       "account": "unlimited",
       "avg_price": 71.6579,
       "excg": "NASD",
-      "now_price": 71.52,
+      "now_price": 71.5096,
       "qty": 212,
       "symbol": "TQQQ"
     },
@@ -11543,21 +11543,21 @@
       "account": "turtle",
       "avg_price": 52.4808,
       "excg": "AMEX",
-      "now_price": 52.77,
+      "now_price": 52.9996,
       "qty": 99,
       "symbol": "UGL"
     }
   },
   "exchange_rate": 1376.5,
-  "total_value": 74394.7017798765,
+  "total_value": 74371.8140210679,
   "accounts": {
     "turtle": {
-      "stock_value": 5224.23,
-      "total_value": 23369.0345078097
+      "stock_value": 5246.9604,
+      "total_value": 23391.7646204141
     },
     "unlimited": {
-      "stock_value": 34730.193,
-      "total_value": 51025.6672720668
+      "stock_value": 34684.5752,
+      "total_value": 50980.0494006538
     }
   }
 }
