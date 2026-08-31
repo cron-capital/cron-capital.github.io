@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-08-31 15:01:00",
+      "total_value": 74216.003632401,
+      "exchange_rate": 1376.5,
+      "stock_value": 39775.725000000006,
+      "accounts": {
+        "turtle": {
+          "stock_value": 5198.985,
+          "total_value": 23343.789320741
+        },
+        "unlimited": {
+          "stock_value": 34576.74,
+          "total_value": 50872.21431166
+        }
+      }
+    },
+    {
       "date": "2026-08-31 14:01:05",
       "total_value": 74540.0988013077,
       "exchange_rate": 1376.5,
@@ -11503,22 +11519,6 @@
           "total_value": 39320.4741833509
         }
       }
-    },
-    {
-      "date": "2026-06-10 17:00:37",
-      "total_value": 52061.6978398314,
-      "exchange_rate": 1518.4,
-      "stock_value": 15007.190000000002,
-      "accounts": {
-        "turtle": {
-          "stock_value": 5018.35,
-          "total_value": 12850.4741833509
-        },
-        "unlimited": {
-          "stock_value": 9988.84,
-          "total_value": 39211.2236564805
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -11527,7 +11527,7 @@
       "account": "unlimited",
       "avg_price": 141.305,
       "excg": "AMEX",
-      "now_price": 113.71,
+      "now_price": 111.87,
       "qty": 174,
       "symbol": "SOXL"
     },
@@ -11535,7 +11535,7 @@
       "account": "unlimited",
       "avg_price": 71.6579,
       "excg": "NASD",
-      "now_price": 71.455,
+      "now_price": 71.28,
       "qty": 212,
       "symbol": "TQQQ"
     },
@@ -11543,21 +11543,21 @@
       "account": "turtle",
       "avg_price": 52.4808,
       "excg": "AMEX",
-      "now_price": 52.18,
+      "now_price": 52.515,
       "qty": 99,
       "symbol": "UGL"
     }
   },
   "exchange_rate": 1376.5,
-  "total_value": 74540.0988013077,
+  "total_value": 74216.003632401,
   "accounts": {
     "turtle": {
-      "stock_value": 5165.82,
-      "total_value": 23310.6247729749
+      "stock_value": 5198.985,
+      "total_value": 23343.789320741
     },
     "unlimited": {
-      "stock_value": 34934,
-      "total_value": 51229.4740283327
+      "stock_value": 34576.74,
+      "total_value": 50872.21431166
     }
   }
 }
