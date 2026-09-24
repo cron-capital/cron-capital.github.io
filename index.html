@@ -560,6 +560,7 @@
                     scales: {
                         y: {
                             beginAtZero: false,
+                            min: 0,
                             ticks: {
                                 callback: v => {
                                     if (v >= 1000) return '$' + (v / 1000).toFixed(0) + 'k';
