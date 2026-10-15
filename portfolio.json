@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-10-15 09:07:12",
+      "total_value": 82157.4749738533,
+      "exchange_rate": 1338.6,
+      "stock_value": 32820.2983,
+      "accounts": {
+        "turtle": {
+          "stock_value": 22313.44,
+          "total_value": 25260.1636037651
+        },
+        "unlimited": {
+          "stock_value": 10506.8583,
+          "total_value": 56897.3113700882
+        }
+      }
+    },
+    {
       "date": "2026-10-15 08:01:09",
       "total_value": 82138.254893172,
       "exchange_rate": 1338.6,
@@ -11503,29 +11519,65 @@
   ],
   "max_length": 720,
   "stocks": {
+    "GLL": {
+      "account": "turtle",
+      "avg_price": 23.0816,
+      "excg": "AMEX",
+      "now_price": 25.01,
+      "qty": 47,
+      "symbol": "GLL"
+    },
     "SOXL": {
       "account": "unlimited",
       "avg_price": 139.407,
       "excg": "AMEX",
-      "now_price": 103.12,
+      "now_price": 102.89,
       "qty": 54,
       "symbol": "SOXL"
+    },
+    "SSG": {
+      "account": "turtle",
+      "avg_price": 12.46,
+      "excg": "AMEX",
+      "now_price": 12.46,
+      "qty": 101,
+      "symbol": "SSG"
     },
     "TQQQ": {
       "account": "unlimited",
       "avg_price": 76.6296,
       "excg": "NASD",
-      "now_price": 71.75,
+      "now_price": 71.7507,
       "qty": 69,
       "symbol": "TQQQ"
+    },
+    "TWM": {
+      "account": "turtle",
+      "avg_price": 23.1578,
+      "excg": "AMEX",
+      "now_price": 25.25,
+      "qty": 299,
+      "symbol": "TWM"
+    },
+    "UCO": {
+      "account": "turtle",
+      "avg_price": 51.8537,
+      "excg": "AMEX",
+      "now_price": 60.44,
+      "qty": 204,
+      "symbol": "UCO"
     }
   },
   "exchange_rate": 1338.6,
-  "total_value": 56909.6832511579,
+  "total_value": 82157.4749738533,
   "accounts": {
+    "turtle": {
+      "stock_value": 22313.44,
+      "total_value": 25260.1636037651
+    },
     "unlimited": {
-      "stock_value": 10519.23,
-      "total_value": 56909.6832511579
+      "stock_value": 10506.8583,
+      "total_value": 56897.3113700882
     }
   }
 }
