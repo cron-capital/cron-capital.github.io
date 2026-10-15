@@ -1,18 +1,6 @@
 {
   "history": [
     {
-      "date": "2026-10-15 09:01:01",
-      "total_value": 56909.6832511579,
-      "exchange_rate": 1338.6,
-      "stock_value": 10519.23,
-      "accounts": {
-        "unlimited": {
-          "stock_value": 10519.23,
-          "total_value": 56909.6832511579
-        }
-      }
-    },
-    {
       "date": "2026-10-15 08:01:09",
       "total_value": 82138.254893172,
       "exchange_rate": 1338.6,
