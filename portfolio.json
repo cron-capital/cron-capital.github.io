@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-11-11 19:01:02",
+      "total_value": 74754.3333581479,
+      "exchange_rate": 1343.3,
+      "stock_value": 51929.895099999994,
+      "accounts": {
+        "turtle": {
+          "stock_value": 10513.84,
+          "total_value": 22830.3141517159
+        },
+        "unlimited": {
+          "stock_value": 41416.0551,
+          "total_value": 51924.0192064319
+        }
+      }
+    },
+    {
       "date": "2026-11-11 18:01:08",
       "total_value": 74763.5822228839,
       "exchange_rate": 1343.3,
@@ -11491,22 +11507,6 @@
           "total_value": 51229.4740283327
         }
       }
-    },
-    {
-      "date": "2026-08-31 13:01:03",
-      "total_value": 74067.3984743916,
-      "exchange_rate": 1376.5,
-      "stock_value": 39627.12,
-      "accounts": {
-        "turtle": {
-          "stock_value": 5207.4,
-          "total_value": 23352.2048674174
-        },
-        "unlimited": {
-          "stock_value": 34419.72,
-          "total_value": 50715.1936069742
-        }
-      }
     }
   ],
   "max_length": 720,
@@ -11515,7 +11515,7 @@
       "account": "turtle",
       "avg_price": 19.3032,
       "excg": "AMEX",
-      "now_price": 19.77,
+      "now_price": 19.68,
       "qty": 57,
       "symbol": "SCO"
     },
@@ -11523,7 +11523,7 @@
       "account": "unlimited",
       "avg_price": 87.9888,
       "excg": "AMEX",
-      "now_price": 69.05,
+      "now_price": 68.7901,
       "qty": 288,
       "symbol": "SOXL"
     },
@@ -11531,7 +11531,7 @@
       "account": "turtle",
       "avg_price": 14.7773,
       "excg": "AMEX",
-      "now_price": 14.03,
+      "now_price": 14.06,
       "qty": 668,
       "symbol": "SSG"
     },
@@ -11539,21 +11539,21 @@
       "account": "unlimited",
       "avg_price": 66.2901,
       "excg": "NASD",
-      "now_price": 61.415,
+      "now_price": 61.5513,
       "qty": 351,
       "symbol": "TQQQ"
     }
   },
   "exchange_rate": 1343.3,
-  "total_value": 74763.5822228839,
+  "total_value": 74754.3333581479,
   "accounts": {
     "turtle": {
-      "stock_value": 10498.93,
-      "total_value": 22815.4038561751
+      "stock_value": 10513.84,
+      "total_value": 22830.3141517159
     },
     "unlimited": {
-      "stock_value": 41443.065,
-      "total_value": 51948.1783667089
+      "stock_value": 41416.0551,
+      "total_value": 51924.0192064319
     }
   }
 }
