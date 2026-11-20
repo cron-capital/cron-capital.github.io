@@ -11539,7 +11539,7 @@
       "account": "turtle",
       "avg_price": 29.5546,
       "excg": "AMEX",
-      "now_price": 74.44,
+      "now_price": 37.22,
       "qty": 334,
       "symbol": "SSG"
     },
@@ -11561,11 +11561,11 @@
     }
   },
   "exchange_rate": 1331.1,
-  "total_value": 85753.9996994967,
+  "total_value": 73322.5196994967,
   "accounts": {
     "turtle": {
-      "stock_value": 38589.64,
-      "total_value": 38832.7157989633
+      "stock_value": 26158.16,
+      "total_value": 26401.2357989633
     },
     "unlimited": {
       "stock_value": 40746,
