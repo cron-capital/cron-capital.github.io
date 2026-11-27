@@ -1,6 +1,22 @@
 {
   "history": [
     {
+      "date": "2026-11-27 20:01:09",
+      "total_value": 82071.5431593059,
+      "exchange_rate": 1342.7,
+      "stock_value": 68546.08,
+      "accounts": {
+        "turtle": {
+          "stock_value": 23211,
+          "total_value": 24471.3599463767
+        },
+        "unlimited": {
+          "stock_value": 45335.08,
+          "total_value": 57600.1832129292
+        }
+      }
+    },
+    {
       "date": "2026-11-27 19:01:17",
       "total_value": 82071.5431593059,
       "exchange_rate": 1342.7,
@@ -11481,22 +11497,6 @@
         "unlimited": {
           "stock_value": 41289.68,
           "total_value": 50456.9637183182
-        }
-      }
-    },
-    {
-      "date": "2026-09-16 14:01:16",
-      "total_value": 74170.2179856647,
-      "exchange_rate": 1353.3,
-      "stock_value": 58433.931000000004,
-      "accounts": {
-        "turtle": {
-          "stock_value": 17101.6248,
-          "total_value": 23670.628094288
-        },
-        "unlimited": {
-          "stock_value": 41332.3062,
-          "total_value": 50499.5898913766
         }
       }
     }
