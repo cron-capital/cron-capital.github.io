@@ -11545,7 +11545,7 @@
     }
   },
   "exchange_rate": 1343.9,
-  "total_value": 69416.6688955604,
+  "total_value": 79417.6688955604,
   "accounts": {
     "turtle": {
       "stock_value": 26089.21,
@@ -11553,7 +11553,7 @@
     },
     "unlimited": {
       "stock_value": 41066.2853,
-      "total_value": 43324.429145579
+      "total_value": 53325.429145579
     }
   }
 }
